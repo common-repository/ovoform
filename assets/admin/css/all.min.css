@@ -1,0 +1,4631 @@
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+ .ovoform-admin .fa,
+ .ovoform-admin .fab,
+ .ovoform-admin .fad,
+ .ovoform-admin .fal,
+ .ovoform-admin .far,
+ .ovoform-admin .fas {
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   display: inline-block;
+   font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   line-height: 1;
+ }
+ .ovoform-admin .fa-lg {
+   font-size: 1.33333em;
+   line-height: 0.75em;
+   vertical-align: -0.0667em;
+ }
+ .ovoform-admin .fa-xs {
+   font-size: 0.75em;
+ }
+ .ovoform-admin .fa-sm {
+   font-size: 0.875em;
+ }
+ .ovoform-admin .fa-1x {
+   font-size: 1em;
+ }
+ .ovoform-admin .fa-2x {
+   font-size: 2em;
+ }
+ .ovoform-admin .fa-3x {
+   font-size: 3em;
+ }
+ .ovoform-admin .fa-4x {
+   font-size: 4em;
+ }
+ .ovoform-admin .fa-5x {
+   font-size: 5em;
+ }
+ .ovoform-admin .fa-6x {
+   font-size: 6em;
+ }
+ .ovoform-admin .fa-7x {
+   font-size: 7em;
+ }
+ .ovoform-admin .fa-8x {
+   font-size: 8em;
+ }
+ .ovoform-admin .fa-9x {
+   font-size: 9em;
+ }
+ .ovoform-admin .fa-10x {
+   font-size: 10em;
+ }
+ .ovoform-admin .fa-fw {
+   text-align: center;
+   width: 1.25em;
+ }
+ .ovoform-admin .fa-ul {
+   list-style-type: none;
+   margin-left: 2.5em;
+   padding-left: 0;
+ }
+ .ovoform-admin .fa-ul > li {
+   position: relative;
+ }
+ .ovoform-admin .fa-li {
+   left: -2em;
+   position: absolute;
+   text-align: center;
+   width: 2em;
+   line-height: inherit;
+ }
+ .ovoform-admin .fa-border {
+   border: 0.08em solid #eee;
+   border-radius: 0.1em;
+   padding: 0.2em 0.25em 0.15em;
+ }
+ .ovoform-admin .fa-pull-left {
+   float: left;
+ }
+ .ovoform-admin .fa-pull-right {
+   float: right;
+ }
+ .ovoform-admin .fa.fa-pull-left,
+ .ovoform-admin .fab.fa-pull-left,
+ .ovoform-admin .fal.fa-pull-left,
+ .ovoform-admin .far.fa-pull-left,
+ .ovoform-admin .fas.fa-pull-left {
+   margin-right: 0.3em;
+ }
+ .ovoform-admin .fa.fa-pull-right,
+ .ovoform-admin .fab.fa-pull-right,
+ .ovoform-admin .fal.fa-pull-right,
+ .ovoform-admin .far.fa-pull-right,
+ .ovoform-admin .fas.fa-pull-right {
+   margin-left: 0.3em;
+ }
+ .ovoform-admin .fa-spin {
+   -webkit-animation: fa-spin 2s linear infinite;
+   animation: fa-spin 2s linear infinite;
+ }
+ .ovoform-admin .fa-pulse {
+   -webkit-animation: fa-spin 1s steps(8) infinite;
+   animation: fa-spin 1s steps(8) infinite;
+ }
+ @-webkit-keyframes fa-spin {
+   0% {
+     -webkit-transform: rotate(0deg);
+     transform: rotate(0deg);
+   }
+   to {
+     -webkit-transform: rotate(1turn);
+     transform: rotate(1turn);
+   }
+ }
+ @keyframes fa-spin {
+   0% {
+     -webkit-transform: rotate(0deg);
+     transform: rotate(0deg);
+   }
+   to {
+     -webkit-transform: rotate(1turn);
+     transform: rotate(1turn);
+   }
+ }
+ .ovoform-admin .fa-rotate-90 {
+   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+   -webkit-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+ .ovoform-admin .fa-rotate-180 {
+   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+   -webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
+ }
+ .ovoform-admin .fa-rotate-270 {
+   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+   -webkit-transform: rotate(270deg);
+   transform: rotate(270deg);
+ }
+ .ovoform-admin .fa-flip-horizontal {
+   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+ }
+ .ovoform-admin .fa-flip-vertical {
+   -webkit-transform: scaleY(-1);
+   transform: scaleY(-1);
+ }
+ .ovoform-admin .fa-flip-both,
+ .ovoform-admin .fa-flip-horizontal.fa-flip-vertical,
+ .ovoform-admin .fa-flip-vertical {
+   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+ }
+ .ovoform-admin .fa-flip-both,
+ .ovoform-admin .fa-flip-horizontal.fa-flip-vertical {
+   -webkit-transform: scale(-1);
+   transform: scale(-1);
+ }
+ .ovoform-admin :root .fa-flip-both,
+ .ovoform-admin :root .fa-flip-horizontal,
+ .ovoform-admin :root .fa-flip-vertical,
+ .ovoform-admin :root .fa-rotate-90,
+ .ovoform-admin :root .fa-rotate-180,
+ .ovoform-admin :root .fa-rotate-270 {
+   -webkit-filter: none;
+   filter: none;
+ }
+ .ovoform-admin .fa-stack {
+   display: inline-block;
+   height: 2em;
+   line-height: 2em;
+   position: relative;
+   vertical-align: middle;
+   width: 2.5em;
+ }
+ .ovoform-admin .fa-stack-1x,
+ .ovoform-admin .fa-stack-2x {
+   left: 0;
+   position: absolute;
+   text-align: center;
+   width: 100%;
+ }
+ .ovoform-admin .fa-stack-1x {
+   line-height: inherit;
+ }
+ .ovoform-admin .fa-stack-2x {
+   font-size: 2em;
+ }
+ .ovoform-admin .fa-inverse {
+   color: #fff;
+ }
+ .ovoform-admin .fa-500px:before {
+   content: "\f26e";
+ }
+ .ovoform-admin .fa-accessible-icon:before {
+   content: "\f368";
+ }
+ .ovoform-admin .fa-accusoft:before {
+   content: "\f369";
+ }
+ .ovoform-admin .fa-acquisitions-incorporated:before {
+   content: "\f6af";
+ }
+ .ovoform-admin .fa-ad:before {
+   content: "\f641";
+ }
+ .ovoform-admin .fa-address-book:before {
+   content: "\f2b9";
+ }
+ .ovoform-admin .fa-address-card:before {
+   content: "\f2bb";
+ }
+ .ovoform-admin .fa-adjust:before {
+   content: "\f042";
+ }
+ .ovoform-admin .fa-adn:before {
+   content: "\f170";
+ }
+ .ovoform-admin .fa-adversal:before {
+   content: "\f36a";
+ }
+ .ovoform-admin .fa-affiliatetheme:before {
+   content: "\f36b";
+ }
+ .ovoform-admin .fa-air-freshener:before {
+   content: "\f5d0";
+ }
+ .ovoform-admin .fa-airbnb:before {
+   content: "\f834";
+ }
+ .ovoform-admin .fa-algolia:before {
+   content: "\f36c";
+ }
+ .ovoform-admin .fa-align-center:before {
+   content: "\f037";
+ }
+ .ovoform-admin .fa-align-justify:before {
+   content: "\f039";
+ }
+ .ovoform-admin .fa-align-left:before {
+   content: "\f036";
+ }
+ .ovoform-admin .fa-align-right:before {
+   content: "\f038";
+ }
+ .ovoform-admin .fa-alipay:before {
+   content: "\f642";
+ }
+ .ovoform-admin .fa-allergies:before {
+   content: "\f461";
+ }
+ .ovoform-admin .fa-amazon:before {
+   content: "\f270";
+ }
+ .ovoform-admin .fa-amazon-pay:before {
+   content: "\f42c";
+ }
+ .ovoform-admin .fa-ambulance:before {
+   content: "\f0f9";
+ }
+ .ovoform-admin .fa-american-sign-language-interpreting:before {
+   content: "\f2a3";
+ }
+ .ovoform-admin .fa-amilia:before {
+   content: "\f36d";
+ }
+ .ovoform-admin .fa-anchor:before {
+   content: "\f13d";
+ }
+ .ovoform-admin .fa-android:before {
+   content: "\f17b";
+ }
+ .ovoform-admin .fa-angellist:before {
+   content: "\f209";
+ }
+ .ovoform-admin .fa-angle-double-down:before {
+   content: "\f103";
+ }
+ .ovoform-admin .fa-angle-double-left:before {
+   content: "\f100";
+ }
+ .ovoform-admin .fa-angle-double-right:before {
+   content: "\f101";
+ }
+ .ovoform-admin .fa-angle-double-up:before {
+   content: "\f102";
+ }
+ .ovoform-admin .fa-angle-down:before {
+   content: "\f107";
+ }
+ .ovoform-admin .fa-angle-left:before {
+   content: "\f104";
+ }
+ .ovoform-admin .fa-angle-right:before {
+   content: "\f105";
+ }
+ .ovoform-admin .fa-angle-up:before {
+   content: "\f106";
+ }
+ .ovoform-admin .fa-angry:before {
+   content: "\f556";
+ }
+ .ovoform-admin .fa-angrycreative:before {
+   content: "\f36e";
+ }
+ .ovoform-admin .fa-angular:before {
+   content: "\f420";
+ }
+ .ovoform-admin .fa-ankh:before {
+   content: "\f644";
+ }
+ .ovoform-admin .fa-app-store:before {
+   content: "\f36f";
+ }
+ .ovoform-admin .fa-app-store-ios:before {
+   content: "\f370";
+ }
+ .ovoform-admin .fa-apper:before {
+   content: "\f371";
+ }
+ .ovoform-admin .fa-apple:before {
+   content: "\f179";
+ }
+ .ovoform-admin .fa-apple-alt:before {
+   content: "\f5d1";
+ }
+ .ovoform-admin .fa-apple-pay:before {
+   content: "\f415";
+ }
+ .ovoform-admin .fa-archive:before {
+   content: "\f187";
+ }
+ .ovoform-admin .fa-archway:before {
+   content: "\f557";
+ }
+ .ovoform-admin .fa-arrow-alt-circle-down:before {
+   content: "\f358";
+ }
+ .ovoform-admin .fa-arrow-alt-circle-left:before {
+   content: "\f359";
+ }
+ .ovoform-admin .fa-arrow-alt-circle-right:before {
+   content: "\f35a";
+ }
+ .ovoform-admin .fa-arrow-alt-circle-up:before {
+   content: "\f35b";
+ }
+ .ovoform-admin .fa-arrow-circle-down:before {
+   content: "\f0ab";
+ }
+ .ovoform-admin .fa-arrow-circle-left:before {
+   content: "\f0a8";
+ }
+ .ovoform-admin .fa-arrow-circle-right:before {
+   content: "\f0a9";
+ }
+ .ovoform-admin .fa-arrow-circle-up:before {
+   content: "\f0aa";
+ }
+ .ovoform-admin .fa-arrow-down:before {
+   content: "\f063";
+ }
+ .ovoform-admin .fa-arrow-left:before {
+   content: "\f060";
+ }
+ .ovoform-admin .fa-arrow-right:before {
+   content: "\f061";
+ }
+ .ovoform-admin .fa-arrow-up:before {
+   content: "\f062";
+ }
+ .ovoform-admin .fa-arrows-alt:before {
+   content: "\f0b2";
+ }
+ .ovoform-admin .fa-arrows-alt-h:before {
+   content: "\f337";
+ }
+ .ovoform-admin .fa-arrows-alt-v:before {
+   content: "\f338";
+ }
+ .ovoform-admin .fa-artstation:before {
+   content: "\f77a";
+ }
+ .ovoform-admin .fa-assistive-listening-systems:before {
+   content: "\f2a2";
+ }
+ .ovoform-admin .fa-asterisk:before {
+   content: "\f069";
+ }
+ .ovoform-admin .fa-asymmetrik:before {
+   content: "\f372";
+ }
+ .ovoform-admin .fa-at:before {
+   content: "\f1fa";
+ }
+ .ovoform-admin .fa-atlas:before {
+   content: "\f558";
+ }
+ .ovoform-admin .fa-atlassian:before {
+   content: "\f77b";
+ }
+ .ovoform-admin .fa-atom:before {
+   content: "\f5d2";
+ }
+ .ovoform-admin .fa-audible:before {
+   content: "\f373";
+ }
+ .ovoform-admin .fa-audio-description:before {
+   content: "\f29e";
+ }
+ .ovoform-admin .fa-autoprefixer:before {
+   content: "\f41c";
+ }
+ .ovoform-admin .fa-avianex:before {
+   content: "\f374";
+ }
+ .ovoform-admin .fa-aviato:before {
+   content: "\f421";
+ }
+ .ovoform-admin .fa-award:before {
+   content: "\f559";
+ }
+ .ovoform-admin .fa-aws:before {
+   content: "\f375";
+ }
+ .ovoform-admin .fa-baby:before {
+   content: "\f77c";
+ }
+ .ovoform-admin .fa-baby-carriage:before {
+   content: "\f77d";
+ }
+ .ovoform-admin .fa-backspace:before {
+   content: "\f55a";
+ }
+ .ovoform-admin .fa-backward:before {
+   content: "\f04a";
+ }
+ .ovoform-admin .fa-bacon:before {
+   content: "\f7e5";
+ }
+ .ovoform-admin .fa-bacteria:before {
+   content: "\e059";
+ }
+ .ovoform-admin .fa-bacterium:before {
+   content: "\e05a";
+ }
+ .ovoform-admin .fa-bahai:before {
+   content: "\f666";
+ }
+ .ovoform-admin .fa-balance-scale:before {
+   content: "\f24e";
+ }
+ .ovoform-admin .fa-balance-scale-left:before {
+   content: "\f515";
+ }
+ .ovoform-admin .fa-balance-scale-right:before {
+   content: "\f516";
+ }
+ .ovoform-admin .fa-ban:before {
+   content: "\f05e";
+ }
+ .ovoform-admin .fa-band-aid:before {
+   content: "\f462";
+ }
+ .ovoform-admin .fa-bandcamp:before {
+   content: "\f2d5";
+ }
+ .ovoform-admin .fa-barcode:before {
+   content: "\f02a";
+ }
+ .ovoform-admin .fa-bars:before {
+   content: "\f0c9";
+ }
+ .ovoform-admin .fa-baseball-ball:before {
+   content: "\f433";
+ }
+ .ovoform-admin .fa-basketball-ball:before {
+   content: "\f434";
+ }
+ .ovoform-admin .fa-bath:before {
+   content: "\f2cd";
+ }
+ .ovoform-admin .fa-battery-empty:before {
+   content: "\f244";
+ }
+ .ovoform-admin .fa-battery-full:before {
+   content: "\f240";
+ }
+ .ovoform-admin .fa-battery-half:before {
+   content: "\f242";
+ }
+ .ovoform-admin .fa-battery-quarter:before {
+   content: "\f243";
+ }
+ .ovoform-admin .fa-battery-three-quarters:before {
+   content: "\f241";
+ }
+ .ovoform-admin .fa-battle-net:before {
+   content: "\f835";
+ }
+ .ovoform-admin .fa-bed:before {
+   content: "\f236";
+ }
+ .ovoform-admin .fa-beer:before {
+   content: "\f0fc";
+ }
+ .ovoform-admin .fa-behance:before {
+   content: "\f1b4";
+ }
+ .ovoform-admin .fa-behance-square:before {
+   content: "\f1b5";
+ }
+ .ovoform-admin .fa-bell:before {
+   content: "\f0f3";
+ }
+ .ovoform-admin .fa-bell-slash:before {
+   content: "\f1f6";
+ }
+ .ovoform-admin .fa-bezier-curve:before {
+   content: "\f55b";
+ }
+ .ovoform-admin .fa-bible:before {
+   content: "\f647";
+ }
+ .ovoform-admin .fa-bicycle:before {
+   content: "\f206";
+ }
+ .ovoform-admin .fa-biking:before {
+   content: "\f84a";
+ }
+ .ovoform-admin .fa-bimobject:before {
+   content: "\f378";
+ }
+ .ovoform-admin .fa-binoculars:before {
+   content: "\f1e5";
+ }
+ .ovoform-admin .fa-biohazard:before {
+   content: "\f780";
+ }
+ .ovoform-admin .fa-birthday-cake:before {
+   content: "\f1fd";
+ }
+ .ovoform-admin .fa-bitbucket:before {
+   content: "\f171";
+ }
+ .ovoform-admin .fa-bitcoin:before {
+   content: "\f379";
+ }
+ .ovoform-admin .fa-bity:before {
+   content: "\f37a";
+ }
+ .ovoform-admin .fa-black-tie:before {
+   content: "\f27e";
+ }
+ .ovoform-admin .fa-blackberry:before {
+   content: "\f37b";
+ }
+ .ovoform-admin .fa-blender:before {
+   content: "\f517";
+ }
+ .ovoform-admin .fa-blender-phone:before {
+   content: "\f6b6";
+ }
+ .ovoform-admin .fa-blind:before {
+   content: "\f29d";
+ }
+ .ovoform-admin .fa-blog:before {
+   content: "\f781";
+ }
+ .ovoform-admin .fa-blogger:before {
+   content: "\f37c";
+ }
+ .ovoform-admin .fa-blogger-b:before {
+   content: "\f37d";
+ }
+ .ovoform-admin .fa-bluetooth:before {
+   content: "\f293";
+ }
+ .ovoform-admin .fa-bluetooth-b:before {
+   content: "\f294";
+ }
+ .ovoform-admin .fa-bold:before {
+   content: "\f032";
+ }
+ .ovoform-admin .fa-bolt:before {
+   content: "\f0e7";
+ }
+ .ovoform-admin .fa-bomb:before {
+   content: "\f1e2";
+ }
+ .ovoform-admin .fa-bone:before {
+   content: "\f5d7";
+ }
+ .ovoform-admin .fa-bong:before {
+   content: "\f55c";
+ }
+ .ovoform-admin .fa-book:before {
+   content: "\f02d";
+ }
+ .ovoform-admin .fa-book-dead:before {
+   content: "\f6b7";
+ }
+ .ovoform-admin .fa-book-medical:before {
+   content: "\f7e6";
+ }
+ .ovoform-admin .fa-book-open:before {
+   content: "\f518";
+ }
+ .ovoform-admin .fa-book-reader:before {
+   content: "\f5da";
+ }
+ .ovoform-admin .fa-bookmark:before {
+   content: "\f02e";
+ }
+ .ovoform-admin .fa-bootstrap:before {
+   content: "\f836";
+ }
+ .ovoform-admin .fa-border-all:before {
+   content: "\f84c";
+ }
+ .ovoform-admin .fa-border-none:before {
+   content: "\f850";
+ }
+ .ovoform-admin .fa-border-style:before {
+   content: "\f853";
+ }
+ .ovoform-admin .fa-bowling-ball:before {
+   content: "\f436";
+ }
+ .ovoform-admin .fa-box:before {
+   content: "\f466";
+ }
+ .ovoform-admin .fa-box-open:before {
+   content: "\f49e";
+ }
+ .ovoform-admin .fa-box-tissue:before {
+   content: "\e05b";
+ }
+ .ovoform-admin .fa-boxes:before {
+   content: "\f468";
+ }
+ .ovoform-admin .fa-braille:before {
+   content: "\f2a1";
+ }
+ .ovoform-admin .fa-brain:before {
+   content: "\f5dc";
+ }
+ .ovoform-admin .fa-bread-slice:before {
+   content: "\f7ec";
+ }
+ .ovoform-admin .fa-briefcase:before {
+   content: "\f0b1";
+ }
+ .ovoform-admin .fa-briefcase-medical:before {
+   content: "\f469";
+ }
+ .ovoform-admin .fa-broadcast-tower:before {
+   content: "\f519";
+ }
+ .ovoform-admin .fa-broom:before {
+   content: "\f51a";
+ }
+ .ovoform-admin .fa-brush:before {
+   content: "\f55d";
+ }
+ .ovoform-admin .fa-btc:before {
+   content: "\f15a";
+ }
+ .ovoform-admin .fa-buffer:before {
+   content: "\f837";
+ }
+ .ovoform-admin .fa-bug:before {
+   content: "\f188";
+ }
+ .ovoform-admin .fa-building:before {
+   content: "\f1ad";
+ }
+ .ovoform-admin .fa-bullhorn:before {
+   content: "\f0a1";
+ }
+ .ovoform-admin .fa-bullseye:before {
+   content: "\f140";
+ }
+ .ovoform-admin .fa-burn:before {
+   content: "\f46a";
+ }
+ .ovoform-admin .fa-buromobelexperte:before {
+   content: "\f37f";
+ }
+ .ovoform-admin .fa-bus:before {
+   content: "\f207";
+ }
+ .ovoform-admin .fa-bus-alt:before {
+   content: "\f55e";
+ }
+ .ovoform-admin .fa-business-time:before {
+   content: "\f64a";
+ }
+ .ovoform-admin .fa-buy-n-large:before {
+   content: "\f8a6";
+ }
+ .ovoform-admin .fa-buysellads:before {
+   content: "\f20d";
+ }
+ .ovoform-admin .fa-calculator:before {
+   content: "\f1ec";
+ }
+ .ovoform-admin .fa-calendar:before {
+   content: "\f133";
+ }
+ .ovoform-admin .fa-calendar-alt:before {
+   content: "\f073";
+ }
+ .ovoform-admin .fa-calendar-check:before {
+   content: "\f274";
+ }
+ .ovoform-admin .fa-calendar-day:before {
+   content: "\f783";
+ }
+ .ovoform-admin .fa-calendar-minus:before {
+   content: "\f272";
+ }
+ .ovoform-admin .fa-calendar-plus:before {
+   content: "\f271";
+ }
+ .ovoform-admin .fa-calendar-times:before {
+   content: "\f273";
+ }
+ .ovoform-admin .fa-calendar-week:before {
+   content: "\f784";
+ }
+ .ovoform-admin .fa-camera:before {
+   content: "\f030";
+ }
+ .ovoform-admin .fa-camera-retro:before {
+   content: "\f083";
+ }
+ .ovoform-admin .fa-campground:before {
+   content: "\f6bb";
+ }
+ .ovoform-admin .fa-canadian-maple-leaf:before {
+   content: "\f785";
+ }
+ .ovoform-admin .fa-candy-cane:before {
+   content: "\f786";
+ }
+ .ovoform-admin .fa-cannabis:before {
+   content: "\f55f";
+ }
+ .ovoform-admin .fa-capsules:before {
+   content: "\f46b";
+ }
+ .ovoform-admin .fa-car:before {
+   content: "\f1b9";
+ }
+ .ovoform-admin .fa-car-alt:before {
+   content: "\f5de";
+ }
+ .ovoform-admin .fa-car-battery:before {
+   content: "\f5df";
+ }
+ .ovoform-admin .fa-car-crash:before {
+   content: "\f5e1";
+ }
+ .ovoform-admin .fa-car-side:before {
+   content: "\f5e4";
+ }
+ .ovoform-admin .fa-caravan:before {
+   content: "\f8ff";
+ }
+ .ovoform-admin .fa-caret-down:before {
+   content: "\f0d7";
+ }
+ .ovoform-admin .fa-caret-left:before {
+   content: "\f0d9";
+ }
+ .ovoform-admin .fa-caret-right:before {
+   content: "\f0da";
+ }
+ .ovoform-admin .fa-caret-square-down:before {
+   content: "\f150";
+ }
+ .ovoform-admin .fa-caret-square-left:before {
+   content: "\f191";
+ }
+ .ovoform-admin .fa-caret-square-right:before {
+   content: "\f152";
+ }
+ .ovoform-admin .fa-caret-square-up:before {
+   content: "\f151";
+ }
+ .ovoform-admin .fa-caret-up:before {
+   content: "\f0d8";
+ }
+ .ovoform-admin .fa-carrot:before {
+   content: "\f787";
+ }
+ .ovoform-admin .fa-cart-arrow-down:before {
+   content: "\f218";
+ }
+ .ovoform-admin .fa-cart-plus:before {
+   content: "\f217";
+ }
+ .ovoform-admin .fa-cash-register:before {
+   content: "\f788";
+ }
+ .ovoform-admin .fa-cat:before {
+   content: "\f6be";
+ }
+ .ovoform-admin .fa-cc-amazon-pay:before {
+   content: "\f42d";
+ }
+ .ovoform-admin .fa-cc-amex:before {
+   content: "\f1f3";
+ }
+ .ovoform-admin .fa-cc-apple-pay:before {
+   content: "\f416";
+ }
+ .ovoform-admin .fa-cc-diners-club:before {
+   content: "\f24c";
+ }
+ .ovoform-admin .fa-cc-discover:before {
+   content: "\f1f2";
+ }
+ .ovoform-admin .fa-cc-jcb:before {
+   content: "\f24b";
+ }
+ .ovoform-admin .fa-cc-mastercard:before {
+   content: "\f1f1";
+ }
+ .ovoform-admin .fa-cc-paypal:before {
+   content: "\f1f4";
+ }
+ .ovoform-admin .fa-cc-stripe:before {
+   content: "\f1f5";
+ }
+ .ovoform-admin .fa-cc-visa:before {
+   content: "\f1f0";
+ }
+ .ovoform-admin .fa-centercode:before {
+   content: "\f380";
+ }
+ .ovoform-admin .fa-centos:before {
+   content: "\f789";
+ }
+ .ovoform-admin .fa-certificate:before {
+   content: "\f0a3";
+ }
+ .ovoform-admin .fa-chair:before {
+   content: "\f6c0";
+ }
+ .ovoform-admin .fa-chalkboard:before {
+   content: "\f51b";
+ }
+ .ovoform-admin .fa-chalkboard-teacher:before {
+   content: "\f51c";
+ }
+ .ovoform-admin .fa-charging-station:before {
+   content: "\f5e7";
+ }
+ .ovoform-admin .fa-chart-area:before {
+   content: "\f1fe";
+ }
+ .ovoform-admin .fa-chart-bar:before {
+   content: "\f080";
+ }
+ .ovoform-admin .fa-chart-line:before {
+   content: "\f201";
+ }
+ .ovoform-admin .fa-chart-pie:before {
+   content: "\f200";
+ }
+ .ovoform-admin .fa-check:before {
+   content: "\f00c";
+ }
+ .ovoform-admin .fa-check-circle:before {
+   content: "\f058";
+ }
+ .ovoform-admin .fa-check-double:before {
+   content: "\f560";
+ }
+ .ovoform-admin .fa-check-square:before {
+   content: "\f14a";
+ }
+ .ovoform-admin .fa-cheese:before {
+   content: "\f7ef";
+ }
+ .ovoform-admin .fa-chess:before {
+   content: "\f439";
+ }
+ .ovoform-admin .fa-chess-bishop:before {
+   content: "\f43a";
+ }
+ .ovoform-admin .fa-chess-board:before {
+   content: "\f43c";
+ }
+ .ovoform-admin .fa-chess-king:before {
+   content: "\f43f";
+ }
+ .ovoform-admin .fa-chess-knight:before {
+   content: "\f441";
+ }
+ .ovoform-admin .fa-chess-pawn:before {
+   content: "\f443";
+ }
+ .ovoform-admin .fa-chess-queen:before {
+   content: "\f445";
+ }
+ .ovoform-admin .fa-chess-rook:before {
+   content: "\f447";
+ }
+ .ovoform-admin .fa-chevron-circle-down:before {
+   content: "\f13a";
+ }
+ .ovoform-admin .fa-chevron-circle-left:before {
+   content: "\f137";
+ }
+ .ovoform-admin .fa-chevron-circle-right:before {
+   content: "\f138";
+ }
+ .ovoform-admin .fa-chevron-circle-up:before {
+   content: "\f139";
+ }
+ .ovoform-admin .fa-chevron-down:before {
+   content: "\f078";
+ }
+ .ovoform-admin .fa-chevron-left:before {
+   content: "\f053";
+ }
+ .ovoform-admin .fa-chevron-right:before {
+   content: "\f054";
+ }
+ .ovoform-admin .fa-chevron-up:before {
+   content: "\f077";
+ }
+ .ovoform-admin .fa-child:before {
+   content: "\f1ae";
+ }
+ .ovoform-admin .fa-chrome:before {
+   content: "\f268";
+ }
+ .ovoform-admin .fa-chromecast:before {
+   content: "\f838";
+ }
+ .ovoform-admin .fa-church:before {
+   content: "\f51d";
+ }
+ .ovoform-admin .fa-circle:before {
+   content: "\f111";
+ }
+ .ovoform-admin .fa-circle-notch:before {
+   content: "\f1ce";
+ }
+ .ovoform-admin .fa-city:before {
+   content: "\f64f";
+ }
+ .ovoform-admin .fa-clinic-medical:before {
+   content: "\f7f2";
+ }
+ .ovoform-admin .fa-clipboard:before {
+   content: "\f328";
+ }
+ .ovoform-admin .fa-clipboard-check:before {
+   content: "\f46c";
+ }
+ .ovoform-admin .fa-clipboard-list:before {
+   content: "\f46d";
+ }
+ .ovoform-admin .fa-clock:before {
+   content: "\f017";
+ }
+ .ovoform-admin .fa-clone:before {
+   content: "\f24d";
+ }
+ .ovoform-admin .fa-closed-captioning:before {
+   content: "\f20a";
+ }
+ .ovoform-admin .fa-cloud:before {
+   content: "\f0c2";
+ }
+ .ovoform-admin .fa-cloud-download-alt:before {
+   content: "\f381";
+ }
+ .ovoform-admin .fa-cloud-meatball:before {
+   content: "\f73b";
+ }
+ .ovoform-admin .fa-cloud-moon:before {
+   content: "\f6c3";
+ }
+ .ovoform-admin .fa-cloud-moon-rain:before {
+   content: "\f73c";
+ }
+ .ovoform-admin .fa-cloud-rain:before {
+   content: "\f73d";
+ }
+ .ovoform-admin .fa-cloud-showers-heavy:before {
+   content: "\f740";
+ }
+ .ovoform-admin .fa-cloud-sun:before {
+   content: "\f6c4";
+ }
+ .ovoform-admin .fa-cloud-sun-rain:before {
+   content: "\f743";
+ }
+ .ovoform-admin .fa-cloud-upload-alt:before {
+   content: "\f382";
+ }
+ .ovoform-admin .fa-cloudflare:before {
+   content: "\e07d";
+ }
+ .ovoform-admin .fa-cloudscale:before {
+   content: "\f383";
+ }
+ .ovoform-admin .fa-cloudsmith:before {
+   content: "\f384";
+ }
+ .ovoform-admin .fa-cloudversify:before {
+   content: "\f385";
+ }
+ .ovoform-admin .fa-cocktail:before {
+   content: "\f561";
+ }
+ .ovoform-admin .fa-code:before {
+   content: "\f121";
+ }
+ .ovoform-admin .fa-code-branch:before {
+   content: "\f126";
+ }
+ .ovoform-admin .fa-codepen:before {
+   content: "\f1cb";
+ }
+ .ovoform-admin .fa-codiepie:before {
+   content: "\f284";
+ }
+ .ovoform-admin .fa-coffee:before {
+   content: "\f0f4";
+ }
+ .ovoform-admin .fa-cog:before {
+   content: "\f013";
+ }
+ .ovoform-admin .fa-cogs:before {
+   content: "\f085";
+ }
+ .ovoform-admin .fa-coins:before {
+   content: "\f51e";
+ }
+ .ovoform-admin .fa-columns:before {
+   content: "\f0db";
+ }
+ .ovoform-admin .fa-comment:before {
+   content: "\f075";
+ }
+ .ovoform-admin .fa-comment-alt:before {
+   content: "\f27a";
+ }
+ .ovoform-admin .fa-comment-dollar:before {
+   content: "\f651";
+ }
+ .ovoform-admin .fa-comment-dots:before {
+   content: "\f4ad";
+ }
+ .ovoform-admin .fa-comment-medical:before {
+   content: "\f7f5";
+ }
+ .ovoform-admin .fa-comment-slash:before {
+   content: "\f4b3";
+ }
+ .ovoform-admin .fa-comments:before {
+   content: "\f086";
+ }
+ .ovoform-admin .fa-comments-dollar:before {
+   content: "\f653";
+ }
+ .ovoform-admin .fa-compact-disc:before {
+   content: "\f51f";
+ }
+ .ovoform-admin .fa-compass:before {
+   content: "\f14e";
+ }
+ .ovoform-admin .fa-compress:before {
+   content: "\f066";
+ }
+ .ovoform-admin .fa-compress-alt:before {
+   content: "\f422";
+ }
+ .ovoform-admin .fa-compress-arrows-alt:before {
+   content: "\f78c";
+ }
+ .ovoform-admin .fa-concierge-bell:before {
+   content: "\f562";
+ }
+ .ovoform-admin .fa-confluence:before {
+   content: "\f78d";
+ }
+ .ovoform-admin .fa-connectdevelop:before {
+   content: "\f20e";
+ }
+ .ovoform-admin .fa-contao:before {
+   content: "\f26d";
+ }
+ .ovoform-admin .fa-cookie:before {
+   content: "\f563";
+ }
+ .ovoform-admin .fa-cookie-bite:before {
+   content: "\f564";
+ }
+ .ovoform-admin .fa-copy:before {
+   content: "\f0c5";
+ }
+ .ovoform-admin .fa-copyright:before {
+   content: "\f1f9";
+ }
+ .ovoform-admin .fa-cotton-bureau:before {
+   content: "\f89e";
+ }
+ .ovoform-admin .fa-couch:before {
+   content: "\f4b8";
+ }
+ .ovoform-admin .fa-cpanel:before {
+   content: "\f388";
+ }
+ .ovoform-admin .fa-creative-commons:before {
+   content: "\f25e";
+ }
+ .ovoform-admin .fa-creative-commons-by:before {
+   content: "\f4e7";
+ }
+ .ovoform-admin .fa-creative-commons-nc:before {
+   content: "\f4e8";
+ }
+ .ovoform-admin .fa-creative-commons-nc-eu:before {
+   content: "\f4e9";
+ }
+ .ovoform-admin .fa-creative-commons-nc-jp:before {
+   content: "\f4ea";
+ }
+ .ovoform-admin .fa-creative-commons-nd:before {
+   content: "\f4eb";
+ }
+ .ovoform-admin .fa-creative-commons-pd:before {
+   content: "\f4ec";
+ }
+ .ovoform-admin .fa-creative-commons-pd-alt:before {
+   content: "\f4ed";
+ }
+ .ovoform-admin .fa-creative-commons-remix:before {
+   content: "\f4ee";
+ }
+ .ovoform-admin .fa-creative-commons-sa:before {
+   content: "\f4ef";
+ }
+ .ovoform-admin .fa-creative-commons-sampling:before {
+   content: "\f4f0";
+ }
+ .ovoform-admin .fa-creative-commons-sampling-plus:before {
+   content: "\f4f1";
+ }
+ .ovoform-admin .fa-creative-commons-share:before {
+   content: "\f4f2";
+ }
+ .ovoform-admin .fa-creative-commons-zero:before {
+   content: "\f4f3";
+ }
+ .ovoform-admin .fa-credit-card:before {
+   content: "\f09d";
+ }
+ .ovoform-admin .fa-critical-role:before {
+   content: "\f6c9";
+ }
+ .ovoform-admin .fa-crop:before {
+   content: "\f125";
+ }
+ .ovoform-admin .fa-crop-alt:before {
+   content: "\f565";
+ }
+ .ovoform-admin .fa-cross:before {
+   content: "\f654";
+ }
+ .ovoform-admin .fa-crosshairs:before {
+   content: "\f05b";
+ }
+ .ovoform-admin .fa-crow:before {
+   content: "\f520";
+ }
+ .ovoform-admin .fa-crown:before {
+   content: "\f521";
+ }
+ .ovoform-admin .fa-crutch:before {
+   content: "\f7f7";
+ }
+ .ovoform-admin .fa-css3:before {
+   content: "\f13c";
+ }
+ .ovoform-admin .fa-css3-alt:before {
+   content: "\f38b";
+ }
+ .ovoform-admin .fa-cube:before {
+   content: "\f1b2";
+ }
+ .ovoform-admin .fa-cubes:before {
+   content: "\f1b3";
+ }
+ .ovoform-admin .fa-cut:before {
+   content: "\f0c4";
+ }
+ .ovoform-admin .fa-cuttlefish:before {
+   content: "\f38c";
+ }
+ .ovoform-admin .fa-d-and-d:before {
+   content: "\f38d";
+ }
+ .ovoform-admin .fa-d-and-d-beyond:before {
+   content: "\f6ca";
+ }
+ .ovoform-admin .fa-dailymotion:before {
+   content: "\e052";
+ }
+ .ovoform-admin .fa-dashcube:before {
+   content: "\f210";
+ }
+ .ovoform-admin .fa-database:before {
+   content: "\f1c0";
+ }
+ .ovoform-admin .fa-deaf:before {
+   content: "\f2a4";
+ }
+ .ovoform-admin .fa-deezer:before {
+   content: "\e077";
+ }
+ .ovoform-admin .fa-delicious:before {
+   content: "\f1a5";
+ }
+ .ovoform-admin .fa-democrat:before {
+   content: "\f747";
+ }
+ .ovoform-admin .fa-deploydog:before {
+   content: "\f38e";
+ }
+ .ovoform-admin .fa-deskpro:before {
+   content: "\f38f";
+ }
+ .ovoform-admin .fa-desktop:before {
+   content: "\f108";
+ }
+ .ovoform-admin .fa-dev:before {
+   content: "\f6cc";
+ }
+ .ovoform-admin .fa-deviantart:before {
+   content: "\f1bd";
+ }
+ .ovoform-admin .fa-dharmachakra:before {
+   content: "\f655";
+ }
+ .ovoform-admin .fa-dhl:before {
+   content: "\f790";
+ }
+ .ovoform-admin .fa-diagnoses:before {
+   content: "\f470";
+ }
+ .ovoform-admin .fa-diaspora:before {
+   content: "\f791";
+ }
+ .ovoform-admin .fa-dice:before {
+   content: "\f522";
+ }
+ .ovoform-admin .fa-dice-d20:before {
+   content: "\f6cf";
+ }
+ .ovoform-admin .fa-dice-d6:before {
+   content: "\f6d1";
+ }
+ .ovoform-admin .fa-dice-five:before {
+   content: "\f523";
+ }
+ .ovoform-admin .fa-dice-four:before {
+   content: "\f524";
+ }
+ .ovoform-admin .fa-dice-one:before {
+   content: "\f525";
+ }
+ .ovoform-admin .fa-dice-six:before {
+   content: "\f526";
+ }
+ .ovoform-admin .fa-dice-three:before {
+   content: "\f527";
+ }
+ .ovoform-admin .fa-dice-two:before {
+   content: "\f528";
+ }
+ .ovoform-admin .fa-digg:before {
+   content: "\f1a6";
+ }
+ .ovoform-admin .fa-digital-ocean:before {
+   content: "\f391";
+ }
+ .ovoform-admin .fa-digital-tachograph:before {
+   content: "\f566";
+ }
+ .ovoform-admin .fa-directions:before {
+   content: "\f5eb";
+ }
+ .ovoform-admin .fa-discord:before {
+   content: "\f392";
+ }
+ .ovoform-admin .fa-discourse:before {
+   content: "\f393";
+ }
+ .ovoform-admin .fa-disease:before {
+   content: "\f7fa";
+ }
+ .ovoform-admin .fa-divide:before {
+   content: "\f529";
+ }
+ .ovoform-admin .fa-dizzy:before {
+   content: "\f567";
+ }
+ .ovoform-admin .fa-dna:before {
+   content: "\f471";
+ }
+ .ovoform-admin .fa-dochub:before {
+   content: "\f394";
+ }
+ .ovoform-admin .fa-docker:before {
+   content: "\f395";
+ }
+ .ovoform-admin .fa-dog:before {
+   content: "\f6d3";
+ }
+ .ovoform-admin .fa-dollar-sign:before {
+   content: "\f155";
+ }
+ .ovoform-admin .fa-dolly:before {
+   content: "\f472";
+ }
+ .ovoform-admin .fa-dolly-flatbed:before {
+   content: "\f474";
+ }
+ .ovoform-admin .fa-donate:before {
+   content: "\f4b9";
+ }
+ .ovoform-admin .fa-door-closed:before {
+   content: "\f52a";
+ }
+ .ovoform-admin .fa-door-open:before {
+   content: "\f52b";
+ }
+ .ovoform-admin .fa-dot-circle:before {
+   content: "\f192";
+ }
+ .ovoform-admin .fa-dove:before {
+   content: "\f4ba";
+ }
+ .ovoform-admin .fa-download:before {
+   content: "\f019";
+ }
+ .ovoform-admin .fa-draft2digital:before {
+   content: "\f396";
+ }
+ .ovoform-admin .fa-drafting-compass:before {
+   content: "\f568";
+ }
+ .ovoform-admin .fa-dragon:before {
+   content: "\f6d5";
+ }
+ .ovoform-admin .fa-draw-polygon:before {
+   content: "\f5ee";
+ }
+ .ovoform-admin .fa-dribbble:before {
+   content: "\f17d";
+ }
+ .ovoform-admin .fa-dribbble-square:before {
+   content: "\f397";
+ }
+ .ovoform-admin .fa-dropbox:before {
+   content: "\f16b";
+ }
+ .ovoform-admin .fa-drum:before {
+   content: "\f569";
+ }
+ .ovoform-admin .fa-drum-steelpan:before {
+   content: "\f56a";
+ }
+ .ovoform-admin .fa-drumstick-bite:before {
+   content: "\f6d7";
+ }
+ .ovoform-admin .fa-drupal:before {
+   content: "\f1a9";
+ }
+ .ovoform-admin .fa-dumbbell:before {
+   content: "\f44b";
+ }
+ .ovoform-admin .fa-dumpster:before {
+   content: "\f793";
+ }
+ .ovoform-admin .fa-dumpster-fire:before {
+   content: "\f794";
+ }
+ .ovoform-admin .fa-dungeon:before {
+   content: "\f6d9";
+ }
+ .ovoform-admin .fa-dyalog:before {
+   content: "\f399";
+ }
+ .ovoform-admin .fa-earlybirds:before {
+   content: "\f39a";
+ }
+ .ovoform-admin .fa-ebay:before {
+   content: "\f4f4";
+ }
+ .ovoform-admin .fa-edge:before {
+   content: "\f282";
+ }
+ .ovoform-admin .fa-edge-legacy:before {
+   content: "\e078";
+ }
+ .ovoform-admin .fa-edit:before {
+   content: "\f044";
+ }
+ .ovoform-admin .fa-egg:before {
+   content: "\f7fb";
+ }
+ .ovoform-admin .fa-eject:before {
+   content: "\f052";
+ }
+ .ovoform-admin .fa-elementor:before {
+   content: "\f430";
+ }
+ .ovoform-admin .fa-ellipsis-h:before {
+   content: "\f141";
+ }
+ .ovoform-admin .fa-ellipsis-v:before {
+   content: "\f142";
+ }
+ .ovoform-admin .fa-ello:before {
+   content: "\f5f1";
+ }
+ .ovoform-admin .fa-ember:before {
+   content: "\f423";
+ }
+ .ovoform-admin .fa-empire:before {
+   content: "\f1d1";
+ }
+ .ovoform-admin .fa-envelope:before {
+   content: "\f0e0";
+ }
+ .ovoform-admin .fa-envelope-open:before {
+   content: "\f2b6";
+ }
+ .ovoform-admin .fa-envelope-open-text:before {
+   content: "\f658";
+ }
+ .ovoform-admin .fa-envelope-square:before {
+   content: "\f199";
+ }
+ .ovoform-admin .fa-envira:before {
+   content: "\f299";
+ }
+ .ovoform-admin .fa-equals:before {
+   content: "\f52c";
+ }
+ .ovoform-admin .fa-eraser:before {
+   content: "\f12d";
+ }
+ .ovoform-admin .fa-erlang:before {
+   content: "\f39d";
+ }
+ .ovoform-admin .fa-ethereum:before {
+   content: "\f42e";
+ }
+ .ovoform-admin .fa-ethernet:before {
+   content: "\f796";
+ }
+ .ovoform-admin .fa-etsy:before {
+   content: "\f2d7";
+ }
+ .ovoform-admin .fa-euro-sign:before {
+   content: "\f153";
+ }
+ .ovoform-admin .fa-evernote:before {
+   content: "\f839";
+ }
+ .ovoform-admin .fa-exchange-alt:before {
+   content: "\f362";
+ }
+ .ovoform-admin .fa-exclamation:before {
+   content: "\f12a";
+ }
+ .ovoform-admin .fa-exclamation-circle:before {
+   content: "\f06a";
+ }
+ .ovoform-admin .fa-exclamation-triangle:before {
+   content: "\f071";
+ }
+ .ovoform-admin .fa-expand:before {
+   content: "\f065";
+ }
+ .ovoform-admin .fa-expand-alt:before {
+   content: "\f424";
+ }
+ .ovoform-admin .fa-expand-arrows-alt:before {
+   content: "\f31e";
+ }
+ .ovoform-admin .fa-expeditedssl:before {
+   content: "\f23e";
+ }
+ .ovoform-admin .fa-external-link-alt:before {
+   content: "\f35d";
+ }
+ .ovoform-admin .fa-external-link-square-alt:before {
+   content: "\f360";
+ }
+ .ovoform-admin .fa-eye:before {
+   content: "\f06e";
+ }
+ .ovoform-admin .fa-eye-dropper:before {
+   content: "\f1fb";
+ }
+ .ovoform-admin .fa-eye-slash:before {
+   content: "\f070";
+ }
+ .ovoform-admin .fa-facebook:before {
+   content: "\f09a";
+ }
+ .ovoform-admin .fa-facebook-f:before {
+   content: "\f39e";
+ }
+ .ovoform-admin .fa-facebook-messenger:before {
+   content: "\f39f";
+ }
+ .ovoform-admin .fa-facebook-square:before {
+   content: "\f082";
+ }
+ .ovoform-admin .fa-fan:before {
+   content: "\f863";
+ }
+ .ovoform-admin .fa-fantasy-flight-games:before {
+   content: "\f6dc";
+ }
+ .ovoform-admin .fa-fast-backward:before {
+   content: "\f049";
+ }
+ .ovoform-admin .fa-fast-forward:before {
+   content: "\f050";
+ }
+ .ovoform-admin .fa-faucet:before {
+   content: "\e005";
+ }
+ .ovoform-admin .fa-fax:before {
+   content: "\f1ac";
+ }
+ .ovoform-admin .fa-feather:before {
+   content: "\f52d";
+ }
+ .ovoform-admin .fa-feather-alt:before {
+   content: "\f56b";
+ }
+ .ovoform-admin .fa-fedex:before {
+   content: "\f797";
+ }
+ .ovoform-admin .fa-fedora:before {
+   content: "\f798";
+ }
+ .ovoform-admin .fa-female:before {
+   content: "\f182";
+ }
+ .ovoform-admin .fa-fighter-jet:before {
+   content: "\f0fb";
+ }
+ .ovoform-admin .fa-figma:before {
+   content: "\f799";
+ }
+ .ovoform-admin .fa-file:before {
+   content: "\f15b";
+ }
+ .ovoform-admin .fa-file-alt:before {
+   content: "\f15c";
+ }
+ .ovoform-admin .fa-file-archive:before {
+   content: "\f1c6";
+ }
+ .ovoform-admin .fa-file-audio:before {
+   content: "\f1c7";
+ }
+ .ovoform-admin .fa-file-code:before {
+   content: "\f1c9";
+ }
+ .ovoform-admin .fa-file-contract:before {
+   content: "\f56c";
+ }
+ .ovoform-admin .fa-file-csv:before {
+   content: "\f6dd";
+ }
+ .ovoform-admin .fa-file-download:before {
+   content: "\f56d";
+ }
+ .ovoform-admin .fa-file-excel:before {
+   content: "\f1c3";
+ }
+ .ovoform-admin .fa-file-export:before {
+   content: "\f56e";
+ }
+ .ovoform-admin .fa-file-image:before {
+   content: "\f1c5";
+ }
+ .ovoform-admin .fa-file-import:before {
+   content: "\f56f";
+ }
+ .ovoform-admin .fa-file-invoice:before {
+   content: "\f570";
+ }
+ .ovoform-admin .fa-file-invoice-dollar:before {
+   content: "\f571";
+ }
+ .ovoform-admin .fa-file-medical:before {
+   content: "\f477";
+ }
+ .ovoform-admin .fa-file-medical-alt:before {
+   content: "\f478";
+ }
+ .ovoform-admin .fa-file-pdf:before {
+   content: "\f1c1";
+ }
+ .ovoform-admin .fa-file-powerpoint:before {
+   content: "\f1c4";
+ }
+ .ovoform-admin .fa-file-prescription:before {
+   content: "\f572";
+ }
+ .ovoform-admin .fa-file-signature:before {
+   content: "\f573";
+ }
+ .ovoform-admin .fa-file-upload:before {
+   content: "\f574";
+ }
+ .ovoform-admin .fa-file-video:before {
+   content: "\f1c8";
+ }
+ .ovoform-admin .fa-file-word:before {
+   content: "\f1c2";
+ }
+ .ovoform-admin .fa-fill:before {
+   content: "\f575";
+ }
+ .ovoform-admin .fa-fill-drip:before {
+   content: "\f576";
+ }
+ .ovoform-admin .fa-film:before {
+   content: "\f008";
+ }
+ .ovoform-admin .fa-filter:before {
+   content: "\f0b0";
+ }
+ .ovoform-admin .fa-fingerprint:before {
+   content: "\f577";
+ }
+ .ovoform-admin .fa-fire:before {
+   content: "\f06d";
+ }
+ .ovoform-admin .fa-fire-alt:before {
+   content: "\f7e4";
+ }
+ .ovoform-admin .fa-fire-extinguisher:before {
+   content: "\f134";
+ }
+ .ovoform-admin .fa-firefox:before {
+   content: "\f269";
+ }
+ .ovoform-admin .fa-firefox-browser:before {
+   content: "\e007";
+ }
+ .ovoform-admin .fa-first-aid:before {
+   content: "\f479";
+ }
+ .ovoform-admin .fa-first-order:before {
+   content: "\f2b0";
+ }
+ .ovoform-admin .fa-first-order-alt:before {
+   content: "\f50a";
+ }
+ .ovoform-admin .fa-firstdraft:before {
+   content: "\f3a1";
+ }
+ .ovoform-admin .fa-fish:before {
+   content: "\f578";
+ }
+ .ovoform-admin .fa-fist-raised:before {
+   content: "\f6de";
+ }
+ .ovoform-admin .fa-flag:before {
+   content: "\f024";
+ }
+ .ovoform-admin .fa-flag-checkered:before {
+   content: "\f11e";
+ }
+ .ovoform-admin .fa-flag-usa:before {
+   content: "\f74d";
+ }
+ .ovoform-admin .fa-flask:before {
+   content: "\f0c3";
+ }
+ .ovoform-admin .fa-flickr:before {
+   content: "\f16e";
+ }
+ .ovoform-admin .fa-flipboard:before {
+   content: "\f44d";
+ }
+ .ovoform-admin .fa-flushed:before {
+   content: "\f579";
+ }
+ .ovoform-admin .fa-fly:before {
+   content: "\f417";
+ }
+ .ovoform-admin .fa-folder:before {
+   content: "\f07b";
+ }
+ .ovoform-admin .fa-folder-minus:before {
+   content: "\f65d";
+ }
+ .ovoform-admin .fa-folder-open:before {
+   content: "\f07c";
+ }
+ .ovoform-admin .fa-folder-plus:before {
+   content: "\f65e";
+ }
+ .ovoform-admin .fa-font:before {
+   content: "\f031";
+ }
+ .ovoform-admin .fa-font-awesome:before {
+   content: "\f2b4";
+ }
+ .ovoform-admin .fa-font-awesome-alt:before {
+   content: "\f35c";
+ }
+ .ovoform-admin .fa-font-awesome-flag:before {
+   content: "\f425";
+ }
+ .ovoform-admin .fa-font-awesome-logo-full:before {
+   content: "\f4e6";
+ }
+ .ovoform-admin .fa-fonticons:before {
+   content: "\f280";
+ }
+ .ovoform-admin .fa-fonticons-fi:before {
+   content: "\f3a2";
+ }
+ .ovoform-admin .fa-football-ball:before {
+   content: "\f44e";
+ }
+ .ovoform-admin .fa-fort-awesome:before {
+   content: "\f286";
+ }
+ .ovoform-admin .fa-fort-awesome-alt:before {
+   content: "\f3a3";
+ }
+ .ovoform-admin .fa-forumbee:before {
+   content: "\f211";
+ }
+ .ovoform-admin .fa-forward:before {
+   content: "\f04e";
+ }
+ .ovoform-admin .fa-foursquare:before {
+   content: "\f180";
+ }
+ .ovoform-admin .fa-free-code-camp:before {
+   content: "\f2c5";
+ }
+ .ovoform-admin .fa-freebsd:before {
+   content: "\f3a4";
+ }
+ .ovoform-admin .fa-frog:before {
+   content: "\f52e";
+ }
+ .ovoform-admin .fa-frown:before {
+   content: "\f119";
+ }
+ .ovoform-admin .fa-frown-open:before {
+   content: "\f57a";
+ }
+ .ovoform-admin .fa-fulcrum:before {
+   content: "\f50b";
+ }
+ .ovoform-admin .fa-funnel-dollar:before {
+   content: "\f662";
+ }
+ .ovoform-admin .fa-futbol:before {
+   content: "\f1e3";
+ }
+ .ovoform-admin .fa-galactic-republic:before {
+   content: "\f50c";
+ }
+ .ovoform-admin .fa-galactic-senate:before {
+   content: "\f50d";
+ }
+ .ovoform-admin .fa-gamepad:before {
+   content: "\f11b";
+ }
+ .ovoform-admin .fa-gas-pump:before {
+   content: "\f52f";
+ }
+ .ovoform-admin .fa-gavel:before {
+   content: "\f0e3";
+ }
+ .ovoform-admin .fa-gem:before {
+   content: "\f3a5";
+ }
+ .ovoform-admin .fa-genderless:before {
+   content: "\f22d";
+ }
+ .ovoform-admin .fa-get-pocket:before {
+   content: "\f265";
+ }
+ .ovoform-admin .fa-gg:before {
+   content: "\f260";
+ }
+ .ovoform-admin .fa-gg-circle:before {
+   content: "\f261";
+ }
+ .ovoform-admin .fa-ghost:before {
+   content: "\f6e2";
+ }
+ .ovoform-admin .fa-gift:before {
+   content: "\f06b";
+ }
+ .ovoform-admin .fa-gifts:before {
+   content: "\f79c";
+ }
+ .ovoform-admin .fa-git:before {
+   content: "\f1d3";
+ }
+ .ovoform-admin .fa-git-alt:before {
+   content: "\f841";
+ }
+ .ovoform-admin .fa-git-square:before {
+   content: "\f1d2";
+ }
+ .ovoform-admin .fa-github:before {
+   content: "\f09b";
+ }
+ .ovoform-admin .fa-github-alt:before {
+   content: "\f113";
+ }
+ .ovoform-admin .fa-github-square:before {
+   content: "\f092";
+ }
+ .ovoform-admin .fa-gitkraken:before {
+   content: "\f3a6";
+ }
+ .ovoform-admin .fa-gitlab:before {
+   content: "\f296";
+ }
+ .ovoform-admin .fa-gitter:before {
+   content: "\f426";
+ }
+ .ovoform-admin .fa-glass-cheers:before {
+   content: "\f79f";
+ }
+ .ovoform-admin .fa-glass-martini:before {
+   content: "\f000";
+ }
+ .ovoform-admin .fa-glass-martini-alt:before {
+   content: "\f57b";
+ }
+ .ovoform-admin .fa-glass-whiskey:before {
+   content: "\f7a0";
+ }
+ .ovoform-admin .fa-glasses:before {
+   content: "\f530";
+ }
+ .ovoform-admin .fa-glide:before {
+   content: "\f2a5";
+ }
+ .ovoform-admin .fa-glide-g:before {
+   content: "\f2a6";
+ }
+ .ovoform-admin .fa-globe:before {
+   content: "\f0ac";
+ }
+ .ovoform-admin .fa-globe-africa:before {
+   content: "\f57c";
+ }
+ .ovoform-admin .fa-globe-americas:before {
+   content: "\f57d";
+ }
+ .ovoform-admin .fa-globe-asia:before {
+   content: "\f57e";
+ }
+ .ovoform-admin .fa-globe-europe:before {
+   content: "\f7a2";
+ }
+ .ovoform-admin .fa-gofore:before {
+   content: "\f3a7";
+ }
+ .ovoform-admin .fa-golf-ball:before {
+   content: "\f450";
+ }
+ .ovoform-admin .fa-goodreads:before {
+   content: "\f3a8";
+ }
+ .ovoform-admin .fa-goodreads-g:before {
+   content: "\f3a9";
+ }
+ .ovoform-admin .fa-google:before {
+   content: "\f1a0";
+ }
+ .ovoform-admin .fa-google-drive:before {
+   content: "\f3aa";
+ }
+ .ovoform-admin .fa-google-pay:before {
+   content: "\e079";
+ }
+ .ovoform-admin .fa-google-play:before {
+   content: "\f3ab";
+ }
+ .ovoform-admin .fa-google-plus:before {
+   content: "\f2b3";
+ }
+ .ovoform-admin .fa-google-plus-g:before {
+   content: "\f0d5";
+ }
+ .ovoform-admin .fa-google-plus-square:before {
+   content: "\f0d4";
+ }
+ .ovoform-admin .fa-google-wallet:before {
+   content: "\f1ee";
+ }
+ .ovoform-admin .fa-gopuram:before {
+   content: "\f664";
+ }
+ .ovoform-admin .fa-graduation-cap:before {
+   content: "\f19d";
+ }
+ .ovoform-admin .fa-gratipay:before {
+   content: "\f184";
+ }
+ .ovoform-admin .fa-grav:before {
+   content: "\f2d6";
+ }
+ .ovoform-admin .fa-greater-than:before {
+   content: "\f531";
+ }
+ .ovoform-admin .fa-greater-than-equal:before {
+   content: "\f532";
+ }
+ .ovoform-admin .fa-grimace:before {
+   content: "\f57f";
+ }
+ .ovoform-admin .fa-grin:before {
+   content: "\f580";
+ }
+ .ovoform-admin .fa-grin-alt:before {
+   content: "\f581";
+ }
+ .ovoform-admin .fa-grin-beam:before {
+   content: "\f582";
+ }
+ .ovoform-admin .fa-grin-beam-sweat:before {
+   content: "\f583";
+ }
+ .ovoform-admin .fa-grin-hearts:before {
+   content: "\f584";
+ }
+ .ovoform-admin .fa-grin-squint:before {
+   content: "\f585";
+ }
+ .ovoform-admin .fa-grin-squint-tears:before {
+   content: "\f586";
+ }
+ .ovoform-admin .fa-grin-stars:before {
+   content: "\f587";
+ }
+ .ovoform-admin .fa-grin-tears:before {
+   content: "\f588";
+ }
+ .ovoform-admin .fa-grin-tongue:before {
+   content: "\f589";
+ }
+ .ovoform-admin .fa-grin-tongue-squint:before {
+   content: "\f58a";
+ }
+ .ovoform-admin .fa-grin-tongue-wink:before {
+   content: "\f58b";
+ }
+ .ovoform-admin .fa-grin-wink:before {
+   content: "\f58c";
+ }
+ .ovoform-admin .fa-grip-horizontal:before {
+   content: "\f58d";
+ }
+ .ovoform-admin .fa-grip-lines:before {
+   content: "\f7a4";
+ }
+ .ovoform-admin .fa-grip-lines-vertical:before {
+   content: "\f7a5";
+ }
+ .ovoform-admin .fa-grip-vertical:before {
+   content: "\f58e";
+ }
+ .ovoform-admin .fa-gripfire:before {
+   content: "\f3ac";
+ }
+ .ovoform-admin .fa-grunt:before {
+   content: "\f3ad";
+ }
+ .ovoform-admin .fa-guilded:before {
+   content: "\e07e";
+ }
+ .ovoform-admin .fa-guitar:before {
+   content: "\f7a6";
+ }
+ .ovoform-admin .fa-gulp:before {
+   content: "\f3ae";
+ }
+ .ovoform-admin .fa-h-square:before {
+   content: "\f0fd";
+ }
+ .ovoform-admin .fa-hacker-news:before {
+   content: "\f1d4";
+ }
+ .ovoform-admin .fa-hacker-news-square:before {
+   content: "\f3af";
+ }
+ .ovoform-admin .fa-hackerrank:before {
+   content: "\f5f7";
+ }
+ .ovoform-admin .fa-hamburger:before {
+   content: "\f805";
+ }
+ .ovoform-admin .fa-hammer:before {
+   content: "\f6e3";
+ }
+ .ovoform-admin .fa-hamsa:before {
+   content: "\f665";
+ }
+ .ovoform-admin .fa-hand-holding:before {
+   content: "\f4bd";
+ }
+ .ovoform-admin .fa-hand-holding-heart:before {
+   content: "\f4be";
+ }
+ .ovoform-admin .fa-hand-holding-medical:before {
+   content: "\e05c";
+ }
+ .ovoform-admin .fa-hand-holding-usd:before {
+   content: "\f4c0";
+ }
+ .ovoform-admin .fa-hand-holding-water:before {
+   content: "\f4c1";
+ }
+ .ovoform-admin .fa-hand-lizard:before {
+   content: "\f258";
+ }
+ .ovoform-admin .fa-hand-middle-finger:before {
+   content: "\f806";
+ }
+ .ovoform-admin .fa-hand-paper:before {
+   content: "\f256";
+ }
+ .ovoform-admin .fa-hand-peace:before {
+   content: "\f25b";
+ }
+ .ovoform-admin .fa-hand-point-down:before {
+   content: "\f0a7";
+ }
+ .ovoform-admin .fa-hand-point-left:before {
+   content: "\f0a5";
+ }
+ .ovoform-admin .fa-hand-point-right:before {
+   content: "\f0a4";
+ }
+ .ovoform-admin .fa-hand-point-up:before {
+   content: "\f0a6";
+ }
+ .ovoform-admin .fa-hand-pointer:before {
+   content: "\f25a";
+ }
+ .ovoform-admin .fa-hand-rock:before {
+   content: "\f255";
+ }
+ .ovoform-admin .fa-hand-scissors:before {
+   content: "\f257";
+ }
+ .ovoform-admin .fa-hand-sparkles:before {
+   content: "\e05d";
+ }
+ .ovoform-admin .fa-hand-spock:before {
+   content: "\f259";
+ }
+ .ovoform-admin .fa-hands:before {
+   content: "\f4c2";
+ }
+ .ovoform-admin .fa-hands-helping:before {
+   content: "\f4c4";
+ }
+ .ovoform-admin .fa-hands-wash:before {
+   content: "\e05e";
+ }
+ .ovoform-admin .fa-handshake:before {
+   content: "\f2b5";
+ }
+ .ovoform-admin .fa-handshake-alt-slash:before {
+   content: "\e05f";
+ }
+ .ovoform-admin .fa-handshake-slash:before {
+   content: "\e060";
+ }
+ .ovoform-admin .fa-hanukiah:before {
+   content: "\f6e6";
+ }
+ .ovoform-admin .fa-hard-hat:before {
+   content: "\f807";
+ }
+ .ovoform-admin .fa-hashtag:before {
+   content: "\f292";
+ }
+ .ovoform-admin .fa-hat-cowboy:before {
+   content: "\f8c0";
+ }
+ .ovoform-admin .fa-hat-cowboy-side:before {
+   content: "\f8c1";
+ }
+ .ovoform-admin .fa-hat-wizard:before {
+   content: "\f6e8";
+ }
+ .ovoform-admin .fa-hdd:before {
+   content: "\f0a0";
+ }
+ .ovoform-admin .fa-head-side-cough:before {
+   content: "\e061";
+ }
+ .ovoform-admin .fa-head-side-cough-slash:before {
+   content: "\e062";
+ }
+ .ovoform-admin .fa-head-side-mask:before {
+   content: "\e063";
+ }
+ .ovoform-admin .fa-head-side-virus:before {
+   content: "\e064";
+ }
+ .ovoform-admin .fa-heading:before {
+   content: "\f1dc";
+ }
+ .ovoform-admin .fa-headphones:before {
+   content: "\f025";
+ }
+ .ovoform-admin .fa-headphones-alt:before {
+   content: "\f58f";
+ }
+ .ovoform-admin .fa-headset:before {
+   content: "\f590";
+ }
+ .ovoform-admin .fa-heart:before {
+   content: "\f004";
+ }
+ .ovoform-admin .fa-heart-broken:before {
+   content: "\f7a9";
+ }
+ .ovoform-admin .fa-heartbeat:before {
+   content: "\f21e";
+ }
+ .ovoform-admin .fa-helicopter:before {
+   content: "\f533";
+ }
+ .ovoform-admin .fa-highlighter:before {
+   content: "\f591";
+ }
+ .ovoform-admin .fa-hiking:before {
+   content: "\f6ec";
+ }
+ .ovoform-admin .fa-hippo:before {
+   content: "\f6ed";
+ }
+ .ovoform-admin .fa-hips:before {
+   content: "\f452";
+ }
+ .ovoform-admin .fa-hire-a-helper:before {
+   content: "\f3b0";
+ }
+ .ovoform-admin .fa-history:before {
+   content: "\f1da";
+ }
+ .ovoform-admin .fa-hive:before {
+   content: "\e07f";
+ }
+ .ovoform-admin .fa-hockey-puck:before {
+   content: "\f453";
+ }
+ .ovoform-admin .fa-holly-berry:before {
+   content: "\f7aa";
+ }
+ .ovoform-admin .fa-home:before {
+   content: "\f015";
+ }
+ .ovoform-admin .fa-hooli:before {
+   content: "\f427";
+ }
+ .ovoform-admin .fa-hornbill:before {
+   content: "\f592";
+ }
+ .ovoform-admin .fa-horse:before {
+   content: "\f6f0";
+ }
+ .ovoform-admin .fa-horse-head:before {
+   content: "\f7ab";
+ }
+ .ovoform-admin .fa-hospital:before {
+   content: "\f0f8";
+ }
+ .ovoform-admin .fa-hospital-alt:before {
+   content: "\f47d";
+ }
+ .ovoform-admin .fa-hospital-symbol:before {
+   content: "\f47e";
+ }
+ .ovoform-admin .fa-hospital-user:before {
+   content: "\f80d";
+ }
+ .ovoform-admin .fa-hot-tub:before {
+   content: "\f593";
+ }
+ .ovoform-admin .fa-hotdog:before {
+   content: "\f80f";
+ }
+ .ovoform-admin .fa-hotel:before {
+   content: "\f594";
+ }
+ .ovoform-admin .fa-hotjar:before {
+   content: "\f3b1";
+ }
+ .ovoform-admin .fa-hourglass:before {
+   content: "\f254";
+ }
+ .ovoform-admin .fa-hourglass-end:before {
+   content: "\f253";
+ }
+ .ovoform-admin .fa-hourglass-half:before {
+   content: "\f252";
+ }
+ .ovoform-admin .fa-hourglass-start:before {
+   content: "\f251";
+ }
+ .ovoform-admin .fa-house-damage:before {
+   content: "\f6f1";
+ }
+ .ovoform-admin .fa-house-user:before {
+   content: "\e065";
+ }
+ .ovoform-admin .fa-houzz:before {
+   content: "\f27c";
+ }
+ .ovoform-admin .fa-hryvnia:before {
+   content: "\f6f2";
+ }
+ .ovoform-admin .fa-html5:before {
+   content: "\f13b";
+ }
+ .ovoform-admin .fa-hubspot:before {
+   content: "\f3b2";
+ }
+ .ovoform-admin .fa-i-cursor:before {
+   content: "\f246";
+ }
+ .ovoform-admin .fa-ice-cream:before {
+   content: "\f810";
+ }
+ .ovoform-admin .fa-icicles:before {
+   content: "\f7ad";
+ }
+ .ovoform-admin .fa-icons:before {
+   content: "\f86d";
+ }
+ .ovoform-admin .fa-id-badge:before {
+   content: "\f2c1";
+ }
+ .ovoform-admin .fa-id-card:before {
+   content: "\f2c2";
+ }
+ .ovoform-admin .fa-id-card-alt:before {
+   content: "\f47f";
+ }
+ .ovoform-admin .fa-ideal:before {
+   content: "\e013";
+ }
+ .ovoform-admin .fa-igloo:before {
+   content: "\f7ae";
+ }
+ .ovoform-admin .fa-image:before {
+   content: "\f03e";
+ }
+ .ovoform-admin .fa-images:before {
+   content: "\f302";
+ }
+ .ovoform-admin .fa-imdb:before {
+   content: "\f2d8";
+ }
+ .ovoform-admin .fa-inbox:before {
+   content: "\f01c";
+ }
+ .ovoform-admin .fa-indent:before {
+   content: "\f03c";
+ }
+ .ovoform-admin .fa-industry:before {
+   content: "\f275";
+ }
+ .ovoform-admin .fa-infinity:before {
+   content: "\f534";
+ }
+ .ovoform-admin .fa-info:before {
+   content: "\f129";
+ }
+ .ovoform-admin .fa-info-circle:before {
+   content: "\f05a";
+ }
+ .ovoform-admin .fa-innosoft:before {
+   content: "\e080";
+ }
+ .ovoform-admin .fa-instagram:before {
+   content: "\f16d";
+ }
+ .ovoform-admin .fa-instagram-square:before {
+   content: "\e055";
+ }
+ .ovoform-admin .fa-instalod:before {
+   content: "\e081";
+ }
+ .ovoform-admin .fa-intercom:before {
+   content: "\f7af";
+ }
+ .ovoform-admin .fa-internet-explorer:before {
+   content: "\f26b";
+ }
+ .ovoform-admin .fa-invision:before {
+   content: "\f7b0";
+ }
+ .ovoform-admin .fa-ioxhost:before {
+   content: "\f208";
+ }
+ .ovoform-admin .fa-italic:before {
+   content: "\f033";
+ }
+ .ovoform-admin .fa-itch-io:before {
+   content: "\f83a";
+ }
+ .ovoform-admin .fa-itunes:before {
+   content: "\f3b4";
+ }
+ .ovoform-admin .fa-itunes-note:before {
+   content: "\f3b5";
+ }
+ .ovoform-admin .fa-java:before {
+   content: "\f4e4";
+ }
+ .ovoform-admin .fa-jedi:before {
+   content: "\f669";
+ }
+ .ovoform-admin .fa-jedi-order:before {
+   content: "\f50e";
+ }
+ .ovoform-admin .fa-jenkins:before {
+   content: "\f3b6";
+ }
+ .ovoform-admin .fa-jira:before {
+   content: "\f7b1";
+ }
+ .ovoform-admin .fa-joget:before {
+   content: "\f3b7";
+ }
+ .ovoform-admin .fa-joint:before {
+   content: "\f595";
+ }
+ .ovoform-admin .fa-joomla:before {
+   content: "\f1aa";
+ }
+ .ovoform-admin .fa-journal-whills:before {
+   content: "\f66a";
+ }
+ .ovoform-admin .fa-js:before {
+   content: "\f3b8";
+ }
+ .ovoform-admin .fa-js-square:before {
+   content: "\f3b9";
+ }
+ .ovoform-admin .fa-jsfiddle:before {
+   content: "\f1cc";
+ }
+ .ovoform-admin .fa-kaaba:before {
+   content: "\f66b";
+ }
+ .ovoform-admin .fa-kaggle:before {
+   content: "\f5fa";
+ }
+ .ovoform-admin .fa-key:before {
+   content: "\f084";
+ }
+ .ovoform-admin .fa-keybase:before {
+   content: "\f4f5";
+ }
+ .ovoform-admin .fa-keyboard:before {
+   content: "\f11c";
+ }
+ .ovoform-admin .fa-keycdn:before {
+   content: "\f3ba";
+ }
+ .ovoform-admin .fa-khanda:before {
+   content: "\f66d";
+ }
+ .ovoform-admin .fa-kickstarter:before {
+   content: "\f3bb";
+ }
+ .ovoform-admin .fa-kickstarter-k:before {
+   content: "\f3bc";
+ }
+ .ovoform-admin .fa-kiss:before {
+   content: "\f596";
+ }
+ .ovoform-admin .fa-kiss-beam:before {
+   content: "\f597";
+ }
+ .ovoform-admin .fa-kiss-wink-heart:before {
+   content: "\f598";
+ }
+ .ovoform-admin .fa-kiwi-bird:before {
+   content: "\f535";
+ }
+ .ovoform-admin .fa-korvue:before {
+   content: "\f42f";
+ }
+ .ovoform-admin .fa-landmark:before {
+   content: "\f66f";
+ }
+ .ovoform-admin .fa-language:before {
+   content: "\f1ab";
+ }
+ .ovoform-admin .fa-laptop:before {
+   content: "\f109";
+ }
+ .ovoform-admin .fa-laptop-code:before {
+   content: "\f5fc";
+ }
+ .ovoform-admin .fa-laptop-house:before {
+   content: "\e066";
+ }
+ .ovoform-admin .fa-laptop-medical:before {
+   content: "\f812";
+ }
+ .ovoform-admin .fa-laravel:before {
+   content: "\f3bd";
+ }
+ .ovoform-admin .fa-lastfm:before {
+   content: "\f202";
+ }
+ .ovoform-admin .fa-lastfm-square:before {
+   content: "\f203";
+ }
+ .ovoform-admin .fa-laugh:before {
+   content: "\f599";
+ }
+ .ovoform-admin .fa-laugh-beam:before {
+   content: "\f59a";
+ }
+ .ovoform-admin .fa-laugh-squint:before {
+   content: "\f59b";
+ }
+ .ovoform-admin .fa-laugh-wink:before {
+   content: "\f59c";
+ }
+ .ovoform-admin .fa-layer-group:before {
+   content: "\f5fd";
+ }
+ .ovoform-admin .fa-leaf:before {
+   content: "\f06c";
+ }
+ .ovoform-admin .fa-leanpub:before {
+   content: "\f212";
+ }
+ .ovoform-admin .fa-lemon:before {
+   content: "\f094";
+ }
+ .ovoform-admin .fa-less:before {
+   content: "\f41d";
+ }
+ .ovoform-admin .fa-less-than:before {
+   content: "\f536";
+ }
+ .ovoform-admin .fa-less-than-equal:before {
+   content: "\f537";
+ }
+ .ovoform-admin .fa-level-down-alt:before {
+   content: "\f3be";
+ }
+ .ovoform-admin .fa-level-up-alt:before {
+   content: "\f3bf";
+ }
+ .ovoform-admin .fa-life-ring:before {
+   content: "\f1cd";
+ }
+ .ovoform-admin .fa-lightbulb:before {
+   content: "\f0eb";
+ }
+ .ovoform-admin .fa-line:before {
+   content: "\f3c0";
+ }
+ .ovoform-admin .fa-link:before {
+   content: "\f0c1";
+ }
+ .ovoform-admin .fa-linkedin:before {
+   content: "\f08c";
+ }
+ .ovoform-admin .fa-linkedin-in:before {
+   content: "\f0e1";
+ }
+ .ovoform-admin .fa-linode:before {
+   content: "\f2b8";
+ }
+ .ovoform-admin .fa-linux:before {
+   content: "\f17c";
+ }
+ .ovoform-admin .fa-lira-sign:before {
+   content: "\f195";
+ }
+ .ovoform-admin .fa-list:before {
+   content: "\f03a";
+ }
+ .ovoform-admin .fa-list-alt:before {
+   content: "\f022";
+ }
+ .ovoform-admin .fa-list-ol:before {
+   content: "\f0cb";
+ }
+ .ovoform-admin .fa-list-ul:before {
+   content: "\f0ca";
+ }
+ .ovoform-admin .fa-location-arrow:before {
+   content: "\f124";
+ }
+ .ovoform-admin .fa-lock:before {
+   content: "\f023";
+ }
+ .ovoform-admin .fa-lock-open:before {
+   content: "\f3c1";
+ }
+ .ovoform-admin .fa-long-arrow-alt-down:before {
+   content: "\f309";
+ }
+ .ovoform-admin .fa-long-arrow-alt-left:before {
+   content: "\f30a";
+ }
+ .ovoform-admin .fa-long-arrow-alt-right:before {
+   content: "\f30b";
+ }
+ .ovoform-admin .fa-long-arrow-alt-up:before {
+   content: "\f30c";
+ }
+ .ovoform-admin .fa-low-vision:before {
+   content: "\f2a8";
+ }
+ .ovoform-admin .fa-luggage-cart:before {
+   content: "\f59d";
+ }
+ .ovoform-admin .fa-lungs:before {
+   content: "\f604";
+ }
+ .ovoform-admin .fa-lungs-virus:before {
+   content: "\e067";
+ }
+ .ovoform-admin .fa-lyft:before {
+   content: "\f3c3";
+ }
+ .ovoform-admin .fa-magento:before {
+   content: "\f3c4";
+ }
+ .ovoform-admin .fa-magic:before {
+   content: "\f0d0";
+ }
+ .ovoform-admin .fa-magnet:before {
+   content: "\f076";
+ }
+ .ovoform-admin .fa-mail-bulk:before {
+   content: "\f674";
+ }
+ .ovoform-admin .fa-mailchimp:before {
+   content: "\f59e";
+ }
+ .ovoform-admin .fa-male:before {
+   content: "\f183";
+ }
+ .ovoform-admin .fa-mandalorian:before {
+   content: "\f50f";
+ }
+ .ovoform-admin .fa-map:before {
+   content: "\f279";
+ }
+ .ovoform-admin .fa-map-marked:before {
+   content: "\f59f";
+ }
+ .ovoform-admin .fa-map-marked-alt:before {
+   content: "\f5a0";
+ }
+ .ovoform-admin .fa-map-marker:before {
+   content: "\f041";
+ }
+ .ovoform-admin .fa-map-marker-alt:before {
+   content: "\f3c5";
+ }
+ .ovoform-admin .fa-map-pin:before {
+   content: "\f276";
+ }
+ .ovoform-admin .fa-map-signs:before {
+   content: "\f277";
+ }
+ .ovoform-admin .fa-markdown:before {
+   content: "\f60f";
+ }
+ .ovoform-admin .fa-marker:before {
+   content: "\f5a1";
+ }
+ .ovoform-admin .fa-mars:before {
+   content: "\f222";
+ }
+ .ovoform-admin .fa-mars-double:before {
+   content: "\f227";
+ }
+ .ovoform-admin .fa-mars-stroke:before {
+   content: "\f229";
+ }
+ .ovoform-admin .fa-mars-stroke-h:before {
+   content: "\f22b";
+ }
+ .ovoform-admin .fa-mars-stroke-v:before {
+   content: "\f22a";
+ }
+ .ovoform-admin .fa-mask:before {
+   content: "\f6fa";
+ }
+ .ovoform-admin .fa-mastodon:before {
+   content: "\f4f6";
+ }
+ .ovoform-admin .fa-maxcdn:before {
+   content: "\f136";
+ }
+ .ovoform-admin .fa-mdb:before {
+   content: "\f8ca";
+ }
+ .ovoform-admin .fa-medal:before {
+   content: "\f5a2";
+ }
+ .ovoform-admin .fa-medapps:before {
+   content: "\f3c6";
+ }
+ .ovoform-admin .fa-medium:before {
+   content: "\f23a";
+ }
+ .ovoform-admin .fa-medium-m:before {
+   content: "\f3c7";
+ }
+ .ovoform-admin .fa-medkit:before {
+   content: "\f0fa";
+ }
+ .ovoform-admin .fa-medrt:before {
+   content: "\f3c8";
+ }
+ .ovoform-admin .fa-meetup:before {
+   content: "\f2e0";
+ }
+ .ovoform-admin .fa-megaport:before {
+   content: "\f5a3";
+ }
+ .ovoform-admin .fa-meh:before {
+   content: "\f11a";
+ }
+ .ovoform-admin .fa-meh-blank:before {
+   content: "\f5a4";
+ }
+ .ovoform-admin .fa-meh-rolling-eyes:before {
+   content: "\f5a5";
+ }
+ .ovoform-admin .fa-memory:before {
+   content: "\f538";
+ }
+ .ovoform-admin .fa-mendeley:before {
+   content: "\f7b3";
+ }
+ .ovoform-admin .fa-menorah:before {
+   content: "\f676";
+ }
+ .ovoform-admin .fa-mercury:before {
+   content: "\f223";
+ }
+ .ovoform-admin .fa-meteor:before {
+   content: "\f753";
+ }
+ .ovoform-admin .fa-microblog:before {
+   content: "\e01a";
+ }
+ .ovoform-admin .fa-microchip:before {
+   content: "\f2db";
+ }
+ .ovoform-admin .fa-microphone:before {
+   content: "\f130";
+ }
+ .ovoform-admin .fa-microphone-alt:before {
+   content: "\f3c9";
+ }
+ .ovoform-admin .fa-microphone-alt-slash:before {
+   content: "\f539";
+ }
+ .ovoform-admin .fa-microphone-slash:before {
+   content: "\f131";
+ }
+ .ovoform-admin .fa-microscope:before {
+   content: "\f610";
+ }
+ .ovoform-admin .fa-microsoft:before {
+   content: "\f3ca";
+ }
+ .ovoform-admin .fa-minus:before {
+   content: "\f068";
+ }
+ .ovoform-admin .fa-minus-circle:before {
+   content: "\f056";
+ }
+ .ovoform-admin .fa-minus-square:before {
+   content: "\f146";
+ }
+ .ovoform-admin .fa-mitten:before {
+   content: "\f7b5";
+ }
+ .ovoform-admin .fa-mix:before {
+   content: "\f3cb";
+ }
+ .ovoform-admin .fa-mixcloud:before {
+   content: "\f289";
+ }
+ .ovoform-admin .fa-mixer:before {
+   content: "\e056";
+ }
+ .ovoform-admin .fa-mizuni:before {
+   content: "\f3cc";
+ }
+ .ovoform-admin .fa-mobile:before {
+   content: "\f10b";
+ }
+ .ovoform-admin .fa-mobile-alt:before {
+   content: "\f3cd";
+ }
+ .ovoform-admin .fa-modx:before {
+   content: "\f285";
+ }
+ .ovoform-admin .fa-monero:before {
+   content: "\f3d0";
+ }
+ .ovoform-admin .fa-money-bill:before {
+   content: "\f0d6";
+ }
+ .ovoform-admin .fa-money-bill-alt:before {
+   content: "\f3d1";
+ }
+ .ovoform-admin .fa-money-bill-wave:before {
+   content: "\f53a";
+ }
+ .ovoform-admin .fa-money-bill-wave-alt:before {
+   content: "\f53b";
+ }
+ .ovoform-admin .fa-money-check:before {
+   content: "\f53c";
+ }
+ .ovoform-admin .fa-money-check-alt:before {
+   content: "\f53d";
+ }
+ .ovoform-admin .fa-monument:before {
+   content: "\f5a6";
+ }
+ .ovoform-admin .fa-moon:before {
+   content: "\f186";
+ }
+ .ovoform-admin .fa-mortar-pestle:before {
+   content: "\f5a7";
+ }
+ .ovoform-admin .fa-mosque:before {
+   content: "\f678";
+ }
+ .ovoform-admin .fa-motorcycle:before {
+   content: "\f21c";
+ }
+ .ovoform-admin .fa-mountain:before {
+   content: "\f6fc";
+ }
+ .ovoform-admin .fa-mouse:before {
+   content: "\f8cc";
+ }
+ .ovoform-admin .fa-mouse-pointer:before {
+   content: "\f245";
+ }
+ .ovoform-admin .fa-mug-hot:before {
+   content: "\f7b6";
+ }
+ .ovoform-admin .fa-music:before {
+   content: "\f001";
+ }
+ .ovoform-admin .fa-napster:before {
+   content: "\f3d2";
+ }
+ .ovoform-admin .fa-neos:before {
+   content: "\f612";
+ }
+ .ovoform-admin .fa-network-wired:before {
+   content: "\f6ff";
+ }
+ .ovoform-admin .fa-neuter:before {
+   content: "\f22c";
+ }
+ .ovoform-admin .fa-newspaper:before {
+   content: "\f1ea";
+ }
+ .ovoform-admin .fa-nimblr:before {
+   content: "\f5a8";
+ }
+ .ovoform-admin .fa-node:before {
+   content: "\f419";
+ }
+ .ovoform-admin .fa-node-js:before {
+   content: "\f3d3";
+ }
+ .ovoform-admin .fa-not-equal:before {
+   content: "\f53e";
+ }
+ .ovoform-admin .fa-notes-medical:before {
+   content: "\f481";
+ }
+ .ovoform-admin .fa-npm:before {
+   content: "\f3d4";
+ }
+ .ovoform-admin .fa-ns8:before {
+   content: "\f3d5";
+ }
+ .ovoform-admin .fa-nutritionix:before {
+   content: "\f3d6";
+ }
+ .ovoform-admin .fa-object-group:before {
+   content: "\f247";
+ }
+ .ovoform-admin .fa-object-ungroup:before {
+   content: "\f248";
+ }
+ .ovoform-admin .fa-octopus-deploy:before {
+   content: "\e082";
+ }
+ .ovoform-admin .fa-odnoklassniki:before {
+   content: "\f263";
+ }
+ .ovoform-admin .fa-odnoklassniki-square:before {
+   content: "\f264";
+ }
+ .ovoform-admin .fa-oil-can:before {
+   content: "\f613";
+ }
+ .ovoform-admin .fa-old-republic:before {
+   content: "\f510";
+ }
+ .ovoform-admin .fa-om:before {
+   content: "\f679";
+ }
+ .ovoform-admin .fa-opencart:before {
+   content: "\f23d";
+ }
+ .ovoform-admin .fa-openid:before {
+   content: "\f19b";
+ }
+ .ovoform-admin .fa-opera:before {
+   content: "\f26a";
+ }
+ .ovoform-admin .fa-optin-monster:before {
+   content: "\f23c";
+ }
+ .ovoform-admin .fa-orcid:before {
+   content: "\f8d2";
+ }
+ .ovoform-admin .fa-osi:before {
+   content: "\f41a";
+ }
+ .ovoform-admin .fa-otter:before {
+   content: "\f700";
+ }
+ .ovoform-admin .fa-outdent:before {
+   content: "\f03b";
+ }
+ .ovoform-admin .fa-page4:before {
+   content: "\f3d7";
+ }
+ .ovoform-admin .fa-pagelines:before {
+   content: "\f18c";
+ }
+ .ovoform-admin .fa-pager:before {
+   content: "\f815";
+ }
+ .ovoform-admin .fa-paint-brush:before {
+   content: "\f1fc";
+ }
+ .ovoform-admin .fa-paint-roller:before {
+   content: "\f5aa";
+ }
+ .ovoform-admin .fa-palette:before {
+   content: "\f53f";
+ }
+ .ovoform-admin .fa-palfed:before {
+   content: "\f3d8";
+ }
+ .ovoform-admin .fa-pallet:before {
+   content: "\f482";
+ }
+ .ovoform-admin .fa-paper-plane:before {
+   content: "\f1d8";
+ }
+ .ovoform-admin .fa-paperclip:before {
+   content: "\f0c6";
+ }
+ .ovoform-admin .fa-parachute-box:before {
+   content: "\f4cd";
+ }
+ .ovoform-admin .fa-paragraph:before {
+   content: "\f1dd";
+ }
+ .ovoform-admin .fa-parking:before {
+   content: "\f540";
+ }
+ .ovoform-admin .fa-passport:before {
+   content: "\f5ab";
+ }
+ .ovoform-admin .fa-pastafarianism:before {
+   content: "\f67b";
+ }
+ .ovoform-admin .fa-paste:before {
+   content: "\f0ea";
+ }
+ .ovoform-admin .fa-patreon:before {
+   content: "\f3d9";
+ }
+ .ovoform-admin .fa-pause:before {
+   content: "\f04c";
+ }
+ .ovoform-admin .fa-pause-circle:before {
+   content: "\f28b";
+ }
+ .ovoform-admin .fa-paw:before {
+   content: "\f1b0";
+ }
+ .ovoform-admin .fa-paypal:before {
+   content: "\f1ed";
+ }
+ .ovoform-admin .fa-peace:before {
+   content: "\f67c";
+ }
+ .ovoform-admin .fa-pen:before {
+   content: "\f304";
+ }
+ .ovoform-admin .fa-pen-alt:before {
+   content: "\f305";
+ }
+ .ovoform-admin .fa-pen-fancy:before {
+   content: "\f5ac";
+ }
+ .ovoform-admin .fa-pen-nib:before {
+   content: "\f5ad";
+ }
+ .ovoform-admin .fa-pen-square:before {
+   content: "\f14b";
+ }
+ .ovoform-admin .fa-pencil-alt:before {
+   content: "\f303";
+ }
+ .ovoform-admin .fa-pencil-ruler:before {
+   content: "\f5ae";
+ }
+ .ovoform-admin .fa-penny-arcade:before {
+   content: "\f704";
+ }
+ .ovoform-admin .fa-people-arrows:before {
+   content: "\e068";
+ }
+ .ovoform-admin .fa-people-carry:before {
+   content: "\f4ce";
+ }
+ .ovoform-admin .fa-pepper-hot:before {
+   content: "\f816";
+ }
+ .ovoform-admin .fa-perbyte:before {
+   content: "\e083";
+ }
+ .ovoform-admin .fa-percent:before {
+   content: "\f295";
+ }
+ .ovoform-admin .fa-percentage:before {
+   content: "\f541";
+ }
+ .ovoform-admin .fa-periscope:before {
+   content: "\f3da";
+ }
+ .ovoform-admin .fa-person-booth:before {
+   content: "\f756";
+ }
+ .ovoform-admin .fa-phabricator:before {
+   content: "\f3db";
+ }
+ .ovoform-admin .fa-phoenix-framework:before {
+   content: "\f3dc";
+ }
+ .ovoform-admin .fa-phoenix-squadron:before {
+   content: "\f511";
+ }
+ .ovoform-admin .fa-phone:before {
+   content: "\f095";
+ }
+ .ovoform-admin .fa-phone-alt:before {
+   content: "\f879";
+ }
+ .ovoform-admin .fa-phone-slash:before {
+   content: "\f3dd";
+ }
+ .ovoform-admin .fa-phone-square:before {
+   content: "\f098";
+ }
+ .ovoform-admin .fa-phone-square-alt:before {
+   content: "\f87b";
+ }
+ .ovoform-admin .fa-phone-volume:before {
+   content: "\f2a0";
+ }
+ .ovoform-admin .fa-photo-video:before {
+   content: "\f87c";
+ }
+ .ovoform-admin .fa-php:before {
+   content: "\f457";
+ }
+ .ovoform-admin .fa-pied-piper:before {
+   content: "\f2ae";
+ }
+ .ovoform-admin .fa-pied-piper-alt:before {
+   content: "\f1a8";
+ }
+ .ovoform-admin .fa-pied-piper-hat:before {
+   content: "\f4e5";
+ }
+ .ovoform-admin .fa-pied-piper-pp:before {
+   content: "\f1a7";
+ }
+ .ovoform-admin .fa-pied-piper-square:before {
+   content: "\e01e";
+ }
+ .ovoform-admin .fa-piggy-bank:before {
+   content: "\f4d3";
+ }
+ .ovoform-admin .fa-pills:before {
+   content: "\f484";
+ }
+ .ovoform-admin .fa-pinterest:before {
+   content: "\f0d2";
+ }
+ .ovoform-admin .fa-pinterest-p:before {
+   content: "\f231";
+ }
+ .ovoform-admin .fa-pinterest-square:before {
+   content: "\f0d3";
+ }
+ .ovoform-admin .fa-pizza-slice:before {
+   content: "\f818";
+ }
+ .ovoform-admin .fa-place-of-worship:before {
+   content: "\f67f";
+ }
+ .ovoform-admin .fa-plane:before {
+   content: "\f072";
+ }
+ .ovoform-admin .fa-plane-arrival:before {
+   content: "\f5af";
+ }
+ .ovoform-admin .fa-plane-departure:before {
+   content: "\f5b0";
+ }
+ .ovoform-admin .fa-plane-slash:before {
+   content: "\e069";
+ }
+ .ovoform-admin .fa-play:before {
+   content: "\f04b";
+ }
+ .ovoform-admin .fa-play-circle:before {
+   content: "\f144";
+ }
+ .ovoform-admin .fa-playstation:before {
+   content: "\f3df";
+ }
+ .ovoform-admin .fa-plug:before {
+   content: "\f1e6";
+ }
+ .ovoform-admin .fa-plus:before {
+   content: "\f067";
+ }
+ .ovoform-admin .fa-plus-circle:before {
+   content: "\f055";
+ }
+ .ovoform-admin .fa-plus-square:before {
+   content: "\f0fe";
+ }
+ .ovoform-admin .fa-podcast:before {
+   content: "\f2ce";
+ }
+ .ovoform-admin .fa-poll:before {
+   content: "\f681";
+ }
+ .ovoform-admin .fa-poll-h:before {
+   content: "\f682";
+ }
+ .ovoform-admin .fa-poo:before {
+   content: "\f2fe";
+ }
+ .ovoform-admin .fa-poo-storm:before {
+   content: "\f75a";
+ }
+ .ovoform-admin .fa-poop:before {
+   content: "\f619";
+ }
+ .ovoform-admin .fa-portrait:before {
+   content: "\f3e0";
+ }
+ .ovoform-admin .fa-pound-sign:before {
+   content: "\f154";
+ }
+ .ovoform-admin .fa-power-off:before {
+   content: "\f011";
+ }
+ .ovoform-admin .fa-pray:before {
+   content: "\f683";
+ }
+ .ovoform-admin .fa-praying-hands:before {
+   content: "\f684";
+ }
+ .ovoform-admin .fa-prescription:before {
+   content: "\f5b1";
+ }
+ .ovoform-admin .fa-prescription-bottle:before {
+   content: "\f485";
+ }
+ .ovoform-admin .fa-prescription-bottle-alt:before {
+   content: "\f486";
+ }
+ .ovoform-admin .fa-print:before {
+   content: "\f02f";
+ }
+ .ovoform-admin .fa-procedures:before {
+   content: "\f487";
+ }
+ .ovoform-admin .fa-product-hunt:before {
+   content: "\f288";
+ }
+ .ovoform-admin .fa-project-diagram:before {
+   content: "\f542";
+ }
+ .ovoform-admin .fa-pump-medical:before {
+   content: "\e06a";
+ }
+ .ovoform-admin .fa-pump-soap:before {
+   content: "\e06b";
+ }
+ .ovoform-admin .fa-pushed:before {
+   content: "\f3e1";
+ }
+ .ovoform-admin .fa-puzzle-piece:before {
+   content: "\f12e";
+ }
+ .ovoform-admin .fa-python:before {
+   content: "\f3e2";
+ }
+ .ovoform-admin .fa-qq:before {
+   content: "\f1d6";
+ }
+ .ovoform-admin .fa-qrcode:before {
+   content: "\f029";
+ }
+ .ovoform-admin .fa-question:before {
+   content: "\f128";
+ }
+ .ovoform-admin .fa-question-circle:before {
+   content: "\f059";
+ }
+ .ovoform-admin .fa-quidditch:before {
+   content: "\f458";
+ }
+ .ovoform-admin .fa-quinscape:before {
+   content: "\f459";
+ }
+ .ovoform-admin .fa-quora:before {
+   content: "\f2c4";
+ }
+ .ovoform-admin .fa-quote-left:before {
+   content: "\f10d";
+ }
+ .ovoform-admin .fa-quote-right:before {
+   content: "\f10e";
+ }
+ .ovoform-admin .fa-quran:before {
+   content: "\f687";
+ }
+ .ovoform-admin .fa-r-project:before {
+   content: "\f4f7";
+ }
+ .ovoform-admin .fa-radiation:before {
+   content: "\f7b9";
+ }
+ .ovoform-admin .fa-radiation-alt:before {
+   content: "\f7ba";
+ }
+ .ovoform-admin .fa-rainbow:before {
+   content: "\f75b";
+ }
+ .ovoform-admin .fa-random:before {
+   content: "\f074";
+ }
+ .ovoform-admin .fa-raspberry-pi:before {
+   content: "\f7bb";
+ }
+ .ovoform-admin .fa-ravelry:before {
+   content: "\f2d9";
+ }
+ .ovoform-admin .fa-react:before {
+   content: "\f41b";
+ }
+ .ovoform-admin .fa-reacteurope:before {
+   content: "\f75d";
+ }
+ .ovoform-admin .fa-readme:before {
+   content: "\f4d5";
+ }
+ .ovoform-admin .fa-rebel:before {
+   content: "\f1d0";
+ }
+ .ovoform-admin .fa-receipt:before {
+   content: "\f543";
+ }
+ .ovoform-admin .fa-record-vinyl:before {
+   content: "\f8d9";
+ }
+ .ovoform-admin .fa-recycle:before {
+   content: "\f1b8";
+ }
+ .ovoform-admin .fa-red-river:before {
+   content: "\f3e3";
+ }
+ .ovoform-admin .fa-reddit:before {
+   content: "\f1a1";
+ }
+ .ovoform-admin .fa-reddit-alien:before {
+   content: "\f281";
+ }
+ .ovoform-admin .fa-reddit-square:before {
+   content: "\f1a2";
+ }
+ .ovoform-admin .fa-redhat:before {
+   content: "\f7bc";
+ }
+ .ovoform-admin .fa-redo:before {
+   content: "\f01e";
+ }
+ .ovoform-admin .fa-redo-alt:before {
+   content: "\f2f9";
+ }
+ .ovoform-admin .fa-registered:before {
+   content: "\f25d";
+ }
+ .ovoform-admin .fa-remove-format:before {
+   content: "\f87d";
+ }
+ .ovoform-admin .fa-renren:before {
+   content: "\f18b";
+ }
+ .ovoform-admin .fa-reply:before {
+   content: "\f3e5";
+ }
+ .ovoform-admin .fa-reply-all:before {
+   content: "\f122";
+ }
+ .ovoform-admin .fa-replyd:before {
+   content: "\f3e6";
+ }
+ .ovoform-admin .fa-republican:before {
+   content: "\f75e";
+ }
+ .ovoform-admin .fa-researchgate:before {
+   content: "\f4f8";
+ }
+ .ovoform-admin .fa-resolving:before {
+   content: "\f3e7";
+ }
+ .ovoform-admin .fa-restroom:before {
+   content: "\f7bd";
+ }
+ .ovoform-admin .fa-retweet:before {
+   content: "\f079";
+ }
+ .ovoform-admin .fa-rev:before {
+   content: "\f5b2";
+ }
+ .ovoform-admin .fa-ribbon:before {
+   content: "\f4d6";
+ }
+ .ovoform-admin .fa-ring:before {
+   content: "\f70b";
+ }
+ .ovoform-admin .fa-road:before {
+   content: "\f018";
+ }
+ .ovoform-admin .fa-robot:before {
+   content: "\f544";
+ }
+ .ovoform-admin .fa-rocket:before {
+   content: "\f135";
+ }
+ .ovoform-admin .fa-rocketchat:before {
+   content: "\f3e8";
+ }
+ .ovoform-admin .fa-rockrms:before {
+   content: "\f3e9";
+ }
+ .ovoform-admin .fa-route:before {
+   content: "\f4d7";
+ }
+ .ovoform-admin .fa-rss:before {
+   content: "\f09e";
+ }
+ .ovoform-admin .fa-rss-square:before {
+   content: "\f143";
+ }
+ .ovoform-admin .fa-ruble-sign:before {
+   content: "\f158";
+ }
+ .ovoform-admin .fa-ruler:before {
+   content: "\f545";
+ }
+ .ovoform-admin .fa-ruler-combined:before {
+   content: "\f546";
+ }
+ .ovoform-admin .fa-ruler-horizontal:before {
+   content: "\f547";
+ }
+ .ovoform-admin .fa-ruler-vertical:before {
+   content: "\f548";
+ }
+ .ovoform-admin .fa-running:before {
+   content: "\f70c";
+ }
+ .ovoform-admin .fa-rupee-sign:before {
+   content: "\f156";
+ }
+ .ovoform-admin .fa-rust:before {
+   content: "\e07a";
+ }
+ .ovoform-admin .fa-sad-cry:before {
+   content: "\f5b3";
+ }
+ .ovoform-admin .fa-sad-tear:before {
+   content: "\f5b4";
+ }
+ .ovoform-admin .fa-safari:before {
+   content: "\f267";
+ }
+ .ovoform-admin .fa-salesforce:before {
+   content: "\f83b";
+ }
+ .ovoform-admin .fa-sass:before {
+   content: "\f41e";
+ }
+ .ovoform-admin .fa-satellite:before {
+   content: "\f7bf";
+ }
+ .ovoform-admin .fa-satellite-dish:before {
+   content: "\f7c0";
+ }
+ .ovoform-admin .fa-save:before {
+   content: "\f0c7";
+ }
+ .ovoform-admin .fa-schlix:before {
+   content: "\f3ea";
+ }
+ .ovoform-admin .fa-school:before {
+   content: "\f549";
+ }
+ .ovoform-admin .fa-screwdriver:before {
+   content: "\f54a";
+ }
+ .ovoform-admin .fa-scribd:before {
+   content: "\f28a";
+ }
+ .ovoform-admin .fa-scroll:before {
+   content: "\f70e";
+ }
+ .ovoform-admin .fa-sd-card:before {
+   content: "\f7c2";
+ }
+ .ovoform-admin .fa-search:before {
+   content: "\f002";
+ }
+ .ovoform-admin .fa-search-dollar:before {
+   content: "\f688";
+ }
+ .ovoform-admin .fa-search-location:before {
+   content: "\f689";
+ }
+ .ovoform-admin .fa-search-minus:before {
+   content: "\f010";
+ }
+ .ovoform-admin .fa-search-plus:before {
+   content: "\f00e";
+ }
+ .ovoform-admin .fa-searchengin:before {
+   content: "\f3eb";
+ }
+ .ovoform-admin .fa-seedling:before {
+   content: "\f4d8";
+ }
+ .ovoform-admin .fa-sellcast:before {
+   content: "\f2da";
+ }
+ .ovoform-admin .fa-sellsy:before {
+   content: "\f213";
+ }
+ .ovoform-admin .fa-server:before {
+   content: "\f233";
+ }
+ .ovoform-admin .fa-servicestack:before {
+   content: "\f3ec";
+ }
+ .ovoform-admin .fa-shapes:before {
+   content: "\f61f";
+ }
+ .ovoform-admin .fa-share:before {
+   content: "\f064";
+ }
+ .ovoform-admin .fa-share-alt:before {
+   content: "\f1e0";
+ }
+ .ovoform-admin .fa-share-alt-square:before {
+   content: "\f1e1";
+ }
+ .ovoform-admin .fa-share-square:before {
+   content: "\f14d";
+ }
+ .ovoform-admin .fa-shekel-sign:before {
+   content: "\f20b";
+ }
+ .ovoform-admin .fa-shield-alt:before {
+   content: "\f3ed";
+ }
+ .ovoform-admin .fa-shield-virus:before {
+   content: "\e06c";
+ }
+ .ovoform-admin .fa-ship:before {
+   content: "\f21a";
+ }
+ .ovoform-admin .fa-shipping-fast:before {
+   content: "\f48b";
+ }
+ .ovoform-admin .fa-shirtsinbulk:before {
+   content: "\f214";
+ }
+ .ovoform-admin .fa-shoe-prints:before {
+   content: "\f54b";
+ }
+ .ovoform-admin .fa-shopify:before {
+   content: "\e057";
+ }
+ .ovoform-admin .fa-shopping-bag:before {
+   content: "\f290";
+ }
+ .ovoform-admin .fa-shopping-basket:before {
+   content: "\f291";
+ }
+ .ovoform-admin .fa-shopping-cart:before {
+   content: "\f07a";
+ }
+ .ovoform-admin .fa-shopware:before {
+   content: "\f5b5";
+ }
+ .ovoform-admin .fa-shower:before {
+   content: "\f2cc";
+ }
+ .ovoform-admin .fa-shuttle-van:before {
+   content: "\f5b6";
+ }
+ .ovoform-admin .fa-sign:before {
+   content: "\f4d9";
+ }
+ .ovoform-admin .fa-sign-in-alt:before {
+   content: "\f2f6";
+ }
+ .ovoform-admin .fa-sign-language:before {
+   content: "\f2a7";
+ }
+ .ovoform-admin .fa-sign-out-alt:before {
+   content: "\f2f5";
+ }
+ .ovoform-admin .fa-signal:before {
+   content: "\f012";
+ }
+ .ovoform-admin .fa-signature:before {
+   content: "\f5b7";
+ }
+ .ovoform-admin .fa-sim-card:before {
+   content: "\f7c4";
+ }
+ .ovoform-admin .fa-simplybuilt:before {
+   content: "\f215";
+ }
+ .ovoform-admin .fa-sink:before {
+   content: "\e06d";
+ }
+ .ovoform-admin .fa-sistrix:before {
+   content: "\f3ee";
+ }
+ .ovoform-admin .fa-sitemap:before {
+   content: "\f0e8";
+ }
+ .ovoform-admin .fa-sith:before {
+   content: "\f512";
+ }
+ .ovoform-admin .fa-skating:before {
+   content: "\f7c5";
+ }
+ .ovoform-admin .fa-sketch:before {
+   content: "\f7c6";
+ }
+ .ovoform-admin .fa-skiing:before {
+   content: "\f7c9";
+ }
+ .ovoform-admin .fa-skiing-nordic:before {
+   content: "\f7ca";
+ }
+ .ovoform-admin .fa-skull:before {
+   content: "\f54c";
+ }
+ .ovoform-admin .fa-skull-crossbones:before {
+   content: "\f714";
+ }
+ .ovoform-admin .fa-skyatlas:before {
+   content: "\f216";
+ }
+ .ovoform-admin .fa-skype:before {
+   content: "\f17e";
+ }
+ .ovoform-admin .fa-slack:before {
+   content: "\f198";
+ }
+ .ovoform-admin .fa-slack-hash:before {
+   content: "\f3ef";
+ }
+ .ovoform-admin .fa-slash:before {
+   content: "\f715";
+ }
+ .ovoform-admin .fa-sleigh:before {
+   content: "\f7cc";
+ }
+ .ovoform-admin .fa-sliders-h:before {
+   content: "\f1de";
+ }
+ .ovoform-admin .fa-slideshare:before {
+   content: "\f1e7";
+ }
+ .ovoform-admin .fa-smile:before {
+   content: "\f118";
+ }
+ .ovoform-admin .fa-smile-beam:before {
+   content: "\f5b8";
+ }
+ .ovoform-admin .fa-smile-wink:before {
+   content: "\f4da";
+ }
+ .ovoform-admin .fa-smog:before {
+   content: "\f75f";
+ }
+ .ovoform-admin .fa-smoking:before {
+   content: "\f48d";
+ }
+ .ovoform-admin .fa-smoking-ban:before {
+   content: "\f54d";
+ }
+ .ovoform-admin .fa-sms:before {
+   content: "\f7cd";
+ }
+ .ovoform-admin .fa-snapchat:before {
+   content: "\f2ab";
+ }
+ .ovoform-admin .fa-snapchat-ghost:before {
+   content: "\f2ac";
+ }
+ .ovoform-admin .fa-snapchat-square:before {
+   content: "\f2ad";
+ }
+ .ovoform-admin .fa-snowboarding:before {
+   content: "\f7ce";
+ }
+ .ovoform-admin .fa-snowflake:before {
+   content: "\f2dc";
+ }
+ .ovoform-admin .fa-snowman:before {
+   content: "\f7d0";
+ }
+ .ovoform-admin .fa-snowplow:before {
+   content: "\f7d2";
+ }
+ .ovoform-admin .fa-soap:before {
+   content: "\e06e";
+ }
+ .ovoform-admin .fa-socks:before {
+   content: "\f696";
+ }
+ .ovoform-admin .fa-solar-panel:before {
+   content: "\f5ba";
+ }
+ .ovoform-admin .fa-sort:before {
+   content: "\f0dc";
+ }
+ .ovoform-admin .fa-sort-alpha-down:before {
+   content: "\f15d";
+ }
+ .ovoform-admin .fa-sort-alpha-down-alt:before {
+   content: "\f881";
+ }
+ .ovoform-admin .fa-sort-alpha-up:before {
+   content: "\f15e";
+ }
+ .ovoform-admin .fa-sort-alpha-up-alt:before {
+   content: "\f882";
+ }
+ .ovoform-admin .fa-sort-amount-down:before {
+   content: "\f160";
+ }
+ .ovoform-admin .fa-sort-amount-down-alt:before {
+   content: "\f884";
+ }
+ .ovoform-admin .fa-sort-amount-up:before {
+   content: "\f161";
+ }
+ .ovoform-admin .fa-sort-amount-up-alt:before {
+   content: "\f885";
+ }
+ .ovoform-admin .fa-sort-down:before {
+   content: "\f0dd";
+ }
+ .ovoform-admin .fa-sort-numeric-down:before {
+   content: "\f162";
+ }
+ .ovoform-admin .fa-sort-numeric-down-alt:before {
+   content: "\f886";
+ }
+ .ovoform-admin .fa-sort-numeric-up:before {
+   content: "\f163";
+ }
+ .ovoform-admin .fa-sort-numeric-up-alt:before {
+   content: "\f887";
+ }
+ .ovoform-admin .fa-sort-up:before {
+   content: "\f0de";
+ }
+ .ovoform-admin .fa-soundcloud:before {
+   content: "\f1be";
+ }
+ .ovoform-admin .fa-sourcetree:before {
+   content: "\f7d3";
+ }
+ .ovoform-admin .fa-spa:before {
+   content: "\f5bb";
+ }
+ .ovoform-admin .fa-space-shuttle:before {
+   content: "\f197";
+ }
+ .ovoform-admin .fa-speakap:before {
+   content: "\f3f3";
+ }
+ .ovoform-admin .fa-speaker-deck:before {
+   content: "\f83c";
+ }
+ .ovoform-admin .fa-spell-check:before {
+   content: "\f891";
+ }
+ .ovoform-admin .fa-spider:before {
+   content: "\f717";
+ }
+ .ovoform-admin .fa-spinner:before {
+   content: "\f110";
+ }
+ .ovoform-admin .fa-splotch:before {
+   content: "\f5bc";
+ }
+ .ovoform-admin .fa-spotify:before {
+   content: "\f1bc";
+ }
+ .ovoform-admin .fa-spray-can:before {
+   content: "\f5bd";
+ }
+ .ovoform-admin .fa-square:before {
+   content: "\f0c8";
+ }
+ .ovoform-admin .fa-square-full:before {
+   content: "\f45c";
+ }
+ .ovoform-admin .fa-square-root-alt:before {
+   content: "\f698";
+ }
+ .ovoform-admin .fa-squarespace:before {
+   content: "\f5be";
+ }
+ .ovoform-admin .fa-stack-exchange:before {
+   content: "\f18d";
+ }
+ .ovoform-admin .fa-stack-overflow:before {
+   content: "\f16c";
+ }
+ .ovoform-admin .fa-stackpath:before {
+   content: "\f842";
+ }
+ .ovoform-admin .fa-stamp:before {
+   content: "\f5bf";
+ }
+ .ovoform-admin .fa-star:before {
+   content: "\f005";
+ }
+ .ovoform-admin .fa-star-and-crescent:before {
+   content: "\f699";
+ }
+ .ovoform-admin .fa-star-half:before {
+   content: "\f089";
+ }
+ .ovoform-admin .fa-star-half-alt:before {
+   content: "\f5c0";
+ }
+ .ovoform-admin .fa-star-of-david:before {
+   content: "\f69a";
+ }
+ .ovoform-admin .fa-star-of-life:before {
+   content: "\f621";
+ }
+ .ovoform-admin .fa-staylinked:before {
+   content: "\f3f5";
+ }
+ .ovoform-admin .fa-steam:before {
+   content: "\f1b6";
+ }
+ .ovoform-admin .fa-steam-square:before {
+   content: "\f1b7";
+ }
+ .ovoform-admin .fa-steam-symbol:before {
+   content: "\f3f6";
+ }
+ .ovoform-admin .fa-step-backward:before {
+   content: "\f048";
+ }
+ .ovoform-admin .fa-step-forward:before {
+   content: "\f051";
+ }
+ .ovoform-admin .fa-stethoscope:before {
+   content: "\f0f1";
+ }
+ .ovoform-admin .fa-sticker-mule:before {
+   content: "\f3f7";
+ }
+ .ovoform-admin .fa-sticky-note:before {
+   content: "\f249";
+ }
+ .ovoform-admin .fa-stop:before {
+   content: "\f04d";
+ }
+ .ovoform-admin .fa-stop-circle:before {
+   content: "\f28d";
+ }
+ .ovoform-admin .fa-stopwatch:before {
+   content: "\f2f2";
+ }
+ .ovoform-admin .fa-stopwatch-20:before {
+   content: "\e06f";
+ }
+ .ovoform-admin .fa-store:before {
+   content: "\f54e";
+ }
+ .ovoform-admin .fa-store-alt:before {
+   content: "\f54f";
+ }
+ .ovoform-admin .fa-store-alt-slash:before {
+   content: "\e070";
+ }
+ .ovoform-admin .fa-store-slash:before {
+   content: "\e071";
+ }
+ .ovoform-admin .fa-strava:before {
+   content: "\f428";
+ }
+ .ovoform-admin .fa-stream:before {
+   content: "\f550";
+ }
+ .ovoform-admin .fa-street-view:before {
+   content: "\f21d";
+ }
+ .ovoform-admin .fa-strikethrough:before {
+   content: "\f0cc";
+ }
+ .ovoform-admin .fa-stripe:before {
+   content: "\f429";
+ }
+ .ovoform-admin .fa-stripe-s:before {
+   content: "\f42a";
+ }
+ .ovoform-admin .fa-stroopwafel:before {
+   content: "\f551";
+ }
+ .ovoform-admin .fa-studiovinari:before {
+   content: "\f3f8";
+ }
+ .ovoform-admin .fa-stumbleupon:before {
+   content: "\f1a4";
+ }
+ .ovoform-admin .fa-stumbleupon-circle:before {
+   content: "\f1a3";
+ }
+ .ovoform-admin .fa-subscript:before {
+   content: "\f12c";
+ }
+ .ovoform-admin .fa-subway:before {
+   content: "\f239";
+ }
+ .ovoform-admin .fa-suitcase:before {
+   content: "\f0f2";
+ }
+ .ovoform-admin .fa-suitcase-rolling:before {
+   content: "\f5c1";
+ }
+ .ovoform-admin .fa-sun:before {
+   content: "\f185";
+ }
+ .ovoform-admin .fa-superpowers:before {
+   content: "\f2dd";
+ }
+ .ovoform-admin .fa-superscript:before {
+   content: "\f12b";
+ }
+ .ovoform-admin .fa-supple:before {
+   content: "\f3f9";
+ }
+ .ovoform-admin .fa-surprise:before {
+   content: "\f5c2";
+ }
+ .ovoform-admin .fa-suse:before {
+   content: "\f7d6";
+ }
+ .ovoform-admin .fa-swatchbook:before {
+   content: "\f5c3";
+ }
+ .ovoform-admin .fa-swift:before {
+   content: "\f8e1";
+ }
+ .ovoform-admin .fa-swimmer:before {
+   content: "\f5c4";
+ }
+ .ovoform-admin .fa-swimming-pool:before {
+   content: "\f5c5";
+ }
+ .ovoform-admin .fa-symfony:before {
+   content: "\f83d";
+ }
+ .ovoform-admin .fa-synagogue:before {
+   content: "\f69b";
+ }
+ .ovoform-admin .fa-sync:before {
+   content: "\f021";
+ }
+ .ovoform-admin .fa-sync-alt:before {
+   content: "\f2f1";
+ }
+ .ovoform-admin .fa-syringe:before {
+   content: "\f48e";
+ }
+ .ovoform-admin .fa-table:before {
+   content: "\f0ce";
+ }
+ .ovoform-admin .fa-table-tennis:before {
+   content: "\f45d";
+ }
+ .ovoform-admin .fa-tablet:before {
+   content: "\f10a";
+ }
+ .ovoform-admin .fa-tablet-alt:before {
+   content: "\f3fa";
+ }
+ .ovoform-admin .fa-tablets:before {
+   content: "\f490";
+ }
+ .ovoform-admin .fa-tachometer-alt:before {
+   content: "\f3fd";
+ }
+ .ovoform-admin .fa-tag:before {
+   content: "\f02b";
+ }
+ .ovoform-admin .fa-tags:before {
+   content: "\f02c";
+ }
+ .ovoform-admin .fa-tape:before {
+   content: "\f4db";
+ }
+ .ovoform-admin .fa-tasks:before {
+   content: "\f0ae";
+ }
+ .ovoform-admin .fa-taxi:before {
+   content: "\f1ba";
+ }
+ .ovoform-admin .fa-teamspeak:before {
+   content: "\f4f9";
+ }
+ .ovoform-admin .fa-teeth:before {
+   content: "\f62e";
+ }
+ .ovoform-admin .fa-teeth-open:before {
+   content: "\f62f";
+ }
+ .ovoform-admin .fa-telegram:before {
+   content: "\f2c6";
+ }
+ .ovoform-admin .fa-telegram-plane:before {
+   content: "\f3fe";
+ }
+ .ovoform-admin .fa-temperature-high:before {
+   content: "\f769";
+ }
+ .ovoform-admin .fa-temperature-low:before {
+   content: "\f76b";
+ }
+ .ovoform-admin .fa-tencent-weibo:before {
+   content: "\f1d5";
+ }
+ .ovoform-admin .fa-tenge:before {
+   content: "\f7d7";
+ }
+ .ovoform-admin .fa-terminal:before {
+   content: "\f120";
+ }
+ .ovoform-admin .fa-text-height:before {
+   content: "\f034";
+ }
+ .ovoform-admin .fa-text-width:before {
+   content: "\f035";
+ }
+ .ovoform-admin .fa-th:before {
+   content: "\f00a";
+ }
+ .ovoform-admin .fa-th-large:before {
+   content: "\f009";
+ }
+ .ovoform-admin .fa-th-list:before {
+   content: "\f00b";
+ }
+ .ovoform-admin .fa-the-red-yeti:before {
+   content: "\f69d";
+ }
+ .ovoform-admin .fa-theater-masks:before {
+   content: "\f630";
+ }
+ .ovoform-admin .fa-themeco:before {
+   content: "\f5c6";
+ }
+ .ovoform-admin .fa-themeisle:before {
+   content: "\f2b2";
+ }
+ .ovoform-admin .fa-thermometer:before {
+   content: "\f491";
+ }
+ .ovoform-admin .fa-thermometer-empty:before {
+   content: "\f2cb";
+ }
+ .ovoform-admin .fa-thermometer-full:before {
+   content: "\f2c7";
+ }
+ .ovoform-admin .fa-thermometer-half:before {
+   content: "\f2c9";
+ }
+ .ovoform-admin .fa-thermometer-quarter:before {
+   content: "\f2ca";
+ }
+ .ovoform-admin .fa-thermometer-three-quarters:before {
+   content: "\f2c8";
+ }
+ .ovoform-admin .fa-think-peaks:before {
+   content: "\f731";
+ }
+ .ovoform-admin .fa-thumbs-down:before {
+   content: "\f165";
+ }
+ .ovoform-admin .fa-thumbs-up:before {
+   content: "\f164";
+ }
+ .ovoform-admin .fa-thumbtack:before {
+   content: "\f08d";
+ }
+ .ovoform-admin .fa-ticket-alt:before {
+   content: "\f3ff";
+ }
+ .ovoform-admin .fa-tiktok:before {
+   content: "\e07b";
+ }
+ .ovoform-admin .fa-times:before {
+   content: "\f00d";
+ }
+ .ovoform-admin .fa-times-circle:before {
+   content: "\f057";
+ }
+ .ovoform-admin .fa-tint:before {
+   content: "\f043";
+ }
+ .ovoform-admin .fa-tint-slash:before {
+   content: "\f5c7";
+ }
+ .ovoform-admin .fa-tired:before {
+   content: "\f5c8";
+ }
+ .ovoform-admin .fa-toggle-off:before {
+   content: "\f204";
+ }
+ .ovoform-admin .fa-toggle-on:before {
+   content: "\f205";
+ }
+ .ovoform-admin .fa-toilet:before {
+   content: "\f7d8";
+ }
+ .ovoform-admin .fa-toilet-paper:before {
+   content: "\f71e";
+ }
+ .ovoform-admin .fa-toilet-paper-slash:before {
+   content: "\e072";
+ }
+ .ovoform-admin .fa-toolbox:before {
+   content: "\f552";
+ }
+ .ovoform-admin .fa-tools:before {
+   content: "\f7d9";
+ }
+ .ovoform-admin .fa-tooth:before {
+   content: "\f5c9";
+ }
+ .ovoform-admin .fa-torah:before {
+   content: "\f6a0";
+ }
+ .ovoform-admin .fa-torii-gate:before {
+   content: "\f6a1";
+ }
+ .ovoform-admin .fa-tractor:before {
+   content: "\f722";
+ }
+ .ovoform-admin .fa-trade-federation:before {
+   content: "\f513";
+ }
+ .ovoform-admin .fa-trademark:before {
+   content: "\f25c";
+ }
+ .ovoform-admin .fa-traffic-light:before {
+   content: "\f637";
+ }
+ .ovoform-admin .fa-trailer:before {
+   content: "\e041";
+ }
+ .ovoform-admin .fa-train:before {
+   content: "\f238";
+ }
+ .ovoform-admin .fa-tram:before {
+   content: "\f7da";
+ }
+ .ovoform-admin .fa-transgender:before {
+   content: "\f224";
+ }
+ .ovoform-admin .fa-transgender-alt:before {
+   content: "\f225";
+ }
+ .ovoform-admin .fa-trash:before {
+   content: "\f1f8";
+ }
+ .ovoform-admin .fa-trash-alt:before {
+   content: "\f2ed";
+ }
+ .ovoform-admin .fa-trash-restore:before {
+   content: "\f829";
+ }
+ .ovoform-admin .fa-trash-restore-alt:before {
+   content: "\f82a";
+ }
+ .ovoform-admin .fa-tree:before {
+   content: "\f1bb";
+ }
+ .ovoform-admin .fa-trello:before {
+   content: "\f181";
+ }
+ .ovoform-admin .fa-trophy:before {
+   content: "\f091";
+ }
+ .ovoform-admin .fa-truck:before {
+   content: "\f0d1";
+ }
+ .ovoform-admin .fa-truck-loading:before {
+   content: "\f4de";
+ }
+ .ovoform-admin .fa-truck-monster:before {
+   content: "\f63b";
+ }
+ .ovoform-admin .fa-truck-moving:before {
+   content: "\f4df";
+ }
+ .ovoform-admin .fa-truck-pickup:before {
+   content: "\f63c";
+ }
+ .ovoform-admin .fa-tshirt:before {
+   content: "\f553";
+ }
+ .ovoform-admin .fa-tty:before {
+   content: "\f1e4";
+ }
+ .ovoform-admin .fa-tumblr:before {
+   content: "\f173";
+ }
+ .ovoform-admin .fa-tumblr-square:before {
+   content: "\f174";
+ }
+ .ovoform-admin .fa-tv:before {
+   content: "\f26c";
+ }
+ .ovoform-admin .fa-twitch:before {
+   content: "\f1e8";
+ }
+ .ovoform-admin .fa-twitter:before {
+   content: "\f099";
+ }
+ .ovoform-admin .fa-twitter-square:before {
+   content: "\f081";
+ }
+ .ovoform-admin .fa-typo3:before {
+   content: "\f42b";
+ }
+ .ovoform-admin .fa-uber:before {
+   content: "\f402";
+ }
+ .ovoform-admin .fa-ubuntu:before {
+   content: "\f7df";
+ }
+ .ovoform-admin .fa-uikit:before {
+   content: "\f403";
+ }
+ .ovoform-admin .fa-umbraco:before {
+   content: "\f8e8";
+ }
+ .ovoform-admin .fa-umbrella:before {
+   content: "\f0e9";
+ }
+ .ovoform-admin .fa-umbrella-beach:before {
+   content: "\f5ca";
+ }
+ .ovoform-admin .fa-uncharted:before {
+   content: "\e084";
+ }
+ .ovoform-admin .fa-underline:before {
+   content: "\f0cd";
+ }
+ .ovoform-admin .fa-undo:before {
+   content: "\f0e2";
+ }
+ .ovoform-admin .fa-undo-alt:before {
+   content: "\f2ea";
+ }
+ .ovoform-admin .fa-uniregistry:before {
+   content: "\f404";
+ }
+ .ovoform-admin .fa-unity:before {
+   content: "\e049";
+ }
+ .ovoform-admin .fa-universal-access:before {
+   content: "\f29a";
+ }
+ .ovoform-admin .fa-university:before {
+   content: "\f19c";
+ }
+ .ovoform-admin .fa-unlink:before {
+   content: "\f127";
+ }
+ .ovoform-admin .fa-unlock:before {
+   content: "\f09c";
+ }
+ .ovoform-admin .fa-unlock-alt:before {
+   content: "\f13e";
+ }
+ .ovoform-admin .fa-unsplash:before {
+   content: "\e07c";
+ }
+ .ovoform-admin .fa-untappd:before {
+   content: "\f405";
+ }
+ .ovoform-admin .fa-upload:before {
+   content: "\f093";
+ }
+ .ovoform-admin .fa-ups:before {
+   content: "\f7e0";
+ }
+ .ovoform-admin .fa-usb:before {
+   content: "\f287";
+ }
+ .ovoform-admin .fa-user:before {
+   content: "\f007";
+ }
+ .ovoform-admin .fa-user-alt:before {
+   content: "\f406";
+ }
+ .ovoform-admin .fa-user-alt-slash:before {
+   content: "\f4fa";
+ }
+ .ovoform-admin .fa-user-astronaut:before {
+   content: "\f4fb";
+ }
+ .ovoform-admin .fa-user-check:before {
+   content: "\f4fc";
+ }
+ .ovoform-admin .fa-user-circle:before {
+   content: "\f2bd";
+ }
+ .ovoform-admin .fa-user-clock:before {
+   content: "\f4fd";
+ }
+ .ovoform-admin .fa-user-cog:before {
+   content: "\f4fe";
+ }
+ .ovoform-admin .fa-user-edit:before {
+   content: "\f4ff";
+ }
+ .ovoform-admin .fa-user-friends:before {
+   content: "\f500";
+ }
+ .ovoform-admin .fa-user-graduate:before {
+   content: "\f501";
+ }
+ .ovoform-admin .fa-user-injured:before {
+   content: "\f728";
+ }
+ .ovoform-admin .fa-user-lock:before {
+   content: "\f502";
+ }
+ .ovoform-admin .fa-user-md:before {
+   content: "\f0f0";
+ }
+ .ovoform-admin .fa-user-minus:before {
+   content: "\f503";
+ }
+ .ovoform-admin .fa-user-ninja:before {
+   content: "\f504";
+ }
+ .ovoform-admin .fa-user-nurse:before {
+   content: "\f82f";
+ }
+ .ovoform-admin .fa-user-plus:before {
+   content: "\f234";
+ }
+ .ovoform-admin .fa-user-secret:before {
+   content: "\f21b";
+ }
+ .ovoform-admin .fa-user-shield:before {
+   content: "\f505";
+ }
+ .ovoform-admin .fa-user-slash:before {
+   content: "\f506";
+ }
+ .ovoform-admin .fa-user-tag:before {
+   content: "\f507";
+ }
+ .ovoform-admin .fa-user-tie:before {
+   content: "\f508";
+ }
+ .ovoform-admin .fa-user-times:before {
+   content: "\f235";
+ }
+ .ovoform-admin .fa-users:before {
+   content: "\f0c0";
+ }
+ .ovoform-admin .fa-users-cog:before {
+   content: "\f509";
+ }
+ .ovoform-admin .fa-users-slash:before {
+   content: "\e073";
+ }
+ .ovoform-admin .fa-usps:before {
+   content: "\f7e1";
+ }
+ .ovoform-admin .fa-ussunnah:before {
+   content: "\f407";
+ }
+ .ovoform-admin .fa-utensil-spoon:before {
+   content: "\f2e5";
+ }
+ .ovoform-admin .fa-utensils:before {
+   content: "\f2e7";
+ }
+ .ovoform-admin .fa-vaadin:before {
+   content: "\f408";
+ }
+ .ovoform-admin .fa-vector-square:before {
+   content: "\f5cb";
+ }
+ .ovoform-admin .fa-venus:before {
+   content: "\f221";
+ }
+ .ovoform-admin .fa-venus-double:before {
+   content: "\f226";
+ }
+ .ovoform-admin .fa-venus-mars:before {
+   content: "\f228";
+ }
+ .ovoform-admin .fa-vest:before {
+   content: "\e085";
+ }
+ .ovoform-admin .fa-vest-patches:before {
+   content: "\e086";
+ }
+ .ovoform-admin .fa-viacoin:before {
+   content: "\f237";
+ }
+ .ovoform-admin .fa-viadeo:before {
+   content: "\f2a9";
+ }
+ .ovoform-admin .fa-viadeo-square:before {
+   content: "\f2aa";
+ }
+ .ovoform-admin .fa-vial:before {
+   content: "\f492";
+ }
+ .ovoform-admin .fa-vials:before {
+   content: "\f493";
+ }
+ .ovoform-admin .fa-viber:before {
+   content: "\f409";
+ }
+ .ovoform-admin .fa-video:before {
+   content: "\f03d";
+ }
+ .ovoform-admin .fa-video-slash:before {
+   content: "\f4e2";
+ }
+ .ovoform-admin .fa-vihara:before {
+   content: "\f6a7";
+ }
+ .ovoform-admin .fa-vimeo:before {
+   content: "\f40a";
+ }
+ .ovoform-admin .fa-vimeo-square:before {
+   content: "\f194";
+ }
+ .ovoform-admin .fa-vimeo-v:before {
+   content: "\f27d";
+ }
+ .ovoform-admin .fa-vine:before {
+   content: "\f1ca";
+ }
+ .ovoform-admin .fa-virus:before {
+   content: "\e074";
+ }
+ .ovoform-admin .fa-virus-slash:before {
+   content: "\e075";
+ }
+ .ovoform-admin .fa-viruses:before {
+   content: "\e076";
+ }
+ .ovoform-admin .fa-vk:before {
+   content: "\f189";
+ }
+ .ovoform-admin .fa-vnv:before {
+   content: "\f40b";
+ }
+ .ovoform-admin .fa-voicemail:before {
+   content: "\f897";
+ }
+ .ovoform-admin .fa-volleyball-ball:before {
+   content: "\f45f";
+ }
+ .ovoform-admin .fa-volume-down:before {
+   content: "\f027";
+ }
+ .ovoform-admin .fa-volume-mute:before {
+   content: "\f6a9";
+ }
+ .ovoform-admin .fa-volume-off:before {
+   content: "\f026";
+ }
+ .ovoform-admin .fa-volume-up:before {
+   content: "\f028";
+ }
+ .ovoform-admin .fa-vote-yea:before {
+   content: "\f772";
+ }
+ .ovoform-admin .fa-vr-cardboard:before {
+   content: "\f729";
+ }
+ .ovoform-admin .fa-vuejs:before {
+   content: "\f41f";
+ }
+ .ovoform-admin .fa-walking:before {
+   content: "\f554";
+ }
+ .ovoform-admin .fa-wallet:before {
+   content: "\f555";
+ }
+ .ovoform-admin .fa-warehouse:before {
+   content: "\f494";
+ }
+ .ovoform-admin .fa-watchman-monitoring:before {
+   content: "\e087";
+ }
+ .ovoform-admin .fa-water:before {
+   content: "\f773";
+ }
+ .ovoform-admin .fa-wave-square:before {
+   content: "\f83e";
+ }
+ .ovoform-admin .fa-waze:before {
+   content: "\f83f";
+ }
+ .ovoform-admin .fa-weebly:before {
+   content: "\f5cc";
+ }
+ .ovoform-admin .fa-weibo:before {
+   content: "\f18a";
+ }
+ .ovoform-admin .fa-weight:before {
+   content: "\f496";
+ }
+ .ovoform-admin .fa-weight-hanging:before {
+   content: "\f5cd";
+ }
+ .ovoform-admin .fa-weixin:before {
+   content: "\f1d7";
+ }
+ .ovoform-admin .fa-whatsapp:before {
+   content: "\f232";
+ }
+ .ovoform-admin .fa-whatsapp-square:before {
+   content: "\f40c";
+ }
+ .ovoform-admin .fa-wheelchair:before {
+   content: "\f193";
+ }
+ .ovoform-admin .fa-whmcs:before {
+   content: "\f40d";
+ }
+ .ovoform-admin .fa-wifi:before {
+   content: "\f1eb";
+ }
+ .ovoform-admin .fa-wikipedia-w:before {
+   content: "\f266";
+ }
+ .ovoform-admin .fa-wind:before {
+   content: "\f72e";
+ }
+ .ovoform-admin .fa-window-close:before {
+   content: "\f410";
+ }
+ .ovoform-admin .fa-window-maximize:before {
+   content: "\f2d0";
+ }
+ .ovoform-admin .fa-window-minimize:before {
+   content: "\f2d1";
+ }
+ .ovoform-admin .fa-window-restore:before {
+   content: "\f2d2";
+ }
+ .ovoform-admin .fa-windows:before {
+   content: "\f17a";
+ }
+ .ovoform-admin .fa-wine-bottle:before {
+   content: "\f72f";
+ }
+ .ovoform-admin .fa-wine-glass:before {
+   content: "\f4e3";
+ }
+ .ovoform-admin .fa-wine-glass-alt:before {
+   content: "\f5ce";
+ }
+ .ovoform-admin .fa-wix:before {
+   content: "\f5cf";
+ }
+ .ovoform-admin .fa-wizards-of-the-coast:before {
+   content: "\f730";
+ }
+ .ovoform-admin .fa-wodu:before {
+   content: "\e088";
+ }
+ .ovoform-admin .fa-wolf-pack-battalion:before {
+   content: "\f514";
+ }
+ .ovoform-admin .fa-won-sign:before {
+   content: "\f159";
+ }
+ .ovoform-admin .fa-wordpress:before {
+   content: "\f19a";
+ }
+ .ovoform-admin .fa-wordpress-simple:before {
+   content: "\f411";
+ }
+ .ovoform-admin .fa-wpbeginner:before {
+   content: "\f297";
+ }
+ .ovoform-admin .fa-wpexplorer:before {
+   content: "\f2de";
+ }
+ .ovoform-admin .fa-wpforms:before {
+   content: "\f298";
+ }
+ .ovoform-admin .fa-wpressr:before {
+   content: "\f3e4";
+ }
+ .ovoform-admin .fa-wrench:before {
+   content: "\f0ad";
+ }
+ .ovoform-admin .fa-x-ray:before {
+   content: "\f497";
+ }
+ .ovoform-admin .fa-xbox:before {
+   content: "\f412";
+ }
+ .ovoform-admin .fa-xing:before {
+   content: "\f168";
+ }
+ .ovoform-admin .fa-xing-square:before {
+   content: "\f169";
+ }
+ .ovoform-admin .fa-y-combinator:before {
+   content: "\f23b";
+ }
+ .ovoform-admin .fa-yahoo:before {
+   content: "\f19e";
+ }
+ .ovoform-admin .fa-yammer:before {
+   content: "\f840";
+ }
+ .ovoform-admin .fa-yandex:before {
+   content: "\f413";
+ }
+ .ovoform-admin .fa-yandex-international:before {
+   content: "\f414";
+ }
+ .ovoform-admin .fa-yarn:before {
+   content: "\f7e3";
+ }
+ .ovoform-admin .fa-yelp:before {
+   content: "\f1e9";
+ }
+ .ovoform-admin .fa-yen-sign:before {
+   content: "\f157";
+ }
+ .ovoform-admin .fa-yin-yang:before {
+   content: "\f6ad";
+ }
+ .ovoform-admin .fa-yoast:before {
+   content: "\f2b1";
+ }
+ .ovoform-admin .fa-youtube:before {
+   content: "\f167";
+ }
+ .ovoform-admin .fa-youtube-square:before {
+   content: "\f431";
+ }
+ .ovoform-admin .fa-zhihu:before {
+   content: "\f63f";
+ }
+ .ovoform-admin .sr-only {
+   border: 0;
+   clip: rect(0, 0, 0, 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+ }
+ .ovoform-admin .sr-only-focusable:active,
+ .ovoform-admin .sr-only-focusable:focus {
+   clip: auto;
+   height: auto;
+   margin: 0;
+   overflow: visible;
+   position: static;
+   width: auto;
+ }
+ @font-face {
+   font-family: "Font Awesome 5 Brands";
+   font-style: normal;
+   font-weight: 400;
+   font-display: block;
+   src: url(../webfonts/fa-brands-400.eot);
+   src: url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
+ }
+ .ovoform-admin .fab {
+   font-family: "Font Awesome 5 Brands";
+ }
+ @font-face {
+   font-family: "Font Awesome 5 Free";
+   font-style: normal;
+   font-weight: 400;
+   font-display: block;
+   src: url(../webfonts/fa-regular-400.eot);
+   src: url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.woff) format("woff"), url(../webfonts/fa-regular-400.ttf) format("truetype"), url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");
+ }
+ .ovoform-admin .fab,
+ .ovoform-admin .far {
+   font-weight: 400;
+ }
+ @font-face {
+   font-family: "Font Awesome 5 Free";
+   font-style: normal;
+   font-weight: 900;
+   font-display: block;
+   src: url(../webfonts/fa-solid-900.eot);
+   src: url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-solid-900.woff2) format("woff2"), url(../webfonts/fa-solid-900.woff) format("woff"), url(../webfonts/fa-solid-900.ttf) format("truetype"), url(../webfonts/fa-solid-900.svg#fontawesome) format("svg");
+ }
+ .ovoform-admin .fa,
+ .ovoform-admin .far,
+ .ovoform-admin .fas {
+   font-family: "Font Awesome 5 Free";
+ }
+ .ovoform-admin .fa,
+ .ovoform-admin .fas {
+   font-weight: 900;
+ }

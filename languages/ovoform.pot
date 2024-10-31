@@ -1,0 +1,366 @@
+# Copyright (C) 2023 OVOForm
+# This file is distributed under the same license as the OVOForm package.
+msgid ""
+msgstr ""
+"Project-Id-Version: OVOForm 1.0"
+"POT-Creation-Date: 2023-08-22 14:27:46+00:00"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=UTF-8"
+"Content-Transfer-Encoding: 8bit"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE"
+
+#: views/partials/confirmation.php:5
+msgid "Confirmation Alert!"
+msgstr ""
+
+#: views/partials/confirmation.php:16
+#: views/admin/forms/submissions.php:79
+#: views/admin/forms/index.php:126
+msgid "No"
+msgstr ""
+
+#: views/partials/confirmation.php:17
+#: views/admin/forms/submissions.php:78
+#: views/admin/forms/index.php:125
+msgid "Yes"
+msgstr ""
+
+#: views/partials/captcha.php:18
+msgid "Captcha"
+msgstr ""
+
+#: views/admin/partials/empty.php:10
+msgid "Generate a Form"
+msgstr ""
+
+#: views/admin/setting/index.php:11
+msgid "Site Key"
+msgstr ""
+
+#: views/admin/setting/index.php:13
+msgid "Google reCaptcha site key"
+msgstr ""
+
+#: views/admin/setting/index.php:16
+msgid "Secret Key"
+msgstr ""
+
+#: views/admin/setting/index.php:18
+msgid "Google reCaptcha secret key"
+msgstr ""
+
+#: views/admin/setting/index.php:21
+msgid "Save"
+msgstr ""
+
+#: views/admin/forms/edit.php:9
+msgid "Copy Shortcode"
+msgstr ""
+
+#: views/admin/forms/edit.php:10
+#: views/admin/forms/index.php:70
+msgid "form id"
+msgstr ""
+
+#: views/admin/forms/edit.php:10
+#: views/admin/forms/index.php:70
+msgid "title"
+msgstr ""
+
+#: views/admin/forms/edit.php:14
+#: views/admin/forms/create.php:7
+msgid "User Data"
+msgstr ""
+
+#: views/admin/forms/edit.php:17
+#: views/admin/forms/create.php:10
+msgid "Name"
+msgstr ""
+
+#: views/admin/forms/edit.php:23
+#: views/admin/forms/create.php:17
+msgid "Enable / Disable reCaptcha"
+msgstr ""
+
+#: views/admin/forms/edit.php:39
+msgid "Label"
+msgstr ""
+
+#: views/admin/forms/edit.php:43
+msgid "Type"
+msgstr ""
+
+#: views/admin/forms/edit.php:74
+#: views/admin/forms/create.php:24
+#: views/forms.php:38
+msgid "Submit"
+msgstr ""
+
+#: views/admin/forms/submissions.php:5
+msgid "Submitted Messages"
+msgstr ""
+
+#: views/admin/forms/submissions.php:19
+#: views/admin/forms/index.php:59
+msgid "S/N"
+msgstr ""
+
+#: views/admin/forms/submissions.php:20
+msgid "Form Title"
+msgstr ""
+
+#: views/admin/forms/submissions.php:21
+msgid "Send Time"
+msgstr ""
+
+#: views/admin/forms/submissions.php:22
+#: views/admin/forms/index.php:61
+msgid "Action"
+msgstr ""
+
+#: views/admin/forms/submissions.php:35
+msgid "Details"
+msgstr ""
+
+#: views/admin/forms/submissions.php:39
+#: views/admin/forms/submissions.php:38
+#: views/admin/forms/index.php:76
+#: views/admin/forms/index.php:75
+msgid "Delete"
+msgstr ""
+
+#: views/admin/forms/submissions.php:47
+msgid "No submission found yet"
+msgstr ""
+
+#: views/admin/forms/submissions.php:66
+#: views/admin/forms/index.php:113
+msgid "Message Delete Confirmation"
+msgstr ""
+
+#: views/admin/forms/submissions.php:75
+#: views/admin/forms/index.php:122
+msgid "Do you really want to delete"
+msgstr ""
+
+#: views/admin/forms/index.php:9
+msgid "Total Form"
+msgstr ""
+
+#: views/admin/forms/index.php:13
+#: views/admin/forms/index.php:25
+#: views/admin/forms/index.php:37
+msgid "View All"
+msgstr ""
+
+#: views/admin/forms/index.php:21
+msgid "Total Submission"
+msgstr ""
+
+#: views/admin/forms/index.php:33
+msgid "Total Unread"
+msgstr ""
+
+#: views/admin/forms/index.php:45
+msgid "Generated Forms"
+msgstr ""
+
+#: views/admin/forms/index.php:60
+msgid "Short Codes"
+msgstr ""
+
+#: views/admin/forms/index.php:73
+msgid "Edit"
+msgstr ""
+
+#: views/admin/forms/submission_details.php:9
+msgid "Key"
+msgstr ""
+
+#: views/admin/forms/submission_details.php:10
+msgid "Value"
+msgstr ""
+
+#: views/admin/forms/submission_details.php:28
+msgid "Attachment"
+msgstr ""
+
+#: views/deactivate_modal.php:8
+msgid "Are you sure you want to deactivate?"
+msgstr ""
+
+#: views/deactivate_modal.php:9
+msgid "Before you go, please share your feedback to us that why you\"
+msgstr ""
+
+#: views/deactivate_modal.php:15
+msgid "Temporary deactivation"
+msgstr ""
+
+#: views/deactivate_modal.php:19
+msgid "It slowed down my site"
+msgstr ""
+
+#: views/deactivate_modal.php:23
+msgid "It\"
+msgstr ""
+
+#: views/deactivate_modal.php:27
+#: views/deactivate_modal.php:32
+#: views/deactivate_modal.php:36
+msgid "I found a better plugin"
+msgstr ""
+
+#: views/deactivate_modal.php:40
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: views/deactivate_modal.php:41
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: views/deactivate_modal.php:28
+msgid "Please, share the plugin name"
+msgstr ""
+
+#: views/deactivate_modal.php:37
+msgid "Please, share the reason"
+msgstr ""
+
+#: views/form/form.php:6
+msgid "(Optional)"
+msgstr ""
+
+#: views/form/form.php:23
+#: views/form/modal.php:16
+#: views/form/modal.php:28
+msgid "Select One"
+msgstr ""
+
+#: views/form/form.php:63
+msgid "Supported mimes"
+msgstr ""
+
+#: views/form/generator.php:18
+#: views/form/generator.php:153
+msgid "JPG"
+msgstr ""
+
+#: views/form/generator.php:19
+#: views/form/generator.php:154
+msgid "JPEG"
+msgstr ""
+
+#: views/form/generator.php:20
+#: views/form/generator.php:155
+msgid "PNG"
+msgstr ""
+
+#: views/form/generator.php:21
+#: views/form/generator.php:156
+msgid "PDF"
+msgstr ""
+
+#: views/form/generator.php:22
+#: views/form/generator.php:157
+msgid "DOC"
+msgstr ""
+
+#: views/form/generator.php:23
+#: views/form/generator.php:158
+msgid "DOCX"
+msgstr ""
+
+#: views/form/generator.php:24
+#: views/form/generator.php:159
+msgid "TXT"
+msgstr ""
+
+#: views/form/generator.php:25
+#: views/form/generator.php:160
+msgid "XLX"
+msgstr ""
+
+#: views/form/generator.php:26
+msgid "XLXS"
+msgstr ""
+
+#: views/form/generator.php:27
+#: views/form/generator.php:162
+msgid "CSV"
+msgstr ""
+
+#: views/form/generator.php:29
+#: views/form/generator.php:148
+msgid "File Extensions"
+msgstr ""
+
+#: views/form/generator.php:29
+#: views/form/generator.php:148
+msgid "Separate each element by comma"
+msgstr ""
+
+#: views/form/generator.php:33
+msgid "Add Options"
+msgstr ""
+
+#: views/form/generator.php:161
+msgid "XLSX"
+msgstr ""
+
+#: views/form/generator.php:208
+msgid "Update"
+msgstr ""
+
+#: views/form/generator.php:218
+#: views/form/modal.php:42
+msgid "Add"
+msgstr ""
+
+#: views/form/modal.php:5
+msgid "Generate Form"
+msgstr ""
+
+#: views/form/modal.php:14
+msgid "Form Type"
+msgstr ""
+
+#: views/form/modal.php:17
+msgid "Text"
+msgstr ""
+
+#: views/form/modal.php:18
+msgid "Textarea"
+msgstr ""
+
+#: views/form/modal.php:19
+msgid "Select"
+msgstr ""
+
+#: views/form/modal.php:20
+msgid "Checkbox"
+msgstr ""
+
+#: views/form/modal.php:21
+msgid "Radio"
+msgstr ""
+
+#: views/form/modal.php:22
+msgid "File"
+msgstr ""
+
+#: views/form/modal.php:26
+msgid "Is Required"
+msgstr ""
+
+#: views/form/modal.php:29
+msgid "Required"
+msgstr ""
+
+#: views/form/modal.php:30
+msgid "Optional"
+msgstr ""
+
+#: views/form/modal.php:34
+msgid "Form Label"
+msgstr ""

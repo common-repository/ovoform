@@ -1,0 +1,6585 @@
+.ovoform-admin .la,
+.ovoform-admin .lab,
+.ovoform-admin .lad,
+.ovoform-admin .lal,
+.ovoform-admin .lar,
+.ovoform-admin .las {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.ovoform-admin .la-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+.ovoform-admin .la-xs {
+  font-size: 0.75em;
+}
+.ovoform-admin .la-sm {
+  font-size: 0.875em;
+}
+.ovoform-admin .la-1x {
+  font-size: 1em;
+}
+.ovoform-admin .la-2x {
+  font-size: 2em;
+}
+.ovoform-admin .la-3x {
+  font-size: 3em;
+}
+.ovoform-admin .la-4x {
+  font-size: 4em;
+}
+.ovoform-admin .la-5x {
+  font-size: 5em;
+}
+.ovoform-admin .la-6x {
+  font-size: 6em;
+}
+.ovoform-admin .la-7x {
+  font-size: 7em;
+}
+.ovoform-admin .la-8x {
+  font-size: 8em;
+}
+.ovoform-admin .la-9x {
+  font-size: 9em;
+}
+.ovoform-admin .la-10x {
+  font-size: 10em;
+}
+.ovoform-admin .la-fw {
+  text-align: center;
+  width: 1.25em;
+}
+.ovoform-admin .la-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.ovoform-admin .la-ul > li {
+  position: relative;
+}
+.ovoform-admin .la-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+.ovoform-admin .la-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+.ovoform-admin .la-pull-left {
+  float: left;
+}
+.ovoform-admin .la-pull-right {
+  float: right;
+}
+.ovoform-admin .la.la-pull-left,
+.ovoform-admin .lab.la-pull-left,
+.ovoform-admin .lal.la-pull-left,
+.ovoform-admin .lar.la-pull-left,
+.ovoform-admin .las.la-pull-left {
+  margin-right: 0.3em;
+}
+.ovoform-admin .la.la-pull-right,
+.ovoform-admin .lab.la-pull-right,
+.ovoform-admin .lal.la-pull-right,
+.ovoform-admin .lar.la-pull-right,
+.ovoform-admin .las.la-pull-right {
+  margin-left: 0.3em;
+}
+.ovoform-admin .la-spin {
+  -webkit-animation: la-spin 2s infinite linear;
+  animation: la-spin 2s infinite linear;
+}
+.ovoform-admin .la-pulse {
+  -webkit-animation: la-spin 1s infinite steps(8);
+  animation: la-spin 1s infinite steps(8);
+}
+@-webkit-keyframes la-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes la-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.ovoform-admin .la-rotate-90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.ovoform-admin .la-rotate-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.ovoform-admin .la-rotate-270 {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.ovoform-admin .la-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.ovoform-admin .la-flip-vertical {
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+.ovoform-admin .la-flip-both,
+.ovoform-admin .la-flip-horizontal.la-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+.ovoform-admin :root .la-flip-both,
+.ovoform-admin :root .la-flip-horizontal,
+.ovoform-admin :root .la-flip-vertical,
+.ovoform-admin :root .la-rotate-180,
+.ovoform-admin :root .la-rotate-270,
+.ovoform-admin :root .la-rotate-90 {
+  -webkit-filter: none;
+  filter: none;
+}
+.ovoform-admin .la-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.ovoform-admin .la-stack-1x,
+.ovoform-admin .la-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.ovoform-admin .la-stack-1x {
+  line-height: inherit;
+}
+.ovoform-admin .la-stack-2x {
+  font-size: 2em;
+}
+.ovoform-admin .la-inverse {
+  color: #fff;
+}
+.ovoform-admin .la-500px:before {
+  content: "\f26e";
+}
+.ovoform-admin .la-accessible-icon:before {
+  content: "\f368";
+}
+.ovoform-admin .la-accusoft:before {
+  content: "\f369";
+}
+.ovoform-admin .la-acquisitions-incorporated:before {
+  content: "\f6af";
+}
+.ovoform-admin .la-ad:before {
+  content: "\f641";
+}
+.ovoform-admin .la-address-book:before {
+  content: "\f2b9";
+}
+.ovoform-admin .la-address-card:before {
+  content: "\f2bb";
+}
+.ovoform-admin .la-adjust:before {
+  content: "\f042";
+}
+.ovoform-admin .la-adn:before {
+  content: "\f170";
+}
+.ovoform-admin .la-adobe:before {
+  content: "\f778";
+}
+.ovoform-admin .la-adversal:before {
+  content: "\f36a";
+}
+.ovoform-admin .la-affiliatetheme:before {
+  content: "\f36b";
+}
+.ovoform-admin .la-air-freshener:before {
+  content: "\f5d0";
+}
+.ovoform-admin .la-airbnb:before {
+  content: "\f834";
+}
+.ovoform-admin .la-algolia:before {
+  content: "\f36c";
+}
+.ovoform-admin .la-align-center:before {
+  content: "\f037";
+}
+.ovoform-admin .la-align-justify:before {
+  content: "\f039";
+}
+.ovoform-admin .la-align-left:before {
+  content: "\f036";
+}
+.ovoform-admin .la-align-right:before {
+  content: "\f038";
+}
+.ovoform-admin .la-alipay:before {
+  content: "\f642";
+}
+.ovoform-admin .la-allergies:before {
+  content: "\f461";
+}
+.ovoform-admin .la-amazon:before {
+  content: "\f270";
+}
+.ovoform-admin .la-amazon-pay:before {
+  content: "\f42c";
+}
+.ovoform-admin .la-ambulance:before {
+  content: "\f0f9";
+}
+.ovoform-admin .la-american-sign-language-interpreting:before {
+  content: "\f2a3";
+}
+.ovoform-admin .la-amilia:before {
+  content: "\f36d";
+}
+.ovoform-admin .la-anchor:before {
+  content: "\f13d";
+}
+.ovoform-admin .la-android:before {
+  content: "\f17b";
+}
+.ovoform-admin .la-angellist:before {
+  content: "\f209";
+}
+.ovoform-admin .la-angle-double-down:before {
+  content: "\f103";
+}
+.ovoform-admin .la-angle-double-left:before {
+  content: "\f100";
+}
+.ovoform-admin .la-angle-double-right:before {
+  content: "\f101";
+}
+.ovoform-admin .la-angle-double-up:before {
+  content: "\f102";
+}
+.ovoform-admin .la-angle-down:before {
+  content: "\f107";
+}
+.ovoform-admin .la-angle-left:before {
+  content: "\f104";
+}
+.ovoform-admin .la-angle-right:before {
+  content: "\f105";
+}
+.ovoform-admin .la-angle-up:before {
+  content: "\f106";
+}
+.ovoform-admin .la-angry:before {
+  content: "\f556";
+}
+.ovoform-admin .la-angrycreative:before {
+  content: "\f36e";
+}
+.ovoform-admin .la-angular:before {
+  content: "\f420";
+}
+.ovoform-admin .la-ankh:before {
+  content: "\f644";
+}
+.ovoform-admin .la-app-store:before {
+  content: "\f36f";
+}
+.ovoform-admin .la-app-store-ios:before {
+  content: "\f370";
+}
+.ovoform-admin .la-apper:before {
+  content: "\f371";
+}
+.ovoform-admin .la-apple:before {
+  content: "\f179";
+}
+.ovoform-admin .la-apple-alt:before {
+  content: "\f5d1";
+}
+.ovoform-admin .la-apple-pay:before {
+  content: "\f415";
+}
+.ovoform-admin .la-archive:before {
+  content: "\f187";
+}
+.ovoform-admin .la-archway:before {
+  content: "\f557";
+}
+.ovoform-admin .la-arrow-alt-circle-down:before {
+  content: "\f358";
+}
+.ovoform-admin .la-arrow-alt-circle-left:before {
+  content: "\f359";
+}
+.ovoform-admin .la-arrow-alt-circle-right:before {
+  content: "\f35a";
+}
+.ovoform-admin .la-arrow-alt-circle-up:before {
+  content: "\f35b";
+}
+.ovoform-admin .la-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.ovoform-admin .la-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.ovoform-admin .la-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.ovoform-admin .la-arrow-circle-up:before {
+  content: "\f0aa";
+}
+.ovoform-admin .la-arrow-down:before {
+  content: "\f063";
+}
+.ovoform-admin .la-arrow-left:before {
+  content: "\f060";
+}
+.ovoform-admin .la-arrow-right:before {
+  content: "\f061";
+}
+.ovoform-admin .la-arrow-up:before {
+  content: "\f062";
+}
+.ovoform-admin .la-arrows-alt:before {
+  content: "\f0b2";
+}
+.ovoform-admin .la-arrows-alt-h:before {
+  content: "\f337";
+}
+.ovoform-admin .la-arrows-alt-v:before {
+  content: "\f338";
+}
+.ovoform-admin .la-artstation:before {
+  content: "\f77a";
+}
+.ovoform-admin .la-assistive-listening-systems:before {
+  content: "\f2a2";
+}
+.ovoform-admin .la-asterisk:before {
+  content: "\f069";
+}
+.ovoform-admin .la-asymmetrik:before {
+  content: "\f372";
+}
+.ovoform-admin .la-at:before {
+  content: "\f1fa";
+}
+.ovoform-admin .la-atlas:before {
+  content: "\f558";
+}
+.ovoform-admin .la-atlassian:before {
+  content: "\f77b";
+}
+.ovoform-admin .la-atom:before {
+  content: "\f5d2";
+}
+.ovoform-admin .la-audible:before {
+  content: "\f373";
+}
+.ovoform-admin .la-audio-description:before {
+  content: "\f29e";
+}
+.ovoform-admin .la-autoprefixer:before {
+  content: "\f41c";
+}
+.ovoform-admin .la-avianex:before {
+  content: "\f374";
+}
+.ovoform-admin .la-aviato:before {
+  content: "\f421";
+}
+.ovoform-admin .la-award:before {
+  content: "\f559";
+}
+.ovoform-admin .la-aws:before {
+  content: "\f375";
+}
+.ovoform-admin .la-baby:before {
+  content: "\f77c";
+}
+.ovoform-admin .la-baby-carriage:before {
+  content: "\f77d";
+}
+.ovoform-admin .la-backspace:before {
+  content: "\f55a";
+}
+.ovoform-admin .la-backward:before {
+  content: "\f04a";
+}
+.ovoform-admin .la-bacon:before {
+  content: "\f7e5";
+}
+.ovoform-admin .la-balance-scale:before {
+  content: "\f24e";
+}
+.ovoform-admin .la-balance-scale-left:before {
+  content: "\f515";
+}
+.ovoform-admin .la-balance-scale-right:before {
+  content: "\f516";
+}
+.ovoform-admin .la-ban:before {
+  content: "\f05e";
+}
+.ovoform-admin .la-band-aid:before {
+  content: "\f462";
+}
+.ovoform-admin .la-bandcamp:before {
+  content: "\f2d5";
+}
+.ovoform-admin .la-barcode:before {
+  content: "\f02a";
+}
+.ovoform-admin .la-bars:before {
+  content: "\f0c9";
+}
+.ovoform-admin .la-baseball-ball:before {
+  content: "\f433";
+}
+.ovoform-admin .la-basketball-ball:before {
+  content: "\f434";
+}
+.ovoform-admin .la-bath:before {
+  content: "\f2cd";
+}
+.ovoform-admin .la-battery-empty:before {
+  content: "\f244";
+}
+.ovoform-admin .la-battery-full:before {
+  content: "\f240";
+}
+.ovoform-admin .la-battery-half:before {
+  content: "\f242";
+}
+.ovoform-admin .la-battery-quarter:before {
+  content: "\f243";
+}
+.ovoform-admin .la-battery-three-quarters:before {
+  content: "\f241";
+}
+.ovoform-admin .la-battle-net:before {
+  content: "\f835";
+}
+.ovoform-admin .la-bed:before {
+  content: "\f236";
+}
+.ovoform-admin .la-beer:before {
+  content: "\f0fc";
+}
+.ovoform-admin .la-behance:before {
+  content: "\f1b4";
+}
+.ovoform-admin .la-behance-square:before {
+  content: "\f1b5";
+}
+.ovoform-admin .la-bell:before {
+  content: "\f0f3";
+}
+.ovoform-admin .la-bell-slash:before {
+  content: "\f1f6";
+}
+.ovoform-admin .la-bezier-curve:before {
+  content: "\f55b";
+}
+.ovoform-admin .la-bible:before {
+  content: "\f647";
+}
+.ovoform-admin .la-bicycle:before {
+  content: "\f206";
+}
+.ovoform-admin .la-biking:before {
+  content: "\f84a";
+}
+.ovoform-admin .la-bimobject:before {
+  content: "\f378";
+}
+.ovoform-admin .la-binoculars:before {
+  content: "\f1e5";
+}
+.ovoform-admin .la-biohazard:before {
+  content: "\f780";
+}
+.ovoform-admin .la-birthday-cake:before {
+  content: "\f1fd";
+}
+.ovoform-admin .la-bitbucket:before {
+  content: "\f171";
+}
+.ovoform-admin .la-bitcoin:before {
+  content: "\f379";
+}
+.ovoform-admin .la-bity:before {
+  content: "\f37a";
+}
+.ovoform-admin .la-black-tie:before {
+  content: "\f27e";
+}
+.ovoform-admin .la-blackberry:before {
+  content: "\f37b";
+}
+.ovoform-admin .la-blender:before {
+  content: "\f517";
+}
+.ovoform-admin .la-blender-phone:before {
+  content: "\f6b6";
+}
+.ovoform-admin .la-blind:before {
+  content: "\f29d";
+}
+.ovoform-admin .la-blog:before {
+  content: "\f781";
+}
+.ovoform-admin .la-blogger:before {
+  content: "\f37c";
+}
+.ovoform-admin .la-blogger-b:before {
+  content: "\f37d";
+}
+.ovoform-admin .la-bluetooth:before {
+  content: "\f293";
+}
+.ovoform-admin .la-bluetooth-b:before {
+  content: "\f294";
+}
+.ovoform-admin .la-bold:before {
+  content: "\f032";
+}
+.ovoform-admin .la-bolt:before {
+  content: "\f0e7";
+}
+.ovoform-admin .la-bomb:before {
+  content: "\f1e2";
+}
+.ovoform-admin .la-bone:before {
+  content: "\f5d7";
+}
+.ovoform-admin .la-bong:before {
+  content: "\f55c";
+}
+.ovoform-admin .la-book:before {
+  content: "\f02d";
+}
+.ovoform-admin .la-book-dead:before {
+  content: "\f6b7";
+}
+.ovoform-admin .la-book-medical:before {
+  content: "\f7e6";
+}
+.ovoform-admin .la-book-open:before {
+  content: "\f518";
+}
+.ovoform-admin .la-book-reader:before {
+  content: "\f5da";
+}
+.ovoform-admin .la-bookmark:before {
+  content: "\f02e";
+}
+.ovoform-admin .la-bootstrap:before {
+  content: "\f836";
+}
+.ovoform-admin .la-border-all:before {
+  content: "\f84c";
+}
+.ovoform-admin .la-border-none:before {
+  content: "\f850";
+}
+.ovoform-admin .la-border-style:before {
+  content: "\f853";
+}
+.ovoform-admin .la-bowling-ball:before {
+  content: "\f436";
+}
+.ovoform-admin .la-box:before {
+  content: "\f466";
+}
+.ovoform-admin .la-box-open:before {
+  content: "\f49e";
+}
+.ovoform-admin .la-boxes:before {
+  content: "\f468";
+}
+.ovoform-admin .la-braille:before {
+  content: "\f2a1";
+}
+.ovoform-admin .la-brain:before {
+  content: "\f5dc";
+}
+.ovoform-admin .la-bread-slice:before {
+  content: "\f7ec";
+}
+.ovoform-admin .la-briefcase:before {
+  content: "\f0b1";
+}
+.ovoform-admin .la-briefcase-medical:before {
+  content: "\f469";
+}
+.ovoform-admin .la-broadcast-tower:before {
+  content: "\f519";
+}
+.ovoform-admin .la-broom:before {
+  content: "\f51a";
+}
+.ovoform-admin .la-brush:before {
+  content: "\f55d";
+}
+.ovoform-admin .la-btc:before {
+  content: "\f15a";
+}
+.ovoform-admin .la-buffer:before {
+  content: "\f837";
+}
+.ovoform-admin .la-bug:before {
+  content: "\f188";
+}
+.ovoform-admin .la-building:before {
+  content: "\f1ad";
+}
+.ovoform-admin .la-bullhorn:before {
+  content: "\f0a1";
+}
+.ovoform-admin .la-bullseye:before {
+  content: "\f140";
+}
+.ovoform-admin .la-burn:before {
+  content: "\f46a";
+}
+.ovoform-admin .la-buromobelexperte:before {
+  content: "\f37f";
+}
+.ovoform-admin .la-bus:before {
+  content: "\f207";
+}
+.ovoform-admin .la-bus-alt:before {
+  content: "\f55e";
+}
+.ovoform-admin .la-business-time:before {
+  content: "\f64a";
+}
+.ovoform-admin .la-buy-n-large:before {
+  content: "\f8a6";
+}
+.ovoform-admin .la-buysellads:before {
+  content: "\f20d";
+}
+.ovoform-admin .la-calculator:before {
+  content: "\f1ec";
+}
+.ovoform-admin .la-calendar:before {
+  content: "\f133";
+}
+.ovoform-admin .la-calendar-alt:before {
+  content: "\f073";
+}
+.ovoform-admin .la-calendar-check:before {
+  content: "\f274";
+}
+.ovoform-admin .la-calendar-day:before {
+  content: "\f783";
+}
+.ovoform-admin .la-calendar-minus:before {
+  content: "\f272";
+}
+.ovoform-admin .la-calendar-plus:before {
+  content: "\f271";
+}
+.ovoform-admin .la-calendar-times:before {
+  content: "\f273";
+}
+.ovoform-admin .la-calendar-week:before {
+  content: "\f784";
+}
+.ovoform-admin .la-camera:before {
+  content: "\f030";
+}
+.ovoform-admin .la-camera-retro:before {
+  content: "\f083";
+}
+.ovoform-admin .la-campground:before {
+  content: "\f6bb";
+}
+.ovoform-admin .la-canadian-maple-leaf:before {
+  content: "\f785";
+}
+.ovoform-admin .la-candy-cane:before {
+  content: "\f786";
+}
+.ovoform-admin .la-cannabis:before {
+  content: "\f55f";
+}
+.ovoform-admin .la-capsules:before {
+  content: "\f46b";
+}
+.ovoform-admin .la-car:before {
+  content: "\f1b9";
+}
+.ovoform-admin .la-car-alt:before {
+  content: "\f5de";
+}
+.ovoform-admin .la-car-battery:before {
+  content: "\f5df";
+}
+.ovoform-admin .la-car-crash:before {
+  content: "\f5e1";
+}
+.ovoform-admin .la-car-side:before {
+  content: "\f5e4";
+}
+.ovoform-admin .la-caret-down:before {
+  content: "\f0d7";
+}
+.ovoform-admin .la-caret-left:before {
+  content: "\f0d9";
+}
+.ovoform-admin .la-caret-right:before {
+  content: "\f0da";
+}
+.ovoform-admin .la-caret-square-down:before {
+  content: "\f150";
+}
+.ovoform-admin .la-caret-square-left:before {
+  content: "\f191";
+}
+.ovoform-admin .la-caret-square-right:before {
+  content: "\f152";
+}
+.ovoform-admin .la-caret-square-up:before {
+  content: "\f151";
+}
+.ovoform-admin .la-caret-up:before {
+  content: "\f0d8";
+}
+.ovoform-admin .la-carrot:before {
+  content: "\f787";
+}
+.ovoform-admin .la-cart-arrow-down:before {
+  content: "\f218";
+}
+.ovoform-admin .la-cart-plus:before {
+  content: "\f217";
+}
+.ovoform-admin .la-cash-register:before {
+  content: "\f788";
+}
+.ovoform-admin .la-cat:before {
+  content: "\f6be";
+}
+.ovoform-admin .la-cc-amazon-pay:before {
+  content: "\f42d";
+}
+.ovoform-admin .la-cc-amex:before {
+  content: "\f1f3";
+}
+.ovoform-admin .la-cc-apple-pay:before {
+  content: "\f416";
+}
+.ovoform-admin .la-cc-diners-club:before {
+  content: "\f24c";
+}
+.ovoform-admin .la-cc-discover:before {
+  content: "\f1f2";
+}
+.ovoform-admin .la-cc-jcb:before {
+  content: "\f24b";
+}
+.ovoform-admin .la-cc-mastercard:before {
+  content: "\f1f1";
+}
+.ovoform-admin .la-cc-paypal:before {
+  content: "\f1f4";
+}
+.ovoform-admin .la-cc-stripe:before {
+  content: "\f1f5";
+}
+.ovoform-admin .la-cc-visa:before {
+  content: "\f1f0";
+}
+.ovoform-admin .la-centercode:before {
+  content: "\f380";
+}
+.ovoform-admin .la-centos:before {
+  content: "\f789";
+}
+.ovoform-admin .la-certificate:before {
+  content: "\f0a3";
+}
+.ovoform-admin .la-chair:before {
+  content: "\f6c0";
+}
+.ovoform-admin .la-chalkboard:before {
+  content: "\f51b";
+}
+.ovoform-admin .la-chalkboard-teacher:before {
+  content: "\f51c";
+}
+.ovoform-admin .la-charging-station:before {
+  content: "\f5e7";
+}
+.ovoform-admin .la-chart-area:before {
+  content: "\f1fe";
+}
+.ovoform-admin .la-chart-bar:before {
+  content: "\f080";
+}
+.ovoform-admin .la-chart-line:before {
+  content: "\f201";
+}
+.ovoform-admin .la-chart-pie:before {
+  content: "\f200";
+}
+.ovoform-admin .la-check:before {
+  content: "\f00c";
+}
+.ovoform-admin .la-check-circle:before {
+  content: "\f058";
+}
+.ovoform-admin .la-check-double:before {
+  content: "\f560";
+}
+.ovoform-admin .la-check-square:before {
+  content: "\f14a";
+}
+.ovoform-admin .la-cheese:before {
+  content: "\f7ef";
+}
+.ovoform-admin .la-chess:before {
+  content: "\f439";
+}
+.ovoform-admin .la-chess-bishop:before {
+  content: "\f43a";
+}
+.ovoform-admin .la-chess-board:before {
+  content: "\f43c";
+}
+.ovoform-admin .la-chess-king:before {
+  content: "\f43f";
+}
+.ovoform-admin .la-chess-knight:before {
+  content: "\f441";
+}
+.ovoform-admin .la-chess-pawn:before {
+  content: "\f443";
+}
+.ovoform-admin .la-chess-queen:before {
+  content: "\f445";
+}
+.ovoform-admin .la-chess-rook:before {
+  content: "\f447";
+}
+.ovoform-admin .la-chevron-circle-down:before {
+  content: "\f13a";
+}
+.ovoform-admin .la-chevron-circle-left:before {
+  content: "\f137";
+}
+.ovoform-admin .la-chevron-circle-right:before {
+  content: "\f138";
+}
+.ovoform-admin .la-chevron-circle-up:before {
+  content: "\f139";
+}
+.ovoform-admin .la-chevron-down:before {
+  content: "\f078";
+}
+.ovoform-admin .la-chevron-left:before {
+  content: "\f053";
+}
+.ovoform-admin .la-chevron-right:before {
+  content: "\f054";
+}
+.ovoform-admin .la-chevron-up:before {
+  content: "\f077";
+}
+.ovoform-admin .la-child:before {
+  content: "\f1ae";
+}
+.ovoform-admin .la-chrome:before {
+  content: "\f268";
+}
+.ovoform-admin .la-chromecast:before {
+  content: "\f838";
+}
+.ovoform-admin .la-church:before {
+  content: "\f51d";
+}
+.ovoform-admin .la-circle:before {
+  content: "\f111";
+}
+.ovoform-admin .la-circle-notch:before {
+  content: "\f1ce";
+}
+.ovoform-admin .la-city:before {
+  content: "\f64f";
+}
+.ovoform-admin .la-clinic-medical:before {
+  content: "\f7f2";
+}
+.ovoform-admin .la-clipboard:before {
+  content: "\f328";
+}
+.ovoform-admin .la-clipboard-check:before {
+  content: "\f46c";
+}
+.ovoform-admin .la-clipboard-list:before {
+  content: "\f46d";
+}
+.ovoform-admin .la-clock:before {
+  content: "\f017";
+}
+.ovoform-admin .la-clone:before {
+  content: "\f24d";
+}
+.ovoform-admin .la-closed-captioning:before {
+  content: "\f20a";
+}
+.ovoform-admin .la-cloud:before {
+  content: "\f0c2";
+}
+.ovoform-admin .la-cloud-download-alt:before {
+  content: "\f381";
+}
+.ovoform-admin .la-cloud-meatball:before {
+  content: "\f73b";
+}
+.ovoform-admin .la-cloud-moon:before {
+  content: "\f6c3";
+}
+.ovoform-admin .la-cloud-moon-rain:before {
+  content: "\f73c";
+}
+.ovoform-admin .la-cloud-rain:before {
+  content: "\f73d";
+}
+.ovoform-admin .la-cloud-showers-heavy:before {
+  content: "\f740";
+}
+.ovoform-admin .la-cloud-sun:before {
+  content: "\f6c4";
+}
+.ovoform-admin .la-cloud-sun-rain:before {
+  content: "\f743";
+}
+.ovoform-admin .la-cloud-upload-alt:before {
+  content: "\f382";
+}
+.ovoform-admin .la-cloudscale:before {
+  content: "\f383";
+}
+.ovoform-admin .la-cloudsmith:before {
+  content: "\f384";
+}
+.ovoform-admin .la-cloudversify:before {
+  content: "\f385";
+}
+.ovoform-admin .la-cocktail:before {
+  content: "\f561";
+}
+.ovoform-admin .la-code:before {
+  content: "\f121";
+}
+.ovoform-admin .la-code-branch:before {
+  content: "\f126";
+}
+.ovoform-admin .la-codepen:before {
+  content: "\f1cb";
+}
+.ovoform-admin .la-codiepie:before {
+  content: "\f284";
+}
+.ovoform-admin .la-coffee:before {
+  content: "\f0f4";
+}
+.ovoform-admin .la-cog:before {
+  content: "\f013";
+}
+.ovoform-admin .la-cogs:before {
+  content: "\f085";
+}
+.ovoform-admin .la-coins:before {
+  content: "\f51e";
+}
+.ovoform-admin .la-columns:before {
+  content: "\f0db";
+}
+.ovoform-admin .la-comment:before {
+  content: "\f075";
+}
+.ovoform-admin .la-comment-alt:before {
+  content: "\f27a";
+}
+.ovoform-admin .la-comment-dollar:before {
+  content: "\f651";
+}
+.ovoform-admin .la-comment-dots:before {
+  content: "\f4ad";
+}
+.ovoform-admin .la-comment-medical:before {
+  content: "\f7f5";
+}
+.ovoform-admin .la-comment-slash:before {
+  content: "\f4b3";
+}
+.ovoform-admin .la-comments:before {
+  content: "\f086";
+}
+.ovoform-admin .la-comments-dollar:before {
+  content: "\f653";
+}
+.ovoform-admin .la-compact-disc:before {
+  content: "\f51f";
+}
+.ovoform-admin .la-compass:before {
+  content: "\f14e";
+}
+.ovoform-admin .la-compress:before {
+  content: "\f066";
+}
+.ovoform-admin .la-compress-arrows-alt:before {
+  content: "\f78c";
+}
+.ovoform-admin .la-concierge-bell:before {
+  content: "\f562";
+}
+.ovoform-admin .la-confluence:before {
+  content: "\f78d";
+}
+.ovoform-admin .la-connectdevelop:before {
+  content: "\f20e";
+}
+.ovoform-admin .la-contao:before {
+  content: "\f26d";
+}
+.ovoform-admin .la-cookie:before {
+  content: "\f563";
+}
+.ovoform-admin .la-cookie-bite:before {
+  content: "\f564";
+}
+.ovoform-admin .la-copy:before {
+  content: "\f0c5";
+}
+.ovoform-admin .la-copyright:before {
+  content: "\f1f9";
+}
+.ovoform-admin .la-cotton-bureau:before {
+  content: "\f89e";
+}
+.ovoform-admin .la-couch:before {
+  content: "\f4b8";
+}
+.ovoform-admin .la-cpanel:before {
+  content: "\f388";
+}
+.ovoform-admin .la-creative-commons:before {
+  content: "\f25e";
+}
+.ovoform-admin .la-creative-commons-by:before {
+  content: "\f4e7";
+}
+.ovoform-admin .la-creative-commons-nc:before {
+  content: "\f4e8";
+}
+.ovoform-admin .la-creative-commons-nc-eu:before {
+  content: "\f4e9";
+}
+.ovoform-admin .la-creative-commons-nc-jp:before {
+  content: "\f4ea";
+}
+.ovoform-admin .la-creative-commons-nd:before {
+  content: "\f4eb";
+}
+.ovoform-admin .la-creative-commons-pd:before {
+  content: "\f4ec";
+}
+.ovoform-admin .la-creative-commons-pd-alt:before {
+  content: "\f4ed";
+}
+.ovoform-admin .la-creative-commons-remix:before {
+  content: "\f4ee";
+}
+.ovoform-admin .la-creative-commons-sa:before {
+  content: "\f4ef";
+}
+.ovoform-admin .la-creative-commons-sampling:before {
+  content: "\f4f0";
+}
+.ovoform-admin .la-creative-commons-sampling-plus:before {
+  content: "\f4f1";
+}
+.ovoform-admin .la-creative-commons-share:before {
+  content: "\f4f2";
+}
+.ovoform-admin .la-creative-commons-zero:before {
+  content: "\f4f3";
+}
+.ovoform-admin .la-credit-card:before {
+  content: "\f09d";
+}
+.ovoform-admin .la-critical-role:before {
+  content: "\f6c9";
+}
+.ovoform-admin .la-crop:before {
+  content: "\f125";
+}
+.ovoform-admin .la-crop-alt:before {
+  content: "\f565";
+}
+.ovoform-admin .la-cross:before {
+  content: "\f654";
+}
+.ovoform-admin .la-crosshairs:before {
+  content: "\f05b";
+}
+.ovoform-admin .la-crow:before {
+  content: "\f520";
+}
+.ovoform-admin .la-crown:before {
+  content: "\f521";
+}
+.ovoform-admin .la-crutch:before {
+  content: "\f7f7";
+}
+.ovoform-admin .la-css3:before {
+  content: "\f13c";
+}
+.ovoform-admin .la-css3-alt:before {
+  content: "\f38b";
+}
+.ovoform-admin .la-cube:before {
+  content: "\f1b2";
+}
+.ovoform-admin .la-cubes:before {
+  content: "\f1b3";
+}
+.ovoform-admin .la-cut:before {
+  content: "\f0c4";
+}
+.ovoform-admin .la-cuttlefish:before {
+  content: "\f38c";
+}
+.ovoform-admin .la-d-and-d:before {
+  content: "\f38d";
+}
+.ovoform-admin .la-d-and-d-beyond:before {
+  content: "\f6ca";
+}
+.ovoform-admin .la-dashcube:before {
+  content: "\f210";
+}
+.ovoform-admin .la-database:before {
+  content: "\f1c0";
+}
+.ovoform-admin .la-deaf:before {
+  content: "\f2a4";
+}
+.ovoform-admin .la-delicious:before {
+  content: "\f1a5";
+}
+.ovoform-admin .la-democrat:before {
+  content: "\f747";
+}
+.ovoform-admin .la-deploydog:before {
+  content: "\f38e";
+}
+.ovoform-admin .la-deskpro:before {
+  content: "\f38f";
+}
+.ovoform-admin .la-desktop:before {
+  content: "\f108";
+}
+.ovoform-admin .la-dev:before {
+  content: "\f6cc";
+}
+.ovoform-admin .la-deviantart:before {
+  content: "\f1bd";
+}
+.ovoform-admin .la-dharmachakra:before {
+  content: "\f655";
+}
+.ovoform-admin .la-dhl:before {
+  content: "\f790";
+}
+.ovoform-admin .la-diagnoses:before {
+  content: "\f470";
+}
+.ovoform-admin .la-diaspora:before {
+  content: "\f791";
+}
+.ovoform-admin .la-dice:before {
+  content: "\f522";
+}
+.ovoform-admin .la-dice-d20:before {
+  content: "\f6cf";
+}
+.ovoform-admin .la-dice-d6:before {
+  content: "\f6d1";
+}
+.ovoform-admin .la-dice-five:before {
+  content: "\f523";
+}
+.ovoform-admin .la-dice-four:before {
+  content: "\f524";
+}
+.ovoform-admin .la-dice-one:before {
+  content: "\f525";
+}
+.ovoform-admin .la-dice-six:before {
+  content: "\f526";
+}
+.ovoform-admin .la-dice-three:before {
+  content: "\f527";
+}
+.ovoform-admin .la-dice-two:before {
+  content: "\f528";
+}
+.ovoform-admin .la-digg:before {
+  content: "\f1a6";
+}
+.ovoform-admin .la-digital-ocean:before {
+  content: "\f391";
+}
+.ovoform-admin .la-digital-tachograph:before {
+  content: "\f566";
+}
+.ovoform-admin .la-directions:before {
+  content: "\f5eb";
+}
+.ovoform-admin .la-discord:before {
+  content: "\f392";
+}
+.ovoform-admin .la-discourse:before {
+  content: "\f393";
+}
+.ovoform-admin .la-divide:before {
+  content: "\f529";
+}
+.ovoform-admin .la-dizzy:before {
+  content: "\f567";
+}
+.ovoform-admin .la-dna:before {
+  content: "\f471";
+}
+.ovoform-admin .la-dochub:before {
+  content: "\f394";
+}
+.ovoform-admin .la-docker:before {
+  content: "\f395";
+}
+.ovoform-admin .la-dog:before {
+  content: "\f6d3";
+}
+.ovoform-admin .la-dollar-sign:before {
+  content: "\f155";
+}
+.ovoform-admin .la-dolly:before {
+  content: "\f472";
+}
+.ovoform-admin .la-dolly-flatbed:before {
+  content: "\f474";
+}
+.ovoform-admin .la-donate:before {
+  content: "\f4b9";
+}
+.ovoform-admin .la-door-closed:before {
+  content: "\f52a";
+}
+.ovoform-admin .la-door-open:before {
+  content: "\f52b";
+}
+.ovoform-admin .la-dot-circle:before {
+  content: "\f192";
+}
+.ovoform-admin .la-dove:before {
+  content: "\f4ba";
+}
+.ovoform-admin .la-download:before {
+  content: "\f019";
+}
+.ovoform-admin .la-draft2digital:before {
+  content: "\f396";
+}
+.ovoform-admin .la-drafting-compass:before {
+  content: "\f568";
+}
+.ovoform-admin .la-dragon:before {
+  content: "\f6d5";
+}
+.ovoform-admin .la-draw-polygon:before {
+  content: "\f5ee";
+}
+.ovoform-admin .la-dribbble:before {
+  content: "\f17d";
+}
+.ovoform-admin .la-dribbble-square:before {
+  content: "\f397";
+}
+.ovoform-admin .la-dropbox:before {
+  content: "\f16b";
+}
+.ovoform-admin .la-drum:before {
+  content: "\f569";
+}
+.ovoform-admin .la-drum-steelpan:before {
+  content: "\f56a";
+}
+.ovoform-admin .la-drumstick-bite:before {
+  content: "\f6d7";
+}
+.ovoform-admin .la-drupal:before {
+  content: "\f1a9";
+}
+.ovoform-admin .la-dumbbell:before {
+  content: "\f44b";
+}
+.ovoform-admin .la-dumpster:before {
+  content: "\f793";
+}
+.ovoform-admin .la-dumpster-fire:before {
+  content: "\f794";
+}
+.ovoform-admin .la-dungeon:before {
+  content: "\f6d9";
+}
+.ovoform-admin .la-dyalog:before {
+  content: "\f399";
+}
+.ovoform-admin .la-earlybirds:before {
+  content: "\f39a";
+}
+.ovoform-admin .la-ebay:before {
+  content: "\f4f4";
+}
+.ovoform-admin .la-edge:before {
+  content: "\f282";
+}
+.ovoform-admin .la-edit:before {
+  content: "\f044";
+}
+.ovoform-admin .la-egg:before {
+  content: "\f7fb";
+}
+.ovoform-admin .la-eject:before {
+  content: "\f052";
+}
+.ovoform-admin .la-elementor:before {
+  content: "\f430";
+}
+.ovoform-admin .la-ellipsis-h:before {
+  content: "\f141";
+}
+.ovoform-admin .la-ellipsis-v:before {
+  content: "\f142";
+}
+.ovoform-admin .la-ello:before {
+  content: "\f5f1";
+}
+.ovoform-admin .la-ember:before {
+  content: "\f423";
+}
+.ovoform-admin .la-empire:before {
+  content: "\f1d1";
+}
+.ovoform-admin .la-envelope:before {
+  content: "\f0e0";
+}
+.ovoform-admin .la-envelope-open:before {
+  content: "\f2b6";
+}
+.ovoform-admin .la-envelope-open-text:before {
+  content: "\f658";
+}
+.ovoform-admin .la-envelope-square:before {
+  content: "\f199";
+}
+.ovoform-admin .la-envira:before {
+  content: "\f299";
+}
+.ovoform-admin .la-equals:before {
+  content: "\f52c";
+}
+.ovoform-admin .la-eraser:before {
+  content: "\f12d";
+}
+.ovoform-admin .la-erlang:before {
+  content: "\f39d";
+}
+.ovoform-admin .la-ethereum:before {
+  content: "\f42e";
+}
+.ovoform-admin .la-ethernet:before {
+  content: "\f796";
+}
+.ovoform-admin .la-etsy:before {
+  content: "\f2d7";
+}
+.ovoform-admin .la-euro-sign:before {
+  content: "\f153";
+}
+.ovoform-admin .la-evernote:before {
+  content: "\f839";
+}
+.ovoform-admin .la-exchange-alt:before {
+  content: "\f362";
+}
+.ovoform-admin .la-exclamation:before {
+  content: "\f12a";
+}
+.ovoform-admin .la-exclamation-circle:before {
+  content: "\f06a";
+}
+.ovoform-admin .la-exclamation-triangle:before {
+  content: "\f071";
+}
+.ovoform-admin .la-expand:before {
+  content: "\f065";
+}
+.ovoform-admin .la-expand-arrows-alt:before {
+  content: "\f31e";
+}
+.ovoform-admin .la-expeditedssl:before {
+  content: "\f23e";
+}
+.ovoform-admin .la-external-link-alt:before {
+  content: "\f35d";
+}
+.ovoform-admin .la-external-link-square-alt:before {
+  content: "\f360";
+}
+.ovoform-admin .la-eye:before {
+  content: "\f06e";
+}
+.ovoform-admin .la-eye-dropper:before {
+  content: "\f1fb";
+}
+.ovoform-admin .la-eye-slash:before {
+  content: "\f070";
+}
+.ovoform-admin .la-facebook:before {
+  content: "\f09a";
+}
+.ovoform-admin .la-facebook-f:before {
+  content: "\f39e";
+}
+.ovoform-admin .la-facebook-messenger:before {
+  content: "\f39f";
+}
+.ovoform-admin .la-facebook-square:before {
+  content: "\f082";
+}
+.ovoform-admin .la-fan:before {
+  content: "\f863";
+}
+.ovoform-admin .la-fantasy-flight-games:before {
+  content: "\f6dc";
+}
+.ovoform-admin .la-fast-backward:before {
+  content: "\f049";
+}
+.ovoform-admin .la-fast-forward:before {
+  content: "\f050";
+}
+.ovoform-admin .la-fax:before {
+  content: "\f1ac";
+}
+.ovoform-admin .la-feather:before {
+  content: "\f52d";
+}
+.ovoform-admin .la-feather-alt:before {
+  content: "\f56b";
+}
+.ovoform-admin .la-fedex:before {
+  content: "\f797";
+}
+.ovoform-admin .la-fedora:before {
+  content: "\f798";
+}
+.ovoform-admin .la-female:before {
+  content: "\f182";
+}
+.ovoform-admin .la-fighter-jet:before {
+  content: "\f0fb";
+}
+.ovoform-admin .la-figma:before {
+  content: "\f799";
+}
+.ovoform-admin .la-file:before {
+  content: "\f15b";
+}
+.ovoform-admin .la-file-alt:before {
+  content: "\f15c";
+}
+.ovoform-admin .la-file-archive:before {
+  content: "\f1c6";
+}
+.ovoform-admin .la-file-audio:before {
+  content: "\f1c7";
+}
+.ovoform-admin .la-file-code:before {
+  content: "\f1c9";
+}
+.ovoform-admin .la-file-contract:before {
+  content: "\f56c";
+}
+.ovoform-admin .la-file-csv:before {
+  content: "\f6dd";
+}
+.ovoform-admin .la-file-download:before {
+  content: "\f56d";
+}
+.ovoform-admin .la-file-excel:before {
+  content: "\f1c3";
+}
+.ovoform-admin .la-file-export:before {
+  content: "\f56e";
+}
+.ovoform-admin .la-file-image:before {
+  content: "\f1c5";
+}
+.ovoform-admin .la-file-import:before {
+  content: "\f56f";
+}
+.ovoform-admin .la-file-invoice:before {
+  content: "\f570";
+}
+.ovoform-admin .la-file-invoice-dollar:before {
+  content: "\f571";
+}
+.ovoform-admin .la-file-medical:before {
+  content: "\f477";
+}
+.ovoform-admin .la-file-medical-alt:before {
+  content: "\f478";
+}
+.ovoform-admin .la-file-pdf:before {
+  content: "\f1c1";
+}
+.ovoform-admin .la-file-powerpoint:before {
+  content: "\f1c4";
+}
+.ovoform-admin .la-file-prescription:before {
+  content: "\f572";
+}
+.ovoform-admin .la-file-signature:before {
+  content: "\f573";
+}
+.ovoform-admin .la-file-upload:before {
+  content: "\f574";
+}
+.ovoform-admin .la-file-video:before {
+  content: "\f1c8";
+}
+.ovoform-admin .la-file-word:before {
+  content: "\f1c2";
+}
+.ovoform-admin .la-fill:before {
+  content: "\f575";
+}
+.ovoform-admin .la-fill-drip:before {
+  content: "\f576";
+}
+.ovoform-admin .la-film:before {
+  content: "\f008";
+}
+.ovoform-admin .la-filter:before {
+  content: "\f0b0";
+}
+.ovoform-admin .la-fingerprint:before {
+  content: "\f577";
+}
+.ovoform-admin .la-fire:before {
+  content: "\f06d";
+}
+.ovoform-admin .la-fire-alt:before {
+  content: "\f7e4";
+}
+.ovoform-admin .la-fire-extinguisher:before {
+  content: "\f134";
+}
+.ovoform-admin .la-firefox:before {
+  content: "\f269";
+}
+.ovoform-admin .la-first-aid:before {
+  content: "\f479";
+}
+.ovoform-admin .la-first-order:before {
+  content: "\f2b0";
+}
+.ovoform-admin .la-first-order-alt:before {
+  content: "\f50a";
+}
+.ovoform-admin .la-firstdraft:before {
+  content: "\f3a1";
+}
+.ovoform-admin .la-fish:before {
+  content: "\f578";
+}
+.ovoform-admin .la-fist-raised:before {
+  content: "\f6de";
+}
+.ovoform-admin .la-flag:before {
+  content: "\f024";
+}
+.ovoform-admin .la-flag-checkered:before {
+  content: "\f11e";
+}
+.ovoform-admin .la-flag-usa:before {
+  content: "\f74d";
+}
+.ovoform-admin .la-flask:before {
+  content: "\f0c3";
+}
+.ovoform-admin .la-flickr:before {
+  content: "\f16e";
+}
+.ovoform-admin .la-flipboard:before {
+  content: "\f44d";
+}
+.ovoform-admin .la-flushed:before {
+  content: "\f579";
+}
+.ovoform-admin .la-fly:before {
+  content: "\f417";
+}
+.ovoform-admin .la-folder:before {
+  content: "\f07b";
+}
+.ovoform-admin .la-folder-minus:before {
+  content: "\f65d";
+}
+.ovoform-admin .la-folder-open:before {
+  content: "\f07c";
+}
+.ovoform-admin .la-folder-plus:before {
+  content: "\f65e";
+}
+.ovoform-admin .la-font:before {
+  content: "\f031";
+}
+.ovoform-admin .la-font-awesome:before {
+  content: "\f2b4";
+}
+.ovoform-admin .la-font-awesome-alt:before {
+  content: "\f35c";
+}
+.ovoform-admin .la-font-awesome-flag:before {
+  content: "\f425";
+}
+.ovoform-admin .la-font-awesome-logo-full:before {
+  content: "\f4e6";
+}
+.ovoform-admin .la-fonticons:before {
+  content: "\f280";
+}
+.ovoform-admin .la-fonticons-fi:before {
+  content: "\f3a2";
+}
+.ovoform-admin .la-football-ball:before {
+  content: "\f44e";
+}
+.ovoform-admin .la-fort-awesome:before {
+  content: "\f286";
+}
+.ovoform-admin .la-fort-awesome-alt:before {
+  content: "\f3a3";
+}
+.ovoform-admin .la-forumbee:before {
+  content: "\f211";
+}
+.ovoform-admin .la-forward:before {
+  content: "\f04e";
+}
+.ovoform-admin .la-foursquare:before {
+  content: "\f180";
+}
+.ovoform-admin .la-free-code-camp:before {
+  content: "\f2c5";
+}
+.ovoform-admin .la-freebsd:before {
+  content: "\f3a4";
+}
+.ovoform-admin .la-frog:before {
+  content: "\f52e";
+}
+.ovoform-admin .la-frown:before {
+  content: "\f119";
+}
+.ovoform-admin .la-frown-open:before {
+  content: "\f57a";
+}
+.ovoform-admin .la-fulcrum:before {
+  content: "\f50b";
+}
+.ovoform-admin .la-funnel-dollar:before {
+  content: "\f662";
+}
+.ovoform-admin .la-futbol:before {
+  content: "\f1e3";
+}
+.ovoform-admin .la-galactic-republic:before {
+  content: "\f50c";
+}
+.ovoform-admin .la-galactic-senate:before {
+  content: "\f50d";
+}
+.ovoform-admin .la-gamepad:before {
+  content: "\f11b";
+}
+.ovoform-admin .la-gas-pump:before {
+  content: "\f52f";
+}
+.ovoform-admin .la-gavel:before {
+  content: "\f0e3";
+}
+.ovoform-admin .la-gem:before {
+  content: "\f3a5";
+}
+.ovoform-admin .la-genderless:before {
+  content: "\f22d";
+}
+.ovoform-admin .la-get-pocket:before {
+  content: "\f265";
+}
+.ovoform-admin .la-gg:before {
+  content: "\f260";
+}
+.ovoform-admin .la-gg-circle:before {
+  content: "\f261";
+}
+.ovoform-admin .la-ghost:before {
+  content: "\f6e2";
+}
+.ovoform-admin .la-gift:before {
+  content: "\f06b";
+}
+.ovoform-admin .la-gifts:before {
+  content: "\f79c";
+}
+.ovoform-admin .la-git:before {
+  content: "\f1d3";
+}
+.ovoform-admin .la-git-alt:before {
+  content: "\f841";
+}
+.ovoform-admin .la-git-square:before {
+  content: "\f1d2";
+}
+.ovoform-admin .la-github:before {
+  content: "\f09b";
+}
+.ovoform-admin .la-github-alt:before {
+  content: "\f113";
+}
+.ovoform-admin .la-github-square:before {
+  content: "\f092";
+}
+.ovoform-admin .la-gitkraken:before {
+  content: "\f3a6";
+}
+.ovoform-admin .la-gitlab:before {
+  content: "\f296";
+}
+.ovoform-admin .la-gitter:before {
+  content: "\f426";
+}
+.ovoform-admin .la-glass-cheers:before {
+  content: "\f79f";
+}
+.ovoform-admin .la-glass-martini:before {
+  content: "\f000";
+}
+.ovoform-admin .la-glass-martini-alt:before {
+  content: "\f57b";
+}
+.ovoform-admin .la-glass-whiskey:before {
+  content: "\f7a0";
+}
+.ovoform-admin .la-glasses:before {
+  content: "\f530";
+}
+.ovoform-admin .la-glide:before {
+  content: "\f2a5";
+}
+.ovoform-admin .la-glide-g:before {
+  content: "\f2a6";
+}
+.ovoform-admin .la-globe:before {
+  content: "\f0ac";
+}
+.ovoform-admin .la-globe-africa:before {
+  content: "\f57c";
+}
+.ovoform-admin .la-globe-americas:before {
+  content: "\f57d";
+}
+.ovoform-admin .la-globe-asia:before {
+  content: "\f57e";
+}
+.ovoform-admin .la-globe-europe:before {
+  content: "\f7a2";
+}
+.ovoform-admin .la-gofore:before {
+  content: "\f3a7";
+}
+.ovoform-admin .la-golf-ball:before {
+  content: "\f450";
+}
+.ovoform-admin .la-goodreads:before {
+  content: "\f3a8";
+}
+.ovoform-admin .la-goodreads-g:before {
+  content: "\f3a9";
+}
+.ovoform-admin .la-google:before {
+  content: "\f1a0";
+}
+.ovoform-admin .la-google-drive:before {
+  content: "\f3aa";
+}
+.ovoform-admin .la-google-play:before {
+  content: "\f3ab";
+}
+.ovoform-admin .la-google-plus:before {
+  content: "\f2b3";
+}
+.ovoform-admin .la-google-plus-g:before {
+  content: "\f0d5";
+}
+.ovoform-admin .la-google-plus-square:before {
+  content: "\f0d4";
+}
+.ovoform-admin .la-google-wallet:before {
+  content: "\f1ee";
+}
+.ovoform-admin .la-gopuram:before {
+  content: "\f664";
+}
+.ovoform-admin .la-graduation-cap:before {
+  content: "\f19d";
+}
+.ovoform-admin .la-gratipay:before {
+  content: "\f184";
+}
+.ovoform-admin .la-grav:before {
+  content: "\f2d6";
+}
+.ovoform-admin .la-greater-than:before {
+  content: "\f531";
+}
+.ovoform-admin .la-greater-than-equal:before {
+  content: "\f532";
+}
+.ovoform-admin .la-grimace:before {
+  content: "\f57f";
+}
+.ovoform-admin .la-grin:before {
+  content: "\f580";
+}
+.ovoform-admin .la-grin-alt:before {
+  content: "\f581";
+}
+.ovoform-admin .la-grin-beam:before {
+  content: "\f582";
+}
+.ovoform-admin .la-grin-beam-sweat:before {
+  content: "\f583";
+}
+.ovoform-admin .la-grin-hearts:before {
+  content: "\f584";
+}
+.ovoform-admin .la-grin-squint:before {
+  content: "\f585";
+}
+.ovoform-admin .la-grin-squint-tears:before {
+  content: "\f586";
+}
+.ovoform-admin .la-grin-stars:before {
+  content: "\f587";
+}
+.ovoform-admin .la-grin-tears:before {
+  content: "\f588";
+}
+.ovoform-admin .la-grin-tongue:before {
+  content: "\f589";
+}
+.ovoform-admin .la-grin-tongue-squint:before {
+  content: "\f58a";
+}
+.ovoform-admin .la-grin-tongue-wink:before {
+  content: "\f58b";
+}
+.ovoform-admin .la-grin-wink:before {
+  content: "\f58c";
+}
+.ovoform-admin .la-grip-horizontal:before {
+  content: "\f58d";
+}
+.ovoform-admin .la-grip-lines:before {
+  content: "\f7a4";
+}
+.ovoform-admin .la-grip-lines-vertical:before {
+  content: "\f7a5";
+}
+.ovoform-admin .la-grip-vertical:before {
+  content: "\f58e";
+}
+.ovoform-admin .la-gripfire:before {
+  content: "\f3ac";
+}
+.ovoform-admin .la-grunt:before {
+  content: "\f3ad";
+}
+.ovoform-admin .la-guitar:before {
+  content: "\f7a6";
+}
+.ovoform-admin .la-gulp:before {
+  content: "\f3ae";
+}
+.ovoform-admin .la-h-square:before {
+  content: "\f0fd";
+}
+.ovoform-admin .la-hacker-news:before {
+  content: "\f1d4";
+}
+.ovoform-admin .la-hacker-news-square:before {
+  content: "\f3af";
+}
+.ovoform-admin .la-hackerrank:before {
+  content: "\f5f7";
+}
+.ovoform-admin .la-hamburger:before {
+  content: "\f805";
+}
+.ovoform-admin .la-hammer:before {
+  content: "\f6e3";
+}
+.ovoform-admin .la-hamsa:before {
+  content: "\f665";
+}
+.ovoform-admin .la-hand-holding:before {
+  content: "\f4bd";
+}
+.ovoform-admin .la-hand-holding-heart:before {
+  content: "\f4be";
+}
+.ovoform-admin .la-hand-holding-usd:before {
+  content: "\f4c0";
+}
+.ovoform-admin .la-hand-lizard:before {
+  content: "\f258";
+}
+.ovoform-admin .la-hand-middle-finger:before {
+  content: "\f806";
+}
+.ovoform-admin .la-hand-paper:before {
+  content: "\f256";
+}
+.ovoform-admin .la-hand-peace:before {
+  content: "\f25b";
+}
+.ovoform-admin .la-hand-point-down:before {
+  content: "\f0a7";
+}
+.ovoform-admin .la-hand-point-left:before {
+  content: "\f0a5";
+}
+.ovoform-admin .la-hand-point-right:before {
+  content: "\f0a4";
+}
+.ovoform-admin .la-hand-point-up:before {
+  content: "\f0a6";
+}
+.ovoform-admin .la-hand-pointer:before {
+  content: "\f25a";
+}
+.ovoform-admin .la-hand-rock:before {
+  content: "\f255";
+}
+.ovoform-admin .la-hand-scissors:before {
+  content: "\f257";
+}
+.ovoform-admin .la-hand-spock:before {
+  content: "\f259";
+}
+.ovoform-admin .la-hands:before {
+  content: "\f4c2";
+}
+.ovoform-admin .la-hands-helping:before {
+  content: "\f4c4";
+}
+.ovoform-admin .la-handshake:before {
+  content: "\f2b5";
+}
+.ovoform-admin .la-hanukiah:before {
+  content: "\f6e6";
+}
+.ovoform-admin .la-hard-hat:before {
+  content: "\f807";
+}
+.ovoform-admin .la-hashtag:before {
+  content: "\f292";
+}
+.ovoform-admin .la-hat-cowboy:before {
+  content: "\f8c0";
+}
+.ovoform-admin .la-hat-cowboy-side:before {
+  content: "\f8c1";
+}
+.ovoform-admin .la-hat-wizard:before {
+  content: "\f6e8";
+}
+.ovoform-admin .la-haykal:before {
+  content: "\f666";
+}
+.ovoform-admin .la-hdd:before {
+  content: "\f0a0";
+}
+.ovoform-admin .la-heading:before {
+  content: "\f1dc";
+}
+.ovoform-admin .la-headphones:before {
+  content: "\f025";
+}
+.ovoform-admin .la-headphones-alt:before {
+  content: "\f58f";
+}
+.ovoform-admin .la-headset:before {
+  content: "\f590";
+}
+.ovoform-admin .la-heart:before {
+  content: "\f004";
+}
+.ovoform-admin .la-heart-broken:before {
+  content: "\f7a9";
+}
+.ovoform-admin .la-heartbeat:before {
+  content: "\f21e";
+}
+.ovoform-admin .la-helicopter:before {
+  content: "\f533";
+}
+.ovoform-admin .la-highlighter:before {
+  content: "\f591";
+}
+.ovoform-admin .la-hiking:before {
+  content: "\f6ec";
+}
+.ovoform-admin .la-hippo:before {
+  content: "\f6ed";
+}
+.ovoform-admin .la-hips:before {
+  content: "\f452";
+}
+.ovoform-admin .la-hire-a-helper:before {
+  content: "\f3b0";
+}
+.ovoform-admin .la-history:before {
+  content: "\f1da";
+}
+.ovoform-admin .la-hockey-puck:before {
+  content: "\f453";
+}
+.ovoform-admin .la-holly-berry:before {
+  content: "\f7aa";
+}
+.ovoform-admin .la-home:before {
+  content: "\f015";
+}
+.ovoform-admin .la-hooli:before {
+  content: "\f427";
+}
+.ovoform-admin .la-hornbill:before {
+  content: "\f592";
+}
+.ovoform-admin .la-horse:before {
+  content: "\f6f0";
+}
+.ovoform-admin .la-horse-head:before {
+  content: "\f7ab";
+}
+.ovoform-admin .la-hospital:before {
+  content: "\f0f8";
+}
+.ovoform-admin .la-hospital-alt:before {
+  content: "\f47d";
+}
+.ovoform-admin .la-hospital-symbol:before {
+  content: "\f47e";
+}
+.ovoform-admin .la-hot-tub:before {
+  content: "\f593";
+}
+.ovoform-admin .la-hotdog:before {
+  content: "\f80f";
+}
+.ovoform-admin .la-hotel:before {
+  content: "\f594";
+}
+.ovoform-admin .la-hotjar:before {
+  content: "\f3b1";
+}
+.ovoform-admin .la-hourglass:before {
+  content: "\f254";
+}
+.ovoform-admin .la-hourglass-end:before {
+  content: "\f253";
+}
+.ovoform-admin .la-hourglass-half:before {
+  content: "\f252";
+}
+.ovoform-admin .la-hourglass-start:before {
+  content: "\f251";
+}
+.ovoform-admin .la-house-damage:before {
+  content: "\f6f1";
+}
+.ovoform-admin .la-houzz:before {
+  content: "\f27c";
+}
+.ovoform-admin .la-hryvnia:before {
+  content: "\f6f2";
+}
+.ovoform-admin .la-html5:before {
+  content: "\f13b";
+}
+.ovoform-admin .la-hubspot:before {
+  content: "\f3b2";
+}
+.ovoform-admin .la-i-cursor:before {
+  content: "\f246";
+}
+.ovoform-admin .la-ice-cream:before {
+  content: "\f810";
+}
+.ovoform-admin .la-icicles:before {
+  content: "\f7ad";
+}
+.ovoform-admin .la-icons:before {
+  content: "\f86d";
+}
+.ovoform-admin .la-id-badge:before {
+  content: "\f2c1";
+}
+.ovoform-admin .la-id-card:before {
+  content: "\f2c2";
+}
+.ovoform-admin .la-id-card-alt:before {
+  content: "\f47f";
+}
+.ovoform-admin .la-igloo:before {
+  content: "\f7ae";
+}
+.ovoform-admin .la-image:before {
+  content: "\f03e";
+}
+.ovoform-admin .la-images:before {
+  content: "\f302";
+}
+.ovoform-admin .la-imdb:before {
+  content: "\f2d8";
+}
+.ovoform-admin .la-inbox:before {
+  content: "\f01c";
+}
+.ovoform-admin .la-indent:before {
+  content: "\f03c";
+}
+.ovoform-admin .la-industry:before {
+  content: "\f275";
+}
+.ovoform-admin .la-infinity:before {
+  content: "\f534";
+}
+.ovoform-admin .la-info:before {
+  content: "\f129";
+}
+.ovoform-admin .la-info-circle:before {
+  content: "\f05a";
+}
+.ovoform-admin .la-instagram:before {
+  content: "\f16d";
+}
+.ovoform-admin .la-intercom:before {
+  content: "\f7af";
+}
+.ovoform-admin .la-internet-explorer:before {
+  content: "\f26b";
+}
+.ovoform-admin .la-invision:before {
+  content: "\f7b0";
+}
+.ovoform-admin .la-ioxhost:before {
+  content: "\f208";
+}
+.ovoform-admin .la-italic:before {
+  content: "\f033";
+}
+.ovoform-admin .la-itch-io:before {
+  content: "\f83a";
+}
+.ovoform-admin .la-itunes:before {
+  content: "\f3b4";
+}
+.ovoform-admin .la-itunes-note:before {
+  content: "\f3b5";
+}
+.ovoform-admin .la-java:before {
+  content: "\f4e4";
+}
+.ovoform-admin .la-jedi:before {
+  content: "\f669";
+}
+.ovoform-admin .la-jedi-order:before {
+  content: "\f50e";
+}
+.ovoform-admin .la-jenkins:before {
+  content: "\f3b6";
+}
+.ovoform-admin .la-jira:before {
+  content: "\f7b1";
+}
+.ovoform-admin .la-joget:before {
+  content: "\f3b7";
+}
+.ovoform-admin .la-joint:before {
+  content: "\f595";
+}
+.ovoform-admin .la-joomla:before {
+  content: "\f1aa";
+}
+.ovoform-admin .la-journal-whills:before {
+  content: "\f66a";
+}
+.ovoform-admin .la-js:before {
+  content: "\f3b8";
+}
+.ovoform-admin .la-js-square:before {
+  content: "\f3b9";
+}
+.ovoform-admin .la-jsfiddle:before {
+  content: "\f1cc";
+}
+.ovoform-admin .la-kaaba:before {
+  content: "\f66b";
+}
+.ovoform-admin .la-kaggle:before {
+  content: "\f5fa";
+}
+.ovoform-admin .la-key:before {
+  content: "\f084";
+}
+.ovoform-admin .la-keybase:before {
+  content: "\f4f5";
+}
+.ovoform-admin .la-keyboard:before {
+  content: "\f11c";
+}
+.ovoform-admin .la-keycdn:before {
+  content: "\f3ba";
+}
+.ovoform-admin .la-khanda:before {
+  content: "\f66d";
+}
+.ovoform-admin .la-kickstarter:before {
+  content: "\f3bb";
+}
+.ovoform-admin .la-kickstarter-k:before {
+  content: "\f3bc";
+}
+.ovoform-admin .la-kiss:before {
+  content: "\f596";
+}
+.ovoform-admin .la-kiss-beam:before {
+  content: "\f597";
+}
+.ovoform-admin .la-kiss-wink-heart:before {
+  content: "\f598";
+}
+.ovoform-admin .la-kiwi-bird:before {
+  content: "\f535";
+}
+.ovoform-admin .la-korvue:before {
+  content: "\f42f";
+}
+.ovoform-admin .la-landmark:before {
+  content: "\f66f";
+}
+.ovoform-admin .la-language:before {
+  content: "\f1ab";
+}
+.ovoform-admin .la-laptop:before {
+  content: "\f109";
+}
+.ovoform-admin .la-laptop-code:before {
+  content: "\f5fc";
+}
+.ovoform-admin .la-laptop-medical:before {
+  content: "\f812";
+}
+.ovoform-admin .la-laravel:before {
+  content: "\f3bd";
+}
+.ovoform-admin .la-lastfm:before {
+  content: "\f202";
+}
+.ovoform-admin .la-lastfm-square:before {
+  content: "\f203";
+}
+.ovoform-admin .la-laugh:before {
+  content: "\f599";
+}
+.ovoform-admin .la-laugh-beam:before {
+  content: "\f59a";
+}
+.ovoform-admin .la-laugh-squint:before {
+  content: "\f59b";
+}
+.ovoform-admin .la-laugh-wink:before {
+  content: "\f59c";
+}
+.ovoform-admin .la-layer-group:before {
+  content: "\f5fd";
+}
+.ovoform-admin .la-leaf:before {
+  content: "\f06c";
+}
+.ovoform-admin .la-leanpub:before {
+  content: "\f212";
+}
+.ovoform-admin .la-lemon:before {
+  content: "\f094";
+}
+.ovoform-admin .la-less:before {
+  content: "\f41d";
+}
+.ovoform-admin .la-less-than:before {
+  content: "\f536";
+}
+.ovoform-admin .la-less-than-equal:before {
+  content: "\f537";
+}
+.ovoform-admin .la-level-down-alt:before {
+  content: "\f3be";
+}
+.ovoform-admin .la-level-up-alt:before {
+  content: "\f3bf";
+}
+.ovoform-admin .la-life-ring:before {
+  content: "\f1cd";
+}
+.ovoform-admin .la-lightbulb:before {
+  content: "\f0eb";
+}
+.ovoform-admin .la-line:before {
+  content: "\f3c0";
+}
+.ovoform-admin .la-link:before {
+  content: "\f0c1";
+}
+.ovoform-admin .la-linkedin:before {
+  content: "\f08c";
+}
+.ovoform-admin .la-linkedin-in:before {
+  content: "\f0e1";
+}
+.ovoform-admin .la-linode:before {
+  content: "\f2b8";
+}
+.ovoform-admin .la-linux:before {
+  content: "\f17c";
+}
+.ovoform-admin .la-lira-sign:before {
+  content: "\f195";
+}
+.ovoform-admin .la-list:before {
+  content: "\f03a";
+}
+.ovoform-admin .la-list-alt:before {
+  content: "\f022";
+}
+.ovoform-admin .la-list-ol:before {
+  content: "\f0cb";
+}
+.ovoform-admin .la-list-ul:before {
+  content: "\f0ca";
+}
+.ovoform-admin .la-location-arrow:before {
+  content: "\f124";
+}
+.ovoform-admin .la-lock:before {
+  content: "\f023";
+}
+.ovoform-admin .la-lock-open:before {
+  content: "\f3c1";
+}
+.ovoform-admin .la-long-arrow-alt-down:before {
+  content: "\f309";
+}
+.ovoform-admin .la-long-arrow-alt-left:before {
+  content: "\f30a";
+}
+.ovoform-admin .la-long-arrow-alt-right:before {
+  content: "\f30b";
+}
+.ovoform-admin .la-long-arrow-alt-up:before {
+  content: "\f30c";
+}
+.ovoform-admin .la-low-vision:before {
+  content: "\f2a8";
+}
+.ovoform-admin .la-luggage-cart:before {
+  content: "\f59d";
+}
+.ovoform-admin .la-lyft:before {
+  content: "\f3c3";
+}
+.ovoform-admin .la-magento:before {
+  content: "\f3c4";
+}
+.ovoform-admin .la-magic:before {
+  content: "\f0d0";
+}
+.ovoform-admin .la-magnet:before {
+  content: "\f076";
+}
+.ovoform-admin .la-mail-bulk:before {
+  content: "\f674";
+}
+.ovoform-admin .la-mailchimp:before {
+  content: "\f59e";
+}
+.ovoform-admin .la-male:before {
+  content: "\f183";
+}
+.ovoform-admin .la-mandalorian:before {
+  content: "\f50f";
+}
+.ovoform-admin .la-map:before {
+  content: "\f279";
+}
+.ovoform-admin .la-map-marked:before {
+  content: "\f59f";
+}
+.ovoform-admin .la-map-marked-alt:before {
+  content: "\f5a0";
+}
+.ovoform-admin .la-map-marker:before {
+  content: "\f041";
+}
+.ovoform-admin .la-map-marker-alt:before {
+  content: "\f3c5";
+}
+.ovoform-admin .la-map-pin:before {
+  content: "\f276";
+}
+.ovoform-admin .la-map-signs:before {
+  content: "\f277";
+}
+.ovoform-admin .la-markdown:before {
+  content: "\f60f";
+}
+.ovoform-admin .la-marker:before {
+  content: "\f5a1";
+}
+.ovoform-admin .la-mars:before {
+  content: "\f222";
+}
+.ovoform-admin .la-mars-double:before {
+  content: "\f227";
+}
+.ovoform-admin .la-mars-stroke:before {
+  content: "\f229";
+}
+.ovoform-admin .la-mars-stroke-h:before {
+  content: "\f22b";
+}
+.ovoform-admin .la-mars-stroke-v:before {
+  content: "\f22a";
+}
+.ovoform-admin .la-mask:before {
+  content: "\f6fa";
+}
+.ovoform-admin .la-mastodon:before {
+  content: "\f4f6";
+}
+.ovoform-admin .la-maxcdn:before {
+  content: "\f136";
+}
+.ovoform-admin .la-mdb:before {
+  content: "\f8ca";
+}
+.ovoform-admin .la-medal:before {
+  content: "\f5a2";
+}
+.ovoform-admin .la-medapps:before {
+  content: "\f3c6";
+}
+.ovoform-admin .la-medium:before {
+  content: "\f23a";
+}
+.ovoform-admin .la-medium-m:before {
+  content: "\f3c7";
+}
+.ovoform-admin .la-medkit:before {
+  content: "\f0fa";
+}
+.ovoform-admin .la-medrt:before {
+  content: "\f3c8";
+}
+.ovoform-admin .la-meetup:before {
+  content: "\f2e0";
+}
+.ovoform-admin .la-megaport:before {
+  content: "\f5a3";
+}
+.ovoform-admin .la-meh:before {
+  content: "\f11a";
+}
+.ovoform-admin .la-meh-blank:before {
+  content: "\f5a4";
+}
+.ovoform-admin .la-meh-rolling-eyes:before {
+  content: "\f5a5";
+}
+.ovoform-admin .la-memory:before {
+  content: "\f538";
+}
+.ovoform-admin .la-mendeley:before {
+  content: "\f7b3";
+}
+.ovoform-admin .la-menorah:before {
+  content: "\f676";
+}
+.ovoform-admin .la-mercury:before {
+  content: "\f223";
+}
+.ovoform-admin .la-meteor:before {
+  content: "\f753";
+}
+.ovoform-admin .la-microchip:before {
+  content: "\f2db";
+}
+.ovoform-admin .la-microphone:before {
+  content: "\f130";
+}
+.ovoform-admin .la-microphone-alt:before {
+  content: "\f3c9";
+}
+.ovoform-admin .la-microphone-alt-slash:before {
+  content: "\f539";
+}
+.ovoform-admin .la-microphone-slash:before {
+  content: "\f131";
+}
+.ovoform-admin .la-microscope:before {
+  content: "\f610";
+}
+.ovoform-admin .la-microsoft:before {
+  content: "\f3ca";
+}
+.ovoform-admin .la-minus:before {
+  content: "\f068";
+}
+.ovoform-admin .la-minus-circle:before {
+  content: "\f056";
+}
+.ovoform-admin .la-minus-square:before {
+  content: "\f146";
+}
+.ovoform-admin .la-mitten:before {
+  content: "\f7b5";
+}
+.ovoform-admin .la-mix:before {
+  content: "\f3cb";
+}
+.ovoform-admin .la-mixcloud:before {
+  content: "\f289";
+}
+.ovoform-admin .la-mizuni:before {
+  content: "\f3cc";
+}
+.ovoform-admin .la-mobile:before {
+  content: "\f10b";
+}
+.ovoform-admin .la-mobile-alt:before {
+  content: "\f3cd";
+}
+.ovoform-admin .la-modx:before {
+  content: "\f285";
+}
+.ovoform-admin .la-monero:before {
+  content: "\f3d0";
+}
+.ovoform-admin .la-money-bill:before {
+  content: "\f0d6";
+}
+.ovoform-admin .la-money-bill-alt:before {
+  content: "\f3d1";
+}
+.ovoform-admin .la-money-bill-wave:before {
+  content: "\f53a";
+}
+.ovoform-admin .la-money-bill-wave-alt:before {
+  content: "\f53b";
+}
+.ovoform-admin .la-money-check:before {
+  content: "\f53c";
+}
+.ovoform-admin .la-money-check-alt:before {
+  content: "\f53d";
+}
+.ovoform-admin .la-monument:before {
+  content: "\f5a6";
+}
+.ovoform-admin .la-moon:before {
+  content: "\f186";
+}
+.ovoform-admin .la-mortar-pestle:before {
+  content: "\f5a7";
+}
+.ovoform-admin .la-mosque:before {
+  content: "\f678";
+}
+.ovoform-admin .la-motorcycle:before {
+  content: "\f21c";
+}
+.ovoform-admin .la-mountain:before {
+  content: "\f6fc";
+}
+.ovoform-admin .la-mouse:before {
+  content: "\f8cc";
+}
+.ovoform-admin .la-mouse-pointer:before {
+  content: "\f245";
+}
+.ovoform-admin .la-mug-hot:before {
+  content: "\f7b6";
+}
+.ovoform-admin .la-music:before {
+  content: "\f001";
+}
+.ovoform-admin .la-napster:before {
+  content: "\f3d2";
+}
+.ovoform-admin .la-neos:before {
+  content: "\f612";
+}
+.ovoform-admin .la-network-wired:before {
+  content: "\f6ff";
+}
+.ovoform-admin .la-neuter:before {
+  content: "\f22c";
+}
+.ovoform-admin .la-newspaper:before {
+  content: "\f1ea";
+}
+.ovoform-admin .la-nimblr:before {
+  content: "\f5a8";
+}
+.ovoform-admin .la-node:before {
+  content: "\f419";
+}
+.ovoform-admin .la-node-js:before {
+  content: "\f3d3";
+}
+.ovoform-admin .la-not-equal:before {
+  content: "\f53e";
+}
+.ovoform-admin .la-notes-medical:before {
+  content: "\f481";
+}
+.ovoform-admin .la-npm:before {
+  content: "\f3d4";
+}
+.ovoform-admin .la-ns8:before {
+  content: "\f3d5";
+}
+.ovoform-admin .la-nutritionix:before {
+  content: "\f3d6";
+}
+.ovoform-admin .la-object-group:before {
+  content: "\f247";
+}
+.ovoform-admin .la-object-ungroup:before {
+  content: "\f248";
+}
+.ovoform-admin .la-odnoklassniki:before {
+  content: "\f263";
+}
+.ovoform-admin .la-odnoklassniki-square:before {
+  content: "\f264";
+}
+.ovoform-admin .la-oil-can:before {
+  content: "\f613";
+}
+.ovoform-admin .la-old-republic:before {
+  content: "\f510";
+}
+.ovoform-admin .la-om:before {
+  content: "\f679";
+}
+.ovoform-admin .la-opencart:before {
+  content: "\f23d";
+}
+.ovoform-admin .la-openid:before {
+  content: "\f19b";
+}
+.ovoform-admin .la-opera:before {
+  content: "\f26a";
+}
+.ovoform-admin .la-optin-monster:before {
+  content: "\f23c";
+}
+.ovoform-admin .la-orcid:before {
+  content: "\f8d2";
+}
+.ovoform-admin .la-osi:before {
+  content: "\f41a";
+}
+.ovoform-admin .la-otter:before {
+  content: "\f700";
+}
+.ovoform-admin .la-outdent:before {
+  content: "\f03b";
+}
+.ovoform-admin .la-page4:before {
+  content: "\f3d7";
+}
+.ovoform-admin .la-pagelines:before {
+  content: "\f18c";
+}
+.ovoform-admin .la-pager:before {
+  content: "\f815";
+}
+.ovoform-admin .la-paint-brush:before {
+  content: "\f1fc";
+}
+.ovoform-admin .la-paint-roller:before {
+  content: "\f5aa";
+}
+.ovoform-admin .la-palette:before {
+  content: "\f53f";
+}
+.ovoform-admin .la-palfed:before {
+  content: "\f3d8";
+}
+.ovoform-admin .la-pallet:before {
+  content: "\f482";
+}
+.ovoform-admin .la-paper-plane:before {
+  content: "\f1d8";
+}
+.ovoform-admin .la-paperclip:before {
+  content: "\f0c6";
+}
+.ovoform-admin .la-parachute-box:before {
+  content: "\f4cd";
+}
+.ovoform-admin .la-paragraph:before {
+  content: "\f1dd";
+}
+.ovoform-admin .la-parking:before {
+  content: "\f540";
+}
+.ovoform-admin .la-passport:before {
+  content: "\f5ab";
+}
+.ovoform-admin .la-pastafarianism:before {
+  content: "\f67b";
+}
+.ovoform-admin .la-paste:before {
+  content: "\f0ea";
+}
+.ovoform-admin .la-patreon:before {
+  content: "\f3d9";
+}
+.ovoform-admin .la-pause:before {
+  content: "\f04c";
+}
+.ovoform-admin .la-pause-circle:before {
+  content: "\f28b";
+}
+.ovoform-admin .la-paw:before {
+  content: "\f1b0";
+}
+.ovoform-admin .la-paypal:before {
+  content: "\f1ed";
+}
+.ovoform-admin .la-peace:before {
+  content: "\f67c";
+}
+.ovoform-admin .la-pen:before {
+  content: "\f304";
+}
+.ovoform-admin .la-pen-alt:before {
+  content: "\f305";
+}
+.ovoform-admin .la-pen-fancy:before {
+  content: "\f5ac";
+}
+.ovoform-admin .la-pen-nib:before {
+  content: "\f5ad";
+}
+.ovoform-admin .la-pen-square:before {
+  content: "\f14b";
+}
+.ovoform-admin .la-pencil-alt:before {
+  content: "\f303";
+}
+.ovoform-admin .la-pencil-ruler:before {
+  content: "\f5ae";
+}
+.ovoform-admin .la-penny-arcade:before {
+  content: "\f704";
+}
+.ovoform-admin .la-people-carry:before {
+  content: "\f4ce";
+}
+.ovoform-admin .la-pepper-hot:before {
+  content: "\f816";
+}
+.ovoform-admin .la-percent:before {
+  content: "\f295";
+}
+.ovoform-admin .la-percentage:before {
+  content: "\f541";
+}
+.ovoform-admin .la-periscope:before {
+  content: "\f3da";
+}
+.ovoform-admin .la-person-booth:before {
+  content: "\f756";
+}
+.ovoform-admin .la-phabricator:before {
+  content: "\f3db";
+}
+.ovoform-admin .la-phoenix-framework:before {
+  content: "\f3dc";
+}
+.ovoform-admin .la-phoenix-squadron:before {
+  content: "\f511";
+}
+.ovoform-admin .la-phone:before {
+  content: "\f095";
+}
+.ovoform-admin .la-phone-alt:before {
+  content: "\f879";
+}
+.ovoform-admin .la-phone-slash:before {
+  content: "\f3dd";
+}
+.ovoform-admin .la-phone-square:before {
+  content: "\f098";
+}
+.ovoform-admin .la-phone-square-alt:before {
+  content: "\f87b";
+}
+.ovoform-admin .la-phone-volume:before {
+  content: "\f2a0";
+}
+.ovoform-admin .la-photo-video:before {
+  content: "\f87c";
+}
+.ovoform-admin .la-php:before {
+  content: "\f457";
+}
+.ovoform-admin .la-pied-piper:before {
+  content: "\f2ae";
+}
+.ovoform-admin .la-pied-piper-alt:before {
+  content: "\f1a8";
+}
+.ovoform-admin .la-pied-piper-hat:before {
+  content: "\f4e5";
+}
+.ovoform-admin .la-pied-piper-pp:before {
+  content: "\f1a7";
+}
+.ovoform-admin .la-piggy-bank:before {
+  content: "\f4d3";
+}
+.ovoform-admin .la-pills:before {
+  content: "\f484";
+}
+.ovoform-admin .la-pinterest:before {
+  content: "\f0d2";
+}
+.ovoform-admin .la-pinterest-p:before {
+  content: "\f231";
+}
+.ovoform-admin .la-pinterest-square:before {
+  content: "\f0d3";
+}
+.ovoform-admin .la-pizza-slice:before {
+  content: "\f818";
+}
+.ovoform-admin .la-place-of-worship:before {
+  content: "\f67f";
+}
+.ovoform-admin .la-plane:before {
+  content: "\f072";
+}
+.ovoform-admin .la-plane-arrival:before {
+  content: "\f5af";
+}
+.ovoform-admin .la-plane-departure:before {
+  content: "\f5b0";
+}
+.ovoform-admin .la-play:before {
+  content: "\f04b";
+}
+.ovoform-admin .la-play-circle:before {
+  content: "\f144";
+}
+.ovoform-admin .la-playstation:before {
+  content: "\f3df";
+}
+.ovoform-admin .la-plug:before {
+  content: "\f1e6";
+}
+.ovoform-admin .la-plus:before {
+  content: "\f067";
+}
+.ovoform-admin .la-plus-circle:before {
+  content: "\f055";
+}
+.ovoform-admin .la-plus-square:before {
+  content: "\f0fe";
+}
+.ovoform-admin .la-podcast:before {
+  content: "\f2ce";
+}
+.ovoform-admin .la-poll:before {
+  content: "\f681";
+}
+.ovoform-admin .la-poll-h:before {
+  content: "\f682";
+}
+.ovoform-admin .la-poo:before {
+  content: "\f2fe";
+}
+.ovoform-admin .la-poo-storm:before {
+  content: "\f75a";
+}
+.ovoform-admin .la-poop:before {
+  content: "\f619";
+}
+.ovoform-admin .la-portrait:before {
+  content: "\f3e0";
+}
+.ovoform-admin .la-pound-sign:before {
+  content: "\f154";
+}
+.ovoform-admin .la-power-off:before {
+  content: "\f011";
+}
+.ovoform-admin .la-pray:before {
+  content: "\f683";
+}
+.ovoform-admin .la-praying-hands:before {
+  content: "\f684";
+}
+.ovoform-admin .la-prescription:before {
+  content: "\f5b1";
+}
+.ovoform-admin .la-prescription-bottle:before {
+  content: "\f485";
+}
+.ovoform-admin .la-prescription-bottle-alt:before {
+  content: "\f486";
+}
+.ovoform-admin .la-print:before {
+  content: "\f02f";
+}
+.ovoform-admin .la-procedures:before {
+  content: "\f487";
+}
+.ovoform-admin .la-product-hunt:before {
+  content: "\f288";
+}
+.ovoform-admin .la-project-diagram:before {
+  content: "\f542";
+}
+.ovoform-admin .la-pushed:before {
+  content: "\f3e1";
+}
+.ovoform-admin .la-puzzle-piece:before {
+  content: "\f12e";
+}
+.ovoform-admin .la-python:before {
+  content: "\f3e2";
+}
+.ovoform-admin .la-qq:before {
+  content: "\f1d6";
+}
+.ovoform-admin .la-qrcode:before {
+  content: "\f029";
+}
+.ovoform-admin .la-question:before {
+  content: "\f128";
+}
+.ovoform-admin .la-question-circle:before {
+  content: "\f059";
+}
+.ovoform-admin .la-quidditch:before {
+  content: "\f458";
+}
+.ovoform-admin .la-quinscape:before {
+  content: "\f459";
+}
+.ovoform-admin .la-quora:before {
+  content: "\f2c4";
+}
+.ovoform-admin .la-quote-left:before {
+  content: "\f10d";
+}
+.ovoform-admin .la-quote-right:before {
+  content: "\f10e";
+}
+.ovoform-admin .la-quran:before {
+  content: "\f687";
+}
+.ovoform-admin .la-r-project:before {
+  content: "\f4f7";
+}
+.ovoform-admin .la-radiation:before {
+  content: "\f7b9";
+}
+.ovoform-admin .la-radiation-alt:before {
+  content: "\f7ba";
+}
+.ovoform-admin .la-rainbow:before {
+  content: "\f75b";
+}
+.ovoform-admin .la-random:before {
+  content: "\f074";
+}
+.ovoform-admin .la-raspberry-pi:before {
+  content: "\f7bb";
+}
+.ovoform-admin .la-ravelry:before {
+  content: "\f2d9";
+}
+.ovoform-admin .la-react:before {
+  content: "\f41b";
+}
+.ovoform-admin .la-reacteurope:before {
+  content: "\f75d";
+}
+.ovoform-admin .la-readme:before {
+  content: "\f4d5";
+}
+.ovoform-admin .la-rebel:before {
+  content: "\f1d0";
+}
+.ovoform-admin .la-receipt:before {
+  content: "\f543";
+}
+.ovoform-admin .la-record-vinyl:before {
+  content: "\f8d9";
+}
+.ovoform-admin .la-recycle:before {
+  content: "\f1b8";
+}
+.ovoform-admin .la-red-river:before {
+  content: "\f3e3";
+}
+.ovoform-admin .la-reddit:before {
+  content: "\f1a1";
+}
+.ovoform-admin .la-reddit-alien:before {
+  content: "\f281";
+}
+.ovoform-admin .la-reddit-square:before {
+  content: "\f1a2";
+}
+.ovoform-admin .la-redhat:before {
+  content: "\f7bc";
+}
+.ovoform-admin .la-redo:before {
+  content: "\f01e";
+}
+.ovoform-admin .la-redo-alt:before {
+  content: "\f2f9";
+}
+.ovoform-admin .la-registered:before {
+  content: "\f25d";
+}
+.ovoform-admin .la-remove-format:before {
+  content: "\f87d";
+}
+.ovoform-admin .la-renren:before {
+  content: "\f18b";
+}
+.ovoform-admin .la-reply:before {
+  content: "\f3e5";
+}
+.ovoform-admin .la-reply-all:before {
+  content: "\f122";
+}
+.ovoform-admin .la-replyd:before {
+  content: "\f3e6";
+}
+.ovoform-admin .la-republican:before {
+  content: "\f75e";
+}
+.ovoform-admin .la-researchgate:before {
+  content: "\f4f8";
+}
+.ovoform-admin .la-resolving:before {
+  content: "\f3e7";
+}
+.ovoform-admin .la-restroom:before {
+  content: "\f7bd";
+}
+.ovoform-admin .la-retweet:before {
+  content: "\f079";
+}
+.ovoform-admin .la-rev:before {
+  content: "\f5b2";
+}
+.ovoform-admin .la-ribbon:before {
+  content: "\f4d6";
+}
+.ovoform-admin .la-ring:before {
+  content: "\f70b";
+}
+.ovoform-admin .la-road:before {
+  content: "\f018";
+}
+.ovoform-admin .la-robot:before {
+  content: "\f544";
+}
+.ovoform-admin .la-rocket:before {
+  content: "\f135";
+}
+.ovoform-admin .la-rocketchat:before {
+  content: "\f3e8";
+}
+.ovoform-admin .la-rockrms:before {
+  content: "\f3e9";
+}
+.ovoform-admin .la-route:before {
+  content: "\f4d7";
+}
+.ovoform-admin .la-rss:before {
+  content: "\f09e";
+}
+.ovoform-admin .la-rss-square:before {
+  content: "\f143";
+}
+.ovoform-admin .la-ruble-sign:before {
+  content: "\f158";
+}
+.ovoform-admin .la-ruler:before {
+  content: "\f545";
+}
+.ovoform-admin .la-ruler-combined:before {
+  content: "\f546";
+}
+.ovoform-admin .la-ruler-horizontal:before {
+  content: "\f547";
+}
+.ovoform-admin .la-ruler-vertical:before {
+  content: "\f548";
+}
+.ovoform-admin .la-running:before {
+  content: "\f70c";
+}
+.ovoform-admin .la-rupee-sign:before {
+  content: "\f156";
+}
+.ovoform-admin .la-sad-cry:before {
+  content: "\f5b3";
+}
+.ovoform-admin .la-sad-tear:before {
+  content: "\f5b4";
+}
+.ovoform-admin .la-safari:before {
+  content: "\f267";
+}
+.ovoform-admin .la-salesforce:before {
+  content: "\f83b";
+}
+.ovoform-admin .la-sass:before {
+  content: "\f41e";
+}
+.ovoform-admin .la-satellite:before {
+  content: "\f7bf";
+}
+.ovoform-admin .la-satellite-dish:before {
+  content: "\f7c0";
+}
+.ovoform-admin .la-save:before {
+  content: "\f0c7";
+}
+.ovoform-admin .la-schlix:before {
+  content: "\f3ea";
+}
+.ovoform-admin .la-school:before {
+  content: "\f549";
+}
+.ovoform-admin .la-screwdriver:before {
+  content: "\f54a";
+}
+.ovoform-admin .la-scribd:before {
+  content: "\f28a";
+}
+.ovoform-admin .la-scroll:before {
+  content: "\f70e";
+}
+.ovoform-admin .la-sd-card:before {
+  content: "\f7c2";
+}
+.ovoform-admin .la-search:before {
+  content: "\f002";
+}
+.ovoform-admin .la-search-dollar:before {
+  content: "\f688";
+}
+.ovoform-admin .la-search-location:before {
+  content: "\f689";
+}
+.ovoform-admin .la-search-minus:before {
+  content: "\f010";
+}
+.ovoform-admin .la-search-plus:before {
+  content: "\f00e";
+}
+.ovoform-admin .la-searchengin:before {
+  content: "\f3eb";
+}
+.ovoform-admin .la-seedling:before {
+  content: "\f4d8";
+}
+.ovoform-admin .la-sellcast:before {
+  content: "\f2da";
+}
+.ovoform-admin .la-sellsy:before {
+  content: "\f213";
+}
+.ovoform-admin .la-server:before {
+  content: "\f233";
+}
+.ovoform-admin .la-servicestack:before {
+  content: "\f3ec";
+}
+.ovoform-admin .la-shapes:before {
+  content: "\f61f";
+}
+.ovoform-admin .la-share:before {
+  content: "\f064";
+}
+.ovoform-admin .la-share-alt:before {
+  content: "\f1e0";
+}
+.ovoform-admin .la-share-alt-square:before {
+  content: "\f1e1";
+}
+.ovoform-admin .la-share-square:before {
+  content: "\f14d";
+}
+.ovoform-admin .la-shekel-sign:before {
+  content: "\f20b";
+}
+.ovoform-admin .la-shield-alt:before {
+  content: "\f3ed";
+}
+.ovoform-admin .la-ship:before {
+  content: "\f21a";
+}
+.ovoform-admin .la-shipping-fast:before {
+  content: "\f48b";
+}
+.ovoform-admin .la-shirtsinbulk:before {
+  content: "\f214";
+}
+.ovoform-admin .la-shoe-prints:before {
+  content: "\f54b";
+}
+.ovoform-admin .la-shopping-bag:before {
+  content: "\f290";
+}
+.ovoform-admin .la-shopping-basket:before {
+  content: "\f291";
+}
+.ovoform-admin .la-shopping-cart:before {
+  content: "\f07a";
+}
+.ovoform-admin .la-shopware:before {
+  content: "\f5b5";
+}
+.ovoform-admin .la-shower:before {
+  content: "\f2cc";
+}
+.ovoform-admin .la-shuttle-van:before {
+  content: "\f5b6";
+}
+.ovoform-admin .la-sign:before {
+  content: "\f4d9";
+}
+.ovoform-admin .la-sign-in-alt:before {
+  content: "\f2f6";
+}
+.ovoform-admin .la-sign-language:before {
+  content: "\f2a7";
+}
+.ovoform-admin .la-sign-out-alt:before {
+  content: "\f2f5";
+}
+.ovoform-admin .la-signal:before {
+  content: "\f012";
+}
+.ovoform-admin .la-signature:before {
+  content: "\f5b7";
+}
+.ovoform-admin .la-sim-card:before {
+  content: "\f7c4";
+}
+.ovoform-admin .la-simplybuilt:before {
+  content: "\f215";
+}
+.ovoform-admin .la-sistrix:before {
+  content: "\f3ee";
+}
+.ovoform-admin .la-sitemap:before {
+  content: "\f0e8";
+}
+.ovoform-admin .la-sith:before {
+  content: "\f512";
+}
+.ovoform-admin .la-skating:before {
+  content: "\f7c5";
+}
+.ovoform-admin .la-sketch:before {
+  content: "\f7c6";
+}
+.ovoform-admin .la-skiing:before {
+  content: "\f7c9";
+}
+.ovoform-admin .la-skiing-nordic:before {
+  content: "\f7ca";
+}
+.ovoform-admin .la-skull:before {
+  content: "\f54c";
+}
+.ovoform-admin .la-skull-crossbones:before {
+  content: "\f714";
+}
+.ovoform-admin .la-skyatlas:before {
+  content: "\f216";
+}
+.ovoform-admin .la-skype:before {
+  content: "\f17e";
+}
+.ovoform-admin .la-slack:before {
+  content: "\f198";
+}
+.ovoform-admin .la-slack-hash:before {
+  content: "\f3ef";
+}
+.ovoform-admin .la-slash:before {
+  content: "\f715";
+}
+.ovoform-admin .la-sleigh:before {
+  content: "\f7cc";
+}
+.ovoform-admin .la-sliders-h:before {
+  content: "\f1de";
+}
+.ovoform-admin .la-slideshare:before {
+  content: "\f1e7";
+}
+.ovoform-admin .la-smile:before {
+  content: "\f118";
+}
+.ovoform-admin .la-smile-beam:before {
+  content: "\f5b8";
+}
+.ovoform-admin .la-smile-wink:before {
+  content: "\f4da";
+}
+.ovoform-admin .la-smog:before {
+  content: "\f75f";
+}
+.ovoform-admin .la-smoking:before {
+  content: "\f48d";
+}
+.ovoform-admin .la-smoking-ban:before {
+  content: "\f54d";
+}
+.ovoform-admin .la-sms:before {
+  content: "\f7cd";
+}
+.ovoform-admin .la-snapchat:before {
+  content: "\f2ab";
+}
+.ovoform-admin .la-snapchat-ghost:before {
+  content: "\f2ac";
+}
+.ovoform-admin .la-snapchat-square:before {
+  content: "\f2ad";
+}
+.ovoform-admin .la-snowboarding:before {
+  content: "\f7ce";
+}
+.ovoform-admin .la-snowflake:before {
+  content: "\f2dc";
+}
+.ovoform-admin .la-snowman:before {
+  content: "\f7d0";
+}
+.ovoform-admin .la-snowplow:before {
+  content: "\f7d2";
+}
+.ovoform-admin .la-socks:before {
+  content: "\f696";
+}
+.ovoform-admin .la-solar-panel:before {
+  content: "\f5ba";
+}
+.ovoform-admin .la-sort:before {
+  content: "\f0dc";
+}
+.ovoform-admin .la-sort-alpha-down:before {
+  content: "\f15d";
+}
+.ovoform-admin .la-sort-alpha-down-alt:before {
+  content: "\f881";
+}
+.ovoform-admin .la-sort-alpha-up:before {
+  content: "\f15e";
+}
+.ovoform-admin .la-sort-alpha-up-alt:before {
+  content: "\f882";
+}
+.ovoform-admin .la-sort-amount-down:before {
+  content: "\f160";
+}
+.ovoform-admin .la-sort-amount-down-alt:before {
+  content: "\f884";
+}
+.ovoform-admin .la-sort-amount-up:before {
+  content: "\f161";
+}
+.ovoform-admin .la-sort-amount-up-alt:before {
+  content: "\f885";
+}
+.ovoform-admin .la-sort-down:before {
+  content: "\f0dd";
+}
+.ovoform-admin .la-sort-numeric-down:before {
+  content: "\f162";
+}
+.ovoform-admin .la-sort-numeric-down-alt:before {
+  content: "\f886";
+}
+.ovoform-admin .la-sort-numeric-up:before {
+  content: "\f163";
+}
+.ovoform-admin .la-sort-numeric-up-alt:before {
+  content: "\f887";
+}
+.ovoform-admin .la-sort-up:before {
+  content: "\f0de";
+}
+.ovoform-admin .la-soundcloud:before {
+  content: "\f1be";
+}
+.ovoform-admin .la-sourcetree:before {
+  content: "\f7d3";
+}
+.ovoform-admin .la-spa:before {
+  content: "\f5bb";
+}
+.ovoform-admin .la-space-shuttle:before {
+  content: "\f197";
+}
+.ovoform-admin .la-speakap:before {
+  content: "\f3f3";
+}
+.ovoform-admin .la-speaker-deck:before {
+  content: "\f83c";
+}
+.ovoform-admin .la-spell-check:before {
+  content: "\f891";
+}
+.ovoform-admin .la-spider:before {
+  content: "\f717";
+}
+.ovoform-admin .la-spinner:before {
+  content: "\f110";
+}
+.ovoform-admin .la-splotch:before {
+  content: "\f5bc";
+}
+.ovoform-admin .la-spotify:before {
+  content: "\f1bc";
+}
+.ovoform-admin .la-spray-can:before {
+  content: "\f5bd";
+}
+.ovoform-admin .la-square:before {
+  content: "\f0c8";
+}
+.ovoform-admin .la-square-full:before {
+  content: "\f45c";
+}
+.ovoform-admin .la-square-root-alt:before {
+  content: "\f698";
+}
+.ovoform-admin .la-squarespace:before {
+  content: "\f5be";
+}
+.ovoform-admin .la-stack-exchange:before {
+  content: "\f18d";
+}
+.ovoform-admin .la-stack-overflow:before {
+  content: "\f16c";
+}
+.ovoform-admin .la-stackpath:before {
+  content: "\f842";
+}
+.ovoform-admin .la-stamp:before {
+  content: "\f5bf";
+}
+.ovoform-admin .la-star:before {
+  content: "\f005";
+}
+.ovoform-admin .la-star-and-crescent:before {
+  content: "\f699";
+}
+.ovoform-admin .la-star-half:before {
+  content: "\f089";
+}
+.ovoform-admin .la-star-half-alt:before {
+  content: "\f5c0";
+}
+.ovoform-admin .la-star-of-david:before {
+  content: "\f69a";
+}
+.ovoform-admin .la-star-of-life:before {
+  content: "\f621";
+}
+.ovoform-admin .la-staylinked:before {
+  content: "\f3f5";
+}
+.ovoform-admin .la-steam:before {
+  content: "\f1b6";
+}
+.ovoform-admin .la-steam-square:before {
+  content: "\f1b7";
+}
+.ovoform-admin .la-steam-symbol:before {
+  content: "\f3f6";
+}
+.ovoform-admin .la-step-backward:before {
+  content: "\f048";
+}
+.ovoform-admin .la-step-forward:before {
+  content: "\f051";
+}
+.ovoform-admin .la-stethoscope:before {
+  content: "\f0f1";
+}
+.ovoform-admin .la-sticker-mule:before {
+  content: "\f3f7";
+}
+.ovoform-admin .la-sticky-note:before {
+  content: "\f249";
+}
+.ovoform-admin .la-stop:before {
+  content: "\f04d";
+}
+.ovoform-admin .la-stop-circle:before {
+  content: "\f28d";
+}
+.ovoform-admin .la-stopwatch:before {
+  content: "\f2f2";
+}
+.ovoform-admin .la-store:before {
+  content: "\f54e";
+}
+.ovoform-admin .la-store-alt:before {
+  content: "\f54f";
+}
+.ovoform-admin .la-strava:before {
+  content: "\f428";
+}
+.ovoform-admin .la-stream:before {
+  content: "\f550";
+}
+.ovoform-admin .la-street-view:before {
+  content: "\f21d";
+}
+.ovoform-admin .la-strikethrough:before {
+  content: "\f0cc";
+}
+.ovoform-admin .la-stripe:before {
+  content: "\f429";
+}
+.ovoform-admin .la-stripe-s:before {
+  content: "\f42a";
+}
+.ovoform-admin .la-stroopwafel:before {
+  content: "\f551";
+}
+.ovoform-admin .la-studiovinari:before {
+  content: "\f3f8";
+}
+.ovoform-admin .la-stumbleupon:before {
+  content: "\f1a4";
+}
+.ovoform-admin .la-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.ovoform-admin .la-subscript:before {
+  content: "\f12c";
+}
+.ovoform-admin .la-subway:before {
+  content: "\f239";
+}
+.ovoform-admin .la-suitcase:before {
+  content: "\f0f2";
+}
+.ovoform-admin .la-suitcase-rolling:before {
+  content: "\f5c1";
+}
+.ovoform-admin .la-sun:before {
+  content: "\f185";
+}
+.ovoform-admin .la-superpowers:before {
+  content: "\f2dd";
+}
+.ovoform-admin .la-superscript:before {
+  content: "\f12b";
+}
+.ovoform-admin .la-supple:before {
+  content: "\f3f9";
+}
+.ovoform-admin .la-surprise:before {
+  content: "\f5c2";
+}
+.ovoform-admin .la-suse:before {
+  content: "\f7d6";
+}
+.ovoform-admin .la-swatchbook:before {
+  content: "\f5c3";
+}
+.ovoform-admin .la-swift:before {
+  content: "\f8e1";
+}
+.ovoform-admin .la-swimmer:before {
+  content: "\f5c4";
+}
+.ovoform-admin .la-swimming-pool:before {
+  content: "\f5c5";
+}
+.ovoform-admin .la-symfony:before {
+  content: "\f83d";
+}
+.ovoform-admin .la-synagogue:before {
+  content: "\f69b";
+}
+.ovoform-admin .la-sync:before {
+  content: "\f021";
+}
+.ovoform-admin .la-sync-alt:before {
+  content: "\f2f1";
+}
+.ovoform-admin .la-syringe:before {
+  content: "\f48e";
+}
+.ovoform-admin .la-table:before {
+  content: "\f0ce";
+}
+.ovoform-admin .la-table-tennis:before {
+  content: "\f45d";
+}
+.ovoform-admin .la-tablet:before {
+  content: "\f10a";
+}
+.ovoform-admin .la-tablet-alt:before {
+  content: "\f3fa";
+}
+.ovoform-admin .la-tablets:before {
+  content: "\f490";
+}
+.ovoform-admin .la-tachometer-alt:before {
+  content: "\f3fd";
+}
+.ovoform-admin .la-tag:before {
+  content: "\f02b";
+}
+.ovoform-admin .la-tags:before {
+  content: "\f02c";
+}
+.ovoform-admin .la-tape:before {
+  content: "\f4db";
+}
+.ovoform-admin .la-tasks:before {
+  content: "\f0ae";
+}
+.ovoform-admin .la-taxi:before {
+  content: "\f1ba";
+}
+.ovoform-admin .la-teamspeak:before {
+  content: "\f4f9";
+}
+.ovoform-admin .la-teeth:before {
+  content: "\f62e";
+}
+.ovoform-admin .la-teeth-open:before {
+  content: "\f62f";
+}
+.ovoform-admin .la-telegram:before {
+  content: "\f2c6";
+}
+.ovoform-admin .la-telegram-plane:before {
+  content: "\f3fe";
+}
+.ovoform-admin .la-temperature-high:before {
+  content: "\f769";
+}
+.ovoform-admin .la-temperature-low:before {
+  content: "\f76b";
+}
+.ovoform-admin .la-tencent-weibo:before {
+  content: "\f1d5";
+}
+.ovoform-admin .la-tenge:before {
+  content: "\f7d7";
+}
+.ovoform-admin .la-terminal:before {
+  content: "\f120";
+}
+.ovoform-admin .la-text-height:before {
+  content: "\f034";
+}
+.ovoform-admin .la-text-width:before {
+  content: "\f035";
+}
+.ovoform-admin .la-th:before {
+  content: "\f00a";
+}
+.ovoform-admin .la-th-large:before {
+  content: "\f009";
+}
+.ovoform-admin .la-th-list:before {
+  content: "\f00b";
+}
+.ovoform-admin .la-the-red-yeti:before {
+  content: "\f69d";
+}
+.ovoform-admin .la-theater-masks:before {
+  content: "\f630";
+}
+.ovoform-admin .la-themeco:before {
+  content: "\f5c6";
+}
+.ovoform-admin .la-themeisle:before {
+  content: "\f2b2";
+}
+.ovoform-admin .la-thermometer:before {
+  content: "\f491";
+}
+.ovoform-admin .la-thermometer-empty:before {
+  content: "\f2cb";
+}
+.ovoform-admin .la-thermometer-full:before {
+  content: "\f2c7";
+}
+.ovoform-admin .la-thermometer-half:before {
+  content: "\f2c9";
+}
+.ovoform-admin .la-thermometer-quarter:before {
+  content: "\f2ca";
+}
+.ovoform-admin .la-thermometer-three-quarters:before {
+  content: "\f2c8";
+}
+.ovoform-admin .la-think-peaks:before {
+  content: "\f731";
+}
+.ovoform-admin .la-thumbs-down:before {
+  content: "\f165";
+}
+.ovoform-admin .la-thumbs-up:before {
+  content: "\f164";
+}
+.ovoform-admin .la-thumbtack:before {
+  content: "\f08d";
+}
+.ovoform-admin .la-ticket-alt:before {
+  content: "\f3ff";
+}
+.ovoform-admin .la-times:before {
+  content: "\f00d";
+}
+.ovoform-admin .la-times-circle:before {
+  content: "\f057";
+}
+.ovoform-admin .la-tint:before {
+  content: "\f043";
+}
+.ovoform-admin .la-tint-slash:before {
+  content: "\f5c7";
+}
+.ovoform-admin .la-tired:before {
+  content: "\f5c8";
+}
+.ovoform-admin .la-toggle-off:before {
+  content: "\f204";
+}
+.ovoform-admin .la-toggle-on:before {
+  content: "\f205";
+}
+.ovoform-admin .la-toilet:before {
+  content: "\f7d8";
+}
+.ovoform-admin .la-toilet-paper:before {
+  content: "\f71e";
+}
+.ovoform-admin .la-toolbox:before {
+  content: "\f552";
+}
+.ovoform-admin .la-tools:before {
+  content: "\f7d9";
+}
+.ovoform-admin .la-tooth:before {
+  content: "\f5c9";
+}
+.ovoform-admin .la-torah:before {
+  content: "\f6a0";
+}
+.ovoform-admin .la-torii-gate:before {
+  content: "\f6a1";
+}
+.ovoform-admin .la-tractor:before {
+  content: "\f722";
+}
+.ovoform-admin .la-trade-federation:before {
+  content: "\f513";
+}
+.ovoform-admin .la-trademark:before {
+  content: "\f25c";
+}
+.ovoform-admin .la-traffic-light:before {
+  content: "\f637";
+}
+.ovoform-admin .la-train:before {
+  content: "\f238";
+}
+.ovoform-admin .la-tram:before {
+  content: "\f7da";
+}
+.ovoform-admin .la-transgender:before {
+  content: "\f224";
+}
+.ovoform-admin .la-transgender-alt:before {
+  content: "\f225";
+}
+.ovoform-admin .la-trash:before {
+  content: "\f1f8";
+}
+.ovoform-admin .la-trash-alt:before {
+  content: "\f2ed";
+}
+.ovoform-admin .la-trash-restore:before {
+  content: "\f829";
+}
+.ovoform-admin .la-trash-restore-alt:before {
+  content: "\f82a";
+}
+.ovoform-admin .la-tree:before {
+  content: "\f1bb";
+}
+.ovoform-admin .la-trello:before {
+  content: "\f181";
+}
+.ovoform-admin .la-tripadvisor:before {
+  content: "\f262";
+}
+.ovoform-admin .la-trophy:before {
+  content: "\f091";
+}
+.ovoform-admin .la-truck:before {
+  content: "\f0d1";
+}
+.ovoform-admin .la-truck-loading:before {
+  content: "\f4de";
+}
+.ovoform-admin .la-truck-monster:before {
+  content: "\f63b";
+}
+.ovoform-admin .la-truck-moving:before {
+  content: "\f4df";
+}
+.ovoform-admin .la-truck-pickup:before {
+  content: "\f63c";
+}
+.ovoform-admin .la-tshirt:before {
+  content: "\f553";
+}
+.ovoform-admin .la-tty:before {
+  content: "\f1e4";
+}
+.ovoform-admin .la-tumblr:before {
+  content: "\f173";
+}
+.ovoform-admin .la-tumblr-square:before {
+  content: "\f174";
+}
+.ovoform-admin .la-tv:before {
+  content: "\f26c";
+}
+.ovoform-admin .la-twitch:before {
+  content: "\f1e8";
+}
+.ovoform-admin .la-twitter:before {
+  content: "\f099";
+}
+.ovoform-admin .la-twitter-square:before {
+  content: "\f081";
+}
+.ovoform-admin .la-typo3:before {
+  content: "\f42b";
+}
+.ovoform-admin .la-uber:before {
+  content: "\f402";
+}
+.ovoform-admin .la-ubuntu:before {
+  content: "\f7df";
+}
+.ovoform-admin .la-uikit:before {
+  content: "\f403";
+}
+.ovoform-admin .la-umbraco:before {
+  content: "\f8e8";
+}
+.ovoform-admin .la-umbrella:before {
+  content: "\f0e9";
+}
+.ovoform-admin .la-umbrella-beach:before {
+  content: "\f5ca";
+}
+.ovoform-admin .la-underline:before {
+  content: "\f0cd";
+}
+.ovoform-admin .la-undo:before {
+  content: "\f0e2";
+}
+.ovoform-admin .la-undo-alt:before {
+  content: "\f2ea";
+}
+.ovoform-admin .la-uniregistry:before {
+  content: "\f404";
+}
+.ovoform-admin .la-universal-access:before {
+  content: "\f29a";
+}
+.ovoform-admin .la-university:before {
+  content: "\f19c";
+}
+.ovoform-admin .la-unlink:before {
+  content: "\f127";
+}
+.ovoform-admin .la-unlock:before {
+  content: "\f09c";
+}
+.ovoform-admin .la-unlock-alt:before {
+  content: "\f13e";
+}
+.ovoform-admin .la-untappd:before {
+  content: "\f405";
+}
+.ovoform-admin .la-upload:before {
+  content: "\f093";
+}
+.ovoform-admin .la-ups:before {
+  content: "\f7e0";
+}
+.ovoform-admin .la-usb:before {
+  content: "\f287";
+}
+.ovoform-admin .la-user:before {
+  content: "\f007";
+}
+.ovoform-admin .la-user-alt:before {
+  content: "\f406";
+}
+.ovoform-admin .la-user-alt-slash:before {
+  content: "\f4fa";
+}
+.ovoform-admin .la-user-astronaut:before {
+  content: "\f4fb";
+}
+.ovoform-admin .la-user-check:before {
+  content: "\f4fc";
+}
+.ovoform-admin .la-user-circle:before {
+  content: "\f2bd";
+}
+.ovoform-admin .la-user-clock:before {
+  content: "\f4fd";
+}
+.ovoform-admin .la-user-cog:before {
+  content: "\f4fe";
+}
+.ovoform-admin .la-user-edit:before {
+  content: "\f4ff";
+}
+.ovoform-admin .la-user-friends:before {
+  content: "\f500";
+}
+.ovoform-admin .la-user-graduate:before {
+  content: "\f501";
+}
+.ovoform-admin .la-user-injured:before {
+  content: "\f728";
+}
+.ovoform-admin .la-user-lock:before {
+  content: "\f502";
+}
+.ovoform-admin .la-user-md:before {
+  content: "\f0f0";
+}
+.ovoform-admin .la-user-minus:before {
+  content: "\f503";
+}
+.ovoform-admin .la-user-ninja:before {
+  content: "\f504";
+}
+.ovoform-admin .la-user-nurse:before {
+  content: "\f82f";
+}
+.ovoform-admin .la-user-plus:before {
+  content: "\f234";
+}
+.ovoform-admin .la-user-secret:before {
+  content: "\f21b";
+}
+.ovoform-admin .la-user-shield:before {
+  content: "\f505";
+}
+.ovoform-admin .la-user-slash:before {
+  content: "\f506";
+}
+.ovoform-admin .la-user-tag:before {
+  content: "\f507";
+}
+.ovoform-admin .la-user-tie:before {
+  content: "\f508";
+}
+.ovoform-admin .la-user-times:before {
+  content: "\f235";
+}
+.ovoform-admin .la-users:before {
+  content: "\f0c0";
+}
+.ovoform-admin .la-users-cog:before {
+  content: "\f509";
+}
+.ovoform-admin .la-usps:before {
+  content: "\f7e1";
+}
+.ovoform-admin .la-ussunnah:before {
+  content: "\f407";
+}
+.ovoform-admin .la-utensil-spoon:before {
+  content: "\f2e5";
+}
+.ovoform-admin .la-utensils:before {
+  content: "\f2e7";
+}
+.ovoform-admin .la-vaadin:before {
+  content: "\f408";
+}
+.ovoform-admin .la-vector-square:before {
+  content: "\f5cb";
+}
+.ovoform-admin .la-venus:before {
+  content: "\f221";
+}
+.ovoform-admin .la-venus-double:before {
+  content: "\f226";
+}
+.ovoform-admin .la-venus-mars:before {
+  content: "\f228";
+}
+.ovoform-admin .la-viacoin:before {
+  content: "\f237";
+}
+.ovoform-admin .la-viadeo:before {
+  content: "\f2a9";
+}
+.ovoform-admin .la-viadeo-square:before {
+  content: "\f2aa";
+}
+.ovoform-admin .la-vial:before {
+  content: "\f492";
+}
+.ovoform-admin .la-vials:before {
+  content: "\f493";
+}
+.ovoform-admin .la-viber:before {
+  content: "\f409";
+}
+.ovoform-admin .la-video:before {
+  content: "\f03d";
+}
+.ovoform-admin .la-video-slash:before {
+  content: "\f4e2";
+}
+.ovoform-admin .la-vihara:before {
+  content: "\f6a7";
+}
+.ovoform-admin .la-vimeo:before {
+  content: "\f40a";
+}
+.ovoform-admin .la-vimeo-square:before {
+  content: "\f194";
+}
+.ovoform-admin .la-vimeo-v:before {
+  content: "\f27d";
+}
+.ovoform-admin .la-vine:before {
+  content: "\f1ca";
+}
+.ovoform-admin .la-vk:before {
+  content: "\f189";
+}
+.ovoform-admin .la-vnv:before {
+  content: "\f40b";
+}
+.ovoform-admin .la-voicemail:before {
+  content: "\f897";
+}
+.ovoform-admin .la-volleyball-ball:before {
+  content: "\f45f";
+}
+.ovoform-admin .la-volume-down:before {
+  content: "\f027";
+}
+.ovoform-admin .la-volume-mute:before {
+  content: "\f6a9";
+}
+.ovoform-admin .la-volume-off:before {
+  content: "\f026";
+}
+.ovoform-admin .la-volume-up:before {
+  content: "\f028";
+}
+.ovoform-admin .la-vote-yea:before {
+  content: "\f772";
+}
+.ovoform-admin .la-vr-cardboard:before {
+  content: "\f729";
+}
+.ovoform-admin .la-vuejs:before {
+  content: "\f41f";
+}
+.ovoform-admin .la-walking:before {
+  content: "\f554";
+}
+.ovoform-admin .la-wallet:before {
+  content: "\f555";
+}
+.ovoform-admin .la-warehouse:before {
+  content: "\f494";
+}
+.ovoform-admin .la-water:before {
+  content: "\f773";
+}
+.ovoform-admin .la-wave-square:before {
+  content: "\f83e";
+}
+.ovoform-admin .la-waze:before {
+  content: "\f83f";
+}
+.ovoform-admin .la-weebly:before {
+  content: "\f5cc";
+}
+.ovoform-admin .la-weibo:before {
+  content: "\f18a";
+}
+.ovoform-admin .la-weight:before {
+  content: "\f496";
+}
+.ovoform-admin .la-weight-hanging:before {
+  content: "\f5cd";
+}
+.ovoform-admin .la-weixin:before {
+  content: "\f1d7";
+}
+.ovoform-admin .la-whatsapp:before {
+  content: "\f232";
+}
+.ovoform-admin .la-whatsapp-square:before {
+  content: "\f40c";
+}
+.ovoform-admin .la-wheelchair:before {
+  content: "\f193";
+}
+.ovoform-admin .la-whmcs:before {
+  content: "\f40d";
+}
+.ovoform-admin .la-wifi:before {
+  content: "\f1eb";
+}
+.ovoform-admin .la-wikipedia-w:before {
+  content: "\f266";
+}
+.ovoform-admin .la-wind:before {
+  content: "\f72e";
+}
+.ovoform-admin .la-window-close:before {
+  content: "\f410";
+}
+.ovoform-admin .la-window-maximize:before {
+  content: "\f2d0";
+}
+.ovoform-admin .la-window-minimize:before {
+  content: "\f2d1";
+}
+.ovoform-admin .la-window-restore:before {
+  content: "\f2d2";
+}
+.ovoform-admin .la-windows:before {
+  content: "\f17a";
+}
+.ovoform-admin .la-wine-bottle:before {
+  content: "\f72f";
+}
+.ovoform-admin .la-wine-glass:before {
+  content: "\f4e3";
+}
+.ovoform-admin .la-wine-glass-alt:before {
+  content: "\f5ce";
+}
+.ovoform-admin .la-wix:before {
+  content: "\f5cf";
+}
+.ovoform-admin .la-wizards-of-the-coast:before {
+  content: "\f730";
+}
+.ovoform-admin .la-wolf-pack-battalion:before {
+  content: "\f514";
+}
+.ovoform-admin .la-won-sign:before {
+  content: "\f159";
+}
+.ovoform-admin .la-wordpress:before {
+  content: "\f19a";
+}
+.ovoform-admin .la-wordpress-simple:before {
+  content: "\f411";
+}
+.ovoform-admin .la-wpbeginner:before {
+  content: "\f297";
+}
+.ovoform-admin .la-wpexplorer:before {
+  content: "\f2de";
+}
+.ovoform-admin .la-wpforms:before {
+  content: "\f298";
+}
+.ovoform-admin .la-wpressr:before {
+  content: "\f3e4";
+}
+.ovoform-admin .la-wrench:before {
+  content: "\f0ad";
+}
+.ovoform-admin .la-x-ray:before {
+  content: "\f497";
+}
+.ovoform-admin .la-xbox:before {
+  content: "\f412";
+}
+.ovoform-admin .la-xing:before {
+  content: "\f168";
+}
+.ovoform-admin .la-xing-square:before {
+  content: "\f169";
+}
+.ovoform-admin .la-y-combinator:before {
+  content: "\f23b";
+}
+.ovoform-admin .la-yahoo:before {
+  content: "\f19e";
+}
+.ovoform-admin .la-yammer:before {
+  content: "\f840";
+}
+.ovoform-admin .la-yandex:before {
+  content: "\f413";
+}
+.ovoform-admin .la-yandex-international:before {
+  content: "\f414";
+}
+.ovoform-admin .la-yarn:before {
+  content: "\f7e3";
+}
+.ovoform-admin .la-yelp:before {
+  content: "\f1e9";
+}
+.ovoform-admin .la-yen-sign:before {
+  content: "\f157";
+}
+.ovoform-admin .la-yin-yang:before {
+  content: "\f6ad";
+}
+.ovoform-admin .la-yoast:before {
+  content: "\f2b1";
+}
+.ovoform-admin .la-youtube:before {
+  content: "\f167";
+}
+.ovoform-admin .la-youtube-square:before {
+  content: "\f431";
+}
+.ovoform-admin .la-zhihu:before {
+  content: "\f63f";
+}
+.ovoform-admin .sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.ovoform-admin .sr-only-focusable:active,
+.ovoform-admin .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+@font-face {
+  font-family: "Line Awesome Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(../fonts/la-brands-400.eot);
+  src: url(../fonts/la-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts/la-brands-400.woff2) format("woff2"), url(../fonts/la-brands-400.woff) format("woff"), url(../fonts/la-brands-400.ttf) format("truetype"), url(../fonts/la-brands-400.svg#lineawesome) format("svg");
+}
+.ovoform-admin .lab {
+  font-family: "Line Awesome Brands";
+}
+@font-face {
+  font-family: "Line Awesome Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(../fonts/la-regular-400.eot);
+  src: url(../fonts/la-regular-400.eot?#iefix) format("embedded-opentype"), url(../fonts/la-regular-400.woff2) format("woff2"), url(../fonts/la-regular-400.woff) format("woff"), url(../fonts/la-regular-400.ttf) format("truetype"), url(../fonts/la-regular-400.svg#lineawesome) format("svg");
+}
+.ovoform-admin .lar {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Line Awesome Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url(../fonts/la-solid-900.eot);
+  src: url(../fonts/la-solid-900.eot?#iefix) format("embedded-opentype"), url(../fonts/la-solid-900.woff2) format("woff2"), url(../fonts/la-solid-900.woff) format("woff"), url(../fonts/la-solid-900.ttf) format("truetype"), url(../fonts/la-solid-900.svg#lineawesome) format("svg");
+}
+.ovoform-admin .la,
+.ovoform-admin .las {
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+}
+.ovoform-admin .la.la-glass:before {
+  content: "\f000";
+}
+.ovoform-admin .la.la-meetup {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-star-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-star-o:before {
+  content: "\f005";
+}
+.ovoform-admin .la.la-remove:before {
+  content: "\f00d";
+}
+.ovoform-admin .la.la-close:before {
+  content: "\f00d";
+}
+.ovoform-admin .la.la-gear:before {
+  content: "\f013";
+}
+.ovoform-admin .la.la-trash-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-trash-o:before {
+  content: "\f2ed";
+}
+.ovoform-admin .la.la-file-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-o:before {
+  content: "\f15b";
+}
+.ovoform-admin .la.la-clock-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-clock-o:before {
+  content: "\f017";
+}
+.ovoform-admin .la.la-arrow-circle-o-down {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-arrow-circle-o-down:before {
+  content: "\f358";
+}
+.ovoform-admin .la.la-arrow-circle-o-up {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-arrow-circle-o-up:before {
+  content: "\f35b";
+}
+.ovoform-admin .la.la-play-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-play-circle-o:before {
+  content: "\f144";
+}
+.ovoform-admin .la.la-repeat:before {
+  content: "\f01e";
+}
+.ovoform-admin .la.la-rotate-right:before {
+  content: "\f01e";
+}
+.ovoform-admin .la.la-refresh:before {
+  content: "\f021";
+}
+.ovoform-admin .la.la-list-alt {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-dedent:before {
+  content: "\f03b";
+}
+.ovoform-admin .la.la-video-camera:before {
+  content: "\f03d";
+}
+.ovoform-admin .la.la-picture-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-picture-o:before {
+  content: "\f03e";
+}
+.ovoform-admin .la.la-photo {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-photo:before {
+  content: "\f03e";
+}
+.ovoform-admin .la.la-image {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-image:before {
+  content: "\f03e";
+}
+.ovoform-admin .la.la-pencil:before {
+  content: "\f303";
+}
+.ovoform-admin .la.la-map-marker:before {
+  content: "\f3c5";
+}
+.ovoform-admin .la.la-pencil-square-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pencil-square-o:before {
+  content: "\f044";
+}
+.ovoform-admin .la.la-share-square-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-share-square-o:before {
+  content: "\f14d";
+}
+.ovoform-admin .la.la-check-square-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-check-square-o:before {
+  content: "\f14a";
+}
+.ovoform-admin .la.la-arrows:before {
+  content: "\f0b2";
+}
+.ovoform-admin .la.la-times-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-times-circle-o:before {
+  content: "\f057";
+}
+.ovoform-admin .la.la-check-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-check-circle-o:before {
+  content: "\f058";
+}
+.ovoform-admin .la.la-mail-forward:before {
+  content: "\f064";
+}
+.ovoform-admin .la.la-eye {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-eye-slash {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-warning:before {
+  content: "\f071";
+}
+.ovoform-admin .la.la-calendar:before {
+  content: "\f073";
+}
+.ovoform-admin .la.la-arrows-v:before {
+  content: "\f338";
+}
+.ovoform-admin .la.la-arrows-h:before {
+  content: "\f337";
+}
+.ovoform-admin .la.la-bar-chart {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bar-chart:before {
+  content: "\f080";
+}
+.ovoform-admin .la.la-bar-chart-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bar-chart-o:before {
+  content: "\f080";
+}
+.ovoform-admin .la.la-twitter-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-facebook-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gears:before {
+  content: "\f085";
+}
+.ovoform-admin .la.la-thumbs-o-up {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-thumbs-o-up:before {
+  content: "\f164";
+}
+.ovoform-admin .la.la-thumbs-o-down {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-thumbs-o-down:before {
+  content: "\f165";
+}
+.ovoform-admin .la.la-heart-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-heart-o:before {
+  content: "\f004";
+}
+.ovoform-admin .la.la-sign-out:before {
+  content: "\f2f5";
+}
+.ovoform-admin .la.la-linkedin-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-linkedin-square:before {
+  content: "\f08c";
+}
+.ovoform-admin .la.la-thumb-tack:before {
+  content: "\f08d";
+}
+.ovoform-admin .la.la-external-link:before {
+  content: "\f35d";
+}
+.ovoform-admin .la.la-sign-in:before {
+  content: "\f2f6";
+}
+.ovoform-admin .la.la-github-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-lemon-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-lemon-o:before {
+  content: "\f094";
+}
+.ovoform-admin .la.la-square-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-square-o:before {
+  content: "\f0c8";
+}
+.ovoform-admin .la.la-bookmark-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bookmark-o:before {
+  content: "\f02e";
+}
+.ovoform-admin .la.la-twitter {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-facebook {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-facebook:before {
+  content: "\f39e";
+}
+.ovoform-admin .la.la-facebook-f {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-facebook-f:before {
+  content: "\f39e";
+}
+.ovoform-admin .la.la-github {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-credit-card {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-feed:before {
+  content: "\f09e";
+}
+.ovoform-admin .la.la-hdd-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hdd-o:before {
+  content: "\f0a0";
+}
+.ovoform-admin .la.la-hand-o-right {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-o-right:before {
+  content: "\f0a4";
+}
+.ovoform-admin .la.la-hand-o-left {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-o-left:before {
+  content: "\f0a5";
+}
+.ovoform-admin .la.la-hand-o-up {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-o-up:before {
+  content: "\f0a6";
+}
+.ovoform-admin .la.la-hand-o-down {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-o-down:before {
+  content: "\f0a7";
+}
+.ovoform-admin .la.la-arrows-alt:before {
+  content: "\f31e";
+}
+.ovoform-admin .la.la-group:before {
+  content: "\f0c0";
+}
+.ovoform-admin .la.la-chain:before {
+  content: "\f0c1";
+}
+.ovoform-admin .la.la-scissors:before {
+  content: "\f0c4";
+}
+.ovoform-admin .la.la-files-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-files-o:before {
+  content: "\f0c5";
+}
+.ovoform-admin .la.la-floppy-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-floppy-o:before {
+  content: "\f0c7";
+}
+.ovoform-admin .la.la-navicon:before {
+  content: "\f0c9";
+}
+.ovoform-admin .la.la-reorder:before {
+  content: "\f0c9";
+}
+.ovoform-admin .la.la-pinterest {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pinterest-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-plus-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-plus {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-plus:before {
+  content: "\f0d5";
+}
+.ovoform-admin .la.la-money {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-money:before {
+  content: "\f3d1";
+}
+.ovoform-admin .la.la-unsorted:before {
+  content: "\f0dc";
+}
+.ovoform-admin .la.la-sort-desc:before {
+  content: "\f0dd";
+}
+.ovoform-admin .la.la-sort-asc:before {
+  content: "\f0de";
+}
+.ovoform-admin .la.la-linkedin {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-linkedin:before {
+  content: "\f0e1";
+}
+.ovoform-admin .la.la-rotate-left:before {
+  content: "\f0e2";
+}
+.ovoform-admin .la.la-legal:before {
+  content: "\f0e3";
+}
+.ovoform-admin .la.la-tachometer:before {
+  content: "\f3fd";
+}
+.ovoform-admin .la.la-dashboard:before {
+  content: "\f3fd";
+}
+.ovoform-admin .la.la-comment-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-comment-o:before {
+  content: "\f075";
+}
+.ovoform-admin .la.la-comments-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-comments-o:before {
+  content: "\f086";
+}
+.ovoform-admin .la.la-flash:before {
+  content: "\f0e7";
+}
+.ovoform-admin .la.la-clipboard {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-paste {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-paste:before {
+  content: "\f328";
+}
+.ovoform-admin .la.la-lightbulb-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-lightbulb-o:before {
+  content: "\f0eb";
+}
+.ovoform-admin .la.la-exchange:before {
+  content: "\f362";
+}
+.ovoform-admin .la.la-cloud-download:before {
+  content: "\f381";
+}
+.ovoform-admin .la.la-cloud-upload:before {
+  content: "\f382";
+}
+.ovoform-admin .la.la-bell-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bell-o:before {
+  content: "\f0f3";
+}
+.ovoform-admin .la.la-cutlery:before {
+  content: "\f2e7";
+}
+.ovoform-admin .la.la-file-text-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-text-o:before {
+  content: "\f15c";
+}
+.ovoform-admin .la.la-building-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-building-o:before {
+  content: "\f1ad";
+}
+.ovoform-admin .la.la-hospital-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hospital-o:before {
+  content: "\f0f8";
+}
+.ovoform-admin .la.la-tablet:before {
+  content: "\f3fa";
+}
+.ovoform-admin .la.la-mobile:before {
+  content: "\f3cd";
+}
+.ovoform-admin .la.la-mobile-phone:before {
+  content: "\f3cd";
+}
+.ovoform-admin .la.la-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-circle-o:before {
+  content: "\f111";
+}
+.ovoform-admin .la.la-mail-reply:before {
+  content: "\f3e5";
+}
+.ovoform-admin .la.la-github-alt {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-folder-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-folder-o:before {
+  content: "\f07b";
+}
+.ovoform-admin .la.la-folder-open-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-folder-open-o:before {
+  content: "\f07c";
+}
+.ovoform-admin .la.la-smile-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-smile-o:before {
+  content: "\f118";
+}
+.ovoform-admin .la.la-frown-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-frown-o:before {
+  content: "\f119";
+}
+.ovoform-admin .la.la-meh-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-meh-o:before {
+  content: "\f11a";
+}
+.ovoform-admin .la.la-keyboard-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-keyboard-o:before {
+  content: "\f11c";
+}
+.ovoform-admin .la.la-flag-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-flag-o:before {
+  content: "\f024";
+}
+.ovoform-admin .la.la-mail-reply-all:before {
+  content: "\f122";
+}
+.ovoform-admin .la.la-star-half-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-star-half-o:before {
+  content: "\f089";
+}
+.ovoform-admin .la.la-star-half-empty {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-star-half-empty:before {
+  content: "\f089";
+}
+.ovoform-admin .la.la-star-half-full {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-star-half-full:before {
+  content: "\f089";
+}
+.ovoform-admin .la.la-code-fork:before {
+  content: "\f126";
+}
+.ovoform-admin .la.la-chain-broken:before {
+  content: "\f127";
+}
+.ovoform-admin .la.la-shield:before {
+  content: "\f3ed";
+}
+.ovoform-admin .la.la-calendar-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-calendar-o:before {
+  content: "\f133";
+}
+.ovoform-admin .la.la-maxcdn {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-html5 {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-css3 {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ticket:before {
+  content: "\f3ff";
+}
+.ovoform-admin .la.la-minus-square-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-minus-square-o:before {
+  content: "\f146";
+}
+.ovoform-admin .la.la-level-up:before {
+  content: "\f3bf";
+}
+.ovoform-admin .la.la-level-down:before {
+  content: "\f3be";
+}
+.ovoform-admin .la.la-pencil-square:before {
+  content: "\f14b";
+}
+.ovoform-admin .la.la-external-link-square:before {
+  content: "\f360";
+}
+.ovoform-admin .la.la-compass {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-caret-square-o-down {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-caret-square-o-down:before {
+  content: "\f150";
+}
+.ovoform-admin .la.la-toggle-down {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-toggle-down:before {
+  content: "\f150";
+}
+.ovoform-admin .la.la-caret-square-o-up {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-caret-square-o-up:before {
+  content: "\f151";
+}
+.ovoform-admin .la.la-toggle-up {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-toggle-up:before {
+  content: "\f151";
+}
+.ovoform-admin .la.la-caret-square-o-right {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-caret-square-o-right:before {
+  content: "\f152";
+}
+.ovoform-admin .la.la-toggle-right {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-toggle-right:before {
+  content: "\f152";
+}
+.ovoform-admin .la.la-eur:before {
+  content: "\f153";
+}
+.ovoform-admin .la.la-euro:before {
+  content: "\f153";
+}
+.ovoform-admin .la.la-gbp:before {
+  content: "\f154";
+}
+.ovoform-admin .la.la-usd:before {
+  content: "\f155";
+}
+.ovoform-admin .la.la-dollar:before {
+  content: "\f155";
+}
+.ovoform-admin .la.la-inr:before {
+  content: "\f156";
+}
+.ovoform-admin .la.la-rupee:before {
+  content: "\f156";
+}
+.ovoform-admin .la.la-jpy:before {
+  content: "\f157";
+}
+.ovoform-admin .la.la-cny:before {
+  content: "\f157";
+}
+.ovoform-admin .la.la-rmb:before {
+  content: "\f157";
+}
+.ovoform-admin .la.la-yen:before {
+  content: "\f157";
+}
+.ovoform-admin .la.la-rub:before {
+  content: "\f158";
+}
+.ovoform-admin .la.la-ruble:before {
+  content: "\f158";
+}
+.ovoform-admin .la.la-rouble:before {
+  content: "\f158";
+}
+.ovoform-admin .la.la-krw:before {
+  content: "\f159";
+}
+.ovoform-admin .la.la-won:before {
+  content: "\f159";
+}
+.ovoform-admin .la.la-btc {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bitcoin {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bitcoin:before {
+  content: "\f15a";
+}
+.ovoform-admin .la.la-file-text:before {
+  content: "\f15c";
+}
+.ovoform-admin .la.la-sort-alpha-asc:before {
+  content: "\f15d";
+}
+.ovoform-admin .la.la-sort-alpha-desc:before {
+  content: "\f881";
+}
+.ovoform-admin .la.la-sort-amount-asc:before {
+  content: "\f160";
+}
+.ovoform-admin .la.la-sort-amount-desc:before {
+  content: "\f884";
+}
+.ovoform-admin .la.la-sort-numeric-asc:before {
+  content: "\f162";
+}
+.ovoform-admin .la.la-sort-numeric-desc:before {
+  content: "\f886";
+}
+.ovoform-admin .la.la-youtube-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-youtube {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-xing {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-xing-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-youtube-play {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-youtube-play:before {
+  content: "\f167";
+}
+.ovoform-admin .la.la-dropbox {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-stack-overflow {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-instagram {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-flickr {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-adn {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bitbucket {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bitbucket-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bitbucket-square:before {
+  content: "\f171";
+}
+.ovoform-admin .la.la-tumblr {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-tumblr-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-long-arrow-down:before {
+  content: "\f309";
+}
+.ovoform-admin .la.la-long-arrow-up:before {
+  content: "\f30c";
+}
+.ovoform-admin .la.la-long-arrow-left:before {
+  content: "\f30a";
+}
+.ovoform-admin .la.la-long-arrow-right:before {
+  content: "\f30b";
+}
+.ovoform-admin .la.la-apple {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-windows {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-android {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-linux {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-dribbble {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-skype {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-foursquare {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-trello {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gratipay {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gittip {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gittip:before {
+  content: "\f184";
+}
+.ovoform-admin .la.la-sun-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-sun-o:before {
+  content: "\f185";
+}
+.ovoform-admin .la.la-moon-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-moon-o:before {
+  content: "\f186";
+}
+.ovoform-admin .la.la-vk {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-weibo {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-renren {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pagelines {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-stack-exchange {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-arrow-circle-o-right {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-arrow-circle-o-right:before {
+  content: "\f35a";
+}
+.ovoform-admin .la.la-arrow-circle-o-left {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-arrow-circle-o-left:before {
+  content: "\f359";
+}
+.ovoform-admin .la.la-caret-square-o-left {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-caret-square-o-left:before {
+  content: "\f191";
+}
+.ovoform-admin .la.la-toggle-left {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-toggle-left:before {
+  content: "\f191";
+}
+.ovoform-admin .la.la-dot-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-dot-circle-o:before {
+  content: "\f192";
+}
+.ovoform-admin .la.la-vimeo-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-try:before {
+  content: "\f195";
+}
+.ovoform-admin .la.la-turkish-lira:before {
+  content: "\f195";
+}
+.ovoform-admin .la.la-plus-square-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-plus-square-o:before {
+  content: "\f0fe";
+}
+.ovoform-admin .la.la-slack {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wordpress {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-openid {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-institution:before {
+  content: "\f19c";
+}
+.ovoform-admin .la.la-bank:before {
+  content: "\f19c";
+}
+.ovoform-admin .la.la-mortar-board:before {
+  content: "\f19d";
+}
+.ovoform-admin .la.la-yahoo {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-reddit {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-reddit-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-stumbleupon-circle {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-stumbleupon {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-delicious {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-digg {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pied-piper-pp {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pied-piper-alt {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-drupal {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-joomla {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-spoon:before {
+  content: "\f2e5";
+}
+.ovoform-admin .la.la-behance {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-behance-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-steam {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-steam-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-automobile:before {
+  content: "\f1b9";
+}
+.ovoform-admin .la.la-cab:before {
+  content: "\f1ba";
+}
+.ovoform-admin .la.la-envelope-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-envelope-o:before {
+  content: "\f0e0";
+}
+.ovoform-admin .la.la-deviantart {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-soundcloud {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-pdf-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-pdf-o:before {
+  content: "\f1c1";
+}
+.ovoform-admin .la.la-file-word-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-word-o:before {
+  content: "\f1c2";
+}
+.ovoform-admin .la.la-file-excel-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-excel-o:before {
+  content: "\f1c3";
+}
+.ovoform-admin .la.la-file-powerpoint-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+.ovoform-admin .la.la-file-image-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-image-o:before {
+  content: "\f1c5";
+}
+.ovoform-admin .la.la-file-photo-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-photo-o:before {
+  content: "\f1c5";
+}
+.ovoform-admin .la.la-file-picture-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-picture-o:before {
+  content: "\f1c5";
+}
+.ovoform-admin .la.la-file-archive-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-archive-o:before {
+  content: "\f1c6";
+}
+.ovoform-admin .la.la-file-zip-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-zip-o:before {
+  content: "\f1c6";
+}
+.ovoform-admin .la.la-file-audio-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-audio-o:before {
+  content: "\f1c7";
+}
+.ovoform-admin .la.la-file-sound-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-sound-o:before {
+  content: "\f1c7";
+}
+.ovoform-admin .la.la-file-video-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-video-o:before {
+  content: "\f1c8";
+}
+.ovoform-admin .la.la-file-movie-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-movie-o:before {
+  content: "\f1c8";
+}
+.ovoform-admin .la.la-file-code-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-file-code-o:before {
+  content: "\f1c9";
+}
+.ovoform-admin .la.la-vine {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-codepen {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-jsfiddle {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-life-ring {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-life-bouy {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-life-bouy:before {
+  content: "\f1cd";
+}
+.ovoform-admin .la.la-life-buoy {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-life-buoy:before {
+  content: "\f1cd";
+}
+.ovoform-admin .la.la-life-saver {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-life-saver:before {
+  content: "\f1cd";
+}
+.ovoform-admin .la.la-support {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-support:before {
+  content: "\f1cd";
+}
+.ovoform-admin .la.la-circle-o-notch:before {
+  content: "\f1ce";
+}
+.ovoform-admin .la.la-rebel {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ra {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ra:before {
+  content: "\f1d0";
+}
+.ovoform-admin .la.la-resistance {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-resistance:before {
+  content: "\f1d0";
+}
+.ovoform-admin .la.la-empire {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ge {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ge:before {
+  content: "\f1d1";
+}
+.ovoform-admin .la.la-git-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-git {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hacker-news {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-y-combinator-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-y-combinator-square:before {
+  content: "\f1d4";
+}
+.ovoform-admin .la.la-yc-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-yc-square:before {
+  content: "\f1d4";
+}
+.ovoform-admin .la.la-tencent-weibo {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-qq {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-weixin {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wechat {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wechat:before {
+  content: "\f1d7";
+}
+.ovoform-admin .la.la-send:before {
+  content: "\f1d8";
+}
+.ovoform-admin .la.la-paper-plane-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-paper-plane-o:before {
+  content: "\f1d8";
+}
+.ovoform-admin .la.la-send-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-send-o:before {
+  content: "\f1d8";
+}
+.ovoform-admin .la.la-circle-thin {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-circle-thin:before {
+  content: "\f111";
+}
+.ovoform-admin .la.la-header:before {
+  content: "\f1dc";
+}
+.ovoform-admin .la.la-sliders:before {
+  content: "\f1de";
+}
+.ovoform-admin .la.la-futbol-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-futbol-o:before {
+  content: "\f1e3";
+}
+.ovoform-admin .la.la-soccer-ball-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-soccer-ball-o:before {
+  content: "\f1e3";
+}
+.ovoform-admin .la.la-slideshare {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-twitch {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-yelp {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-newspaper-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-newspaper-o:before {
+  content: "\f1ea";
+}
+.ovoform-admin .la.la-paypal {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-wallet {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-visa {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-mastercard {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-discover {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-amex {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-paypal {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-stripe {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bell-slash-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bell-slash-o:before {
+  content: "\f1f6";
+}
+.ovoform-admin .la.la-trash:before {
+  content: "\f2ed";
+}
+.ovoform-admin .la.la-copyright {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-eyedropper:before {
+  content: "\f1fb";
+}
+.ovoform-admin .la.la-area-chart:before {
+  content: "\f1fe";
+}
+.ovoform-admin .la.la-pie-chart:before {
+  content: "\f200";
+}
+.ovoform-admin .la.la-line-chart:before {
+  content: "\f201";
+}
+.ovoform-admin .la.la-lastfm {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-lastfm-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ioxhost {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-angellist {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc:before {
+  content: "\f20a";
+}
+.ovoform-admin .la.la-ils:before {
+  content: "\f20b";
+}
+.ovoform-admin .la.la-shekel:before {
+  content: "\f20b";
+}
+.ovoform-admin .la.la-sheqel:before {
+  content: "\f20b";
+}
+.ovoform-admin .la.la-meanpath {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-meanpath:before {
+  content: "\f2b4";
+}
+.ovoform-admin .la.la-buysellads {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-connectdevelop {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-dashcube {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-forumbee {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-leanpub {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-sellsy {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-shirtsinbulk {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-simplybuilt {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-skyatlas {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-diamond {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-diamond:before {
+  content: "\f3a5";
+}
+.ovoform-admin .la.la-intersex:before {
+  content: "\f224";
+}
+.ovoform-admin .la.la-facebook-official {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-facebook-official:before {
+  content: "\f09a";
+}
+.ovoform-admin .la.la-pinterest-p {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-whatsapp {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hotel:before {
+  content: "\f236";
+}
+.ovoform-admin .la.la-viacoin {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-medium {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-y-combinator {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-yc {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-yc:before {
+  content: "\f23b";
+}
+.ovoform-admin .la.la-optin-monster {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-opencart {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-expeditedssl {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-battery-4:before {
+  content: "\f240";
+}
+.ovoform-admin .la.la-battery:before {
+  content: "\f240";
+}
+.ovoform-admin .la.la-battery-3:before {
+  content: "\f241";
+}
+.ovoform-admin .la.la-battery-2:before {
+  content: "\f242";
+}
+.ovoform-admin .la.la-battery-1:before {
+  content: "\f243";
+}
+.ovoform-admin .la.la-battery-0:before {
+  content: "\f244";
+}
+.ovoform-admin .la.la-object-group {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-object-ungroup {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-sticky-note-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-sticky-note-o:before {
+  content: "\f249";
+}
+.ovoform-admin .la.la-cc-jcb {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-cc-diners-club {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-clone {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hourglass-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hourglass-o:before {
+  content: "\f254";
+}
+.ovoform-admin .la.la-hourglass-1:before {
+  content: "\f251";
+}
+.ovoform-admin .la.la-hourglass-2:before {
+  content: "\f252";
+}
+.ovoform-admin .la.la-hourglass-3:before {
+  content: "\f253";
+}
+.ovoform-admin .la.la-hand-rock-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-rock-o:before {
+  content: "\f255";
+}
+.ovoform-admin .la.la-hand-grab-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-grab-o:before {
+  content: "\f255";
+}
+.ovoform-admin .la.la-hand-paper-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-paper-o:before {
+  content: "\f256";
+}
+.ovoform-admin .la.la-hand-stop-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-stop-o:before {
+  content: "\f256";
+}
+.ovoform-admin .la.la-hand-scissors-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-scissors-o:before {
+  content: "\f257";
+}
+.ovoform-admin .la.la-hand-lizard-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-lizard-o:before {
+  content: "\f258";
+}
+.ovoform-admin .la.la-hand-spock-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-spock-o:before {
+  content: "\f259";
+}
+.ovoform-admin .la.la-hand-pointer-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-pointer-o:before {
+  content: "\f25a";
+}
+.ovoform-admin .la.la-hand-peace-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-hand-peace-o:before {
+  content: "\f25b";
+}
+.ovoform-admin .la.la-registered {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-creative-commons {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gg {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gg-circle {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-tripadvisor {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-odnoklassniki {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-odnoklassniki-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-get-pocket {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wikipedia-w {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-safari {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-chrome {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-firefox {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-opera {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-internet-explorer {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-television:before {
+  content: "\f26c";
+}
+.ovoform-admin .la.la-contao {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-500px {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-amazon {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-calendar-plus-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-calendar-plus-o:before {
+  content: "\f271";
+}
+.ovoform-admin .la.la-calendar-minus-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-calendar-minus-o:before {
+  content: "\f272";
+}
+.ovoform-admin .la.la-calendar-times-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-calendar-times-o:before {
+  content: "\f273";
+}
+.ovoform-admin .la.la-calendar-check-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-calendar-check-o:before {
+  content: "\f274";
+}
+.ovoform-admin .la.la-map-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-map-o:before {
+  content: "\f279";
+}
+.ovoform-admin .la.la-commenting:before {
+  content: "\f4ad";
+}
+.ovoform-admin .la.la-commenting-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-commenting-o:before {
+  content: "\f4ad";
+}
+.ovoform-admin .la.la-houzz {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-vimeo {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-vimeo:before {
+  content: "\f27d";
+}
+.ovoform-admin .la.la-black-tie {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-fonticons {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-reddit-alien {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-edge {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-credit-card-alt:before {
+  content: "\f09d";
+}
+.ovoform-admin .la.la-codiepie {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-modx {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-fort-awesome {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-usb {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-product-hunt {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-mixcloud {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-scribd {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pause-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pause-circle-o:before {
+  content: "\f28b";
+}
+.ovoform-admin .la.la-stop-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-stop-circle-o:before {
+  content: "\f28d";
+}
+.ovoform-admin .la.la-bluetooth {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-bluetooth-b {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-gitlab {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wpbeginner {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wpforms {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-envira {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wheelchair-alt {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wheelchair-alt:before {
+  content: "\f368";
+}
+.ovoform-admin .la.la-question-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-question-circle-o:before {
+  content: "\f059";
+}
+.ovoform-admin .la.la-volume-control-phone:before {
+  content: "\f2a0";
+}
+.ovoform-admin .la.la-asl-interpreting:before {
+  content: "\f2a3";
+}
+.ovoform-admin .la.la-deafness:before {
+  content: "\f2a4";
+}
+.ovoform-admin .la.la-hard-of-hearing:before {
+  content: "\f2a4";
+}
+.ovoform-admin .la.la-glide {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-glide-g {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-signing:before {
+  content: "\f2a7";
+}
+.ovoform-admin .la.la-viadeo {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-viadeo-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-snapchat {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-snapchat-ghost {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-snapchat-square {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-pied-piper {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-first-order {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-yoast {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-themeisle {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-plus-official {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-plus-official:before {
+  content: "\f2b3";
+}
+.ovoform-admin .la.la-google-plus-circle {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-google-plus-circle:before {
+  content: "\f2b3";
+}
+.ovoform-admin .la.la-font-awesome {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-fa {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-fa:before {
+  content: "\f2b4";
+}
+.ovoform-admin .la.la-handshake-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-handshake-o:before {
+  content: "\f2b5";
+}
+.ovoform-admin .la.la-envelope-open-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-envelope-open-o:before {
+  content: "\f2b6";
+}
+.ovoform-admin .la.la-linode {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-address-book-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-address-book-o:before {
+  content: "\f2b9";
+}
+.ovoform-admin .la.la-vcard:before {
+  content: "\f2bb";
+}
+.ovoform-admin .la.la-address-card-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-address-card-o:before {
+  content: "\f2bb";
+}
+.ovoform-admin .la.la-vcard-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-vcard-o:before {
+  content: "\f2bb";
+}
+.ovoform-admin .la.la-user-circle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-user-circle-o:before {
+  content: "\f2bd";
+}
+.ovoform-admin .la.la-user-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-user-o:before {
+  content: "\f007";
+}
+.ovoform-admin .la.la-id-badge {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-drivers-license:before {
+  content: "\f2c2";
+}
+.ovoform-admin .la.la-id-card-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-id-card-o:before {
+  content: "\f2c2";
+}
+.ovoform-admin .la.la-drivers-license-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-drivers-license-o:before {
+  content: "\f2c2";
+}
+.ovoform-admin .la.la-quora {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-free-code-camp {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-telegram {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-thermometer-4:before {
+  content: "\f2c7";
+}
+.ovoform-admin .la.la-thermometer:before {
+  content: "\f2c7";
+}
+.ovoform-admin .la.la-thermometer-3:before {
+  content: "\f2c8";
+}
+.ovoform-admin .la.la-thermometer-2:before {
+  content: "\f2c9";
+}
+.ovoform-admin .la.la-thermometer-1:before {
+  content: "\f2ca";
+}
+.ovoform-admin .la.la-thermometer-0:before {
+  content: "\f2cb";
+}
+.ovoform-admin .la.la-bathtub:before {
+  content: "\f2cd";
+}
+.ovoform-admin .la.la-s15:before {
+  content: "\f2cd";
+}
+.ovoform-admin .la.la-window-maximize {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-window-restore {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-times-rectangle:before {
+  content: "\f410";
+}
+.ovoform-admin .la.la-window-close-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-window-close-o:before {
+  content: "\f410";
+}
+.ovoform-admin .la.la-times-rectangle-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-times-rectangle-o:before {
+  content: "\f410";
+}
+.ovoform-admin .la.la-bandcamp {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-grav {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-etsy {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-imdb {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-ravelry {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-eercast {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-eercast:before {
+  content: "\f2da";
+}
+.ovoform-admin .la.la-snowflake-o {
+  font-family: "Line Awesome Free";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-snowflake-o:before {
+  content: "\f2dc";
+}
+.ovoform-admin .la.la-superpowers {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-wpexplorer {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}
+.ovoform-admin .la.la-spotify {
+  font-family: "Line Awesome Brands";
+  font-weight: 400;
+}

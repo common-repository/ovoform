@@ -1,0 +1,14 @@
+{
+    "name": "vendor/ovoform",
+    "autoload": {
+        "psr-4": {
+            "Ovoform\\": "app/"
+        },
+        "files": [
+            "app/Helpers/helpers.php"
+        ]
+    },
+    "require": {
+        
+    }
+}

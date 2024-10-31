@@ -1,0 +1,1225 @@
+
+
+/* ================================= Common Typography Css Start =========================== */
+.ovoform-admin .card {
+    max-width: initial;
+}
+
+
+body.ovoform-admin {
+    color: #555;
+    word-break: break-word;
+}
+
+.ovoform-admin p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+.ovoform-admin span {
+    display: inline-block;
+}
+
+.ovoform-admin h1,
+.ovoform-admin h2,
+.ovoform-admin h3,
+.ovoform-admin h4,
+.ovoform-admin h5,
+.ovoform-admin h6 {
+    color: #000;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.ovoform-admin h1 > a,
+.ovoform-admin h2 > a,
+.ovoform-admin h3 > a,
+.ovoform-admin h4 > a,
+.ovoform-admin h5 > a,
+.ovoform-admin h6 > a {
+    font-weight: 600;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.ovoform-admin a {
+    display: inline-block;
+    transition: 0.2s linear;
+    text-decoration: none;
+}
+
+.ovoform-admin ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ovoform-admin img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ovoform-admin select {
+    cursor: pointer;
+}
+
+.ovoform-admin ul,
+.ovoform-admin ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ovoform-admin li{
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.ovoform-admin button {
+    cursor: pointer;
+    border: none;
+}
+
+.ovoform-admin .form-select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.ovoform-admin a:focus{
+    box-shadow: none;
+    border: 0;
+}
+
+/* ================================= Common Typography Css End =========================== */
+
+/* ================================= Button Css Start =========================== */
+
+
+.ovoform-admin .btn-check:checked + .ovoform-admin .btn, .ovoform-admin .btn.active, .ovoform-admin .btn.show, .ovoform-admin .btn:first-child:active, :not(.btn-check) + .btn:active {
+    color: none;
+    background-color: none;
+    border-color: none;
+}
+
+.ovoform-admin .btn {
+    padding: 7px 25px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: #7672724a 0px 0px 15px;
+    position: relative;
+    z-index: 1;
+    transition: all .3s;
+}
+@media (max-width:574px) {
+    .ovoform-admin .btn {
+        padding: 7px 18px;
+        font-size: 15px;
+    }
+}
+
+.ovoform-admin .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ovoform-admin .btn:hover, .ovoform-admin .btn:focus, .ovoform-admin .btn:focus-visible {
+    color: #fff;
+    box-shadow: none !important;
+}
+
+.ovoform-admin .btn:active {
+    top: 2px;
+}
+
+.ovoform-admin .btn--lg {
+    padding: 16px 48px;
+}
+
+@media screen and (max-width: 991px) {
+    .ovoform-admin .btn--lg {
+        padding: 18px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ovoform-admin .btn--lg {
+        padding: 16px 25px;
+    }
+}
+
+.ovoform-admin .btn--sm {
+    padding: 10px 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .ovoform-admin .btn--sm {
+        padding: 8px 12px;
+    }
+}
+
+.ovoform-admin .btn:active {
+    top: 2px;
+}
+
+.ovoform-admin .btn:focus {
+    box-shadow: #7672724a 0px 0px 15px !important;
+}
+
+.ovoform-admin .btn--primary {
+    background-color: #525eeb;
+    border-color: #525eeb;
+}
+
+.ovoform-admin .btn--primary:focus {
+    border: 1px solid #525eeb;
+}
+
+.ovoform-admin .btn--primary:hover {
+    background-color: #444fcd;
+    border-color: #444fcd;
+}
+
+.ovoform-admin .btn--secondary{
+    background-color: #394867 !important;
+    border-color: #394867 !important;
+}
+
+.ovoform-admin .btn--secondary:hover{
+    background-color: #212A3E !important;
+    border-color: #212A3E !important;
+}
+
+.ovoform-admin .btn--secondary:focus {
+    border: 1px solid #212A3E;
+}
+
+.ovoform-admin .btn--success{
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.ovoform-admin .btn--success:focus {
+    border: 1px solid #28a745;
+}
+
+.ovoform-admin .btn--success:hover{
+    background-color: #379237 !important;
+    border-color: #379237 !important;
+}
+
+.ovoform-admin .btn--danger{
+    background-color: #F45050 !important;
+    border-color: #F45050 !important;
+}
+
+.ovoform-admin .btn--danger:focus {
+    border: 1px solid #F45050;
+}
+
+.ovoform-admin .btn--danger:hover{
+    background-color: #DF2E38 !important;
+    border-color: #DF2E38 !important;
+}
+
+.ovoform-admin .btn-warning{
+    background-color: #F79F1F !important;
+    border-color: #F79F1F !important;
+    color: #fff !important;
+}
+
+.ovoform-admin .btn--warning:focus {
+    border: 1px solid #F79F1F;
+}
+
+.ovoform-admin .btn-warning:hover{
+    background-color: #f0932b !important;
+    border-color: #f0932b !important;
+}
+
+.ovoform-admin .btn-info{
+    background-color: #487eb0 !important;
+    border-color: #487eb0 !important;
+    color: #fff !important;
+}
+
+.ovoform-admin .btn--info:focus {
+    border: 1px solid #487eb0;
+}
+
+.ovoform-admin .btn-info:hover{
+    background-color: #40739e !important;
+    border-color: #40739e !important;
+}
+
+.ovoform-admin .btn-dark{
+    background-color: #1e272e !important;
+    border-color: #1e272e !important;
+}
+
+.ovoform-admin .btn--dark:focus {
+    border: 1px solid #1e272e;
+}
+
+.ovoform-admin .btn-dark:hover{
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+/*===================== button css end here ===================== */
+
+/* bg colors */
+.ovoform-admin .bg--primary {
+    background-color: #525eeb;
+    color: #fff;
+}
+
+.ovoform-admin .bg--secondary{
+    background-color: #394867;
+    color: #fff;
+}
+
+.ovoform-admin .bg--success{
+    background-color: #28a745;
+    color: #fff;
+}
+
+.ovoform-admin .bg--danger{
+    background-color: #F45050;
+    color: #fff;
+}
+
+.ovoform-admin .bg--warning{
+    background-color: #F79F1F;
+    color: #fff;
+}
+
+.ovoform-admin .bg--info{
+    background-color: #487eb0;
+    color: #fff;
+}
+
+.ovoform-admin .bg--dark{
+    background-color: #1e272e;
+    color: #fff;
+}
+/* bg colors */
+
+/* text colors */
+.ovoform-admin .text--primary {
+    color: #525eeb;
+}
+
+.ovoform-admin .text--secondary{
+    color: #394867;
+}
+
+.ovoform-admin .text--success{
+    color: #28a745;
+}
+
+.ovoform-admin .text--danger{
+    color: #F45050;
+}
+
+.ovoform-admin .text--warning{
+    color: #F79F1F;
+}
+
+.ovoform-admin .text--info{
+    color: #487eb0;
+}
+
+.ovoform-admin .text--dark{
+    color: #1e272e;
+}
+/* text colors */
+
+
+.ovoform-admin {
+    background-color: #f7f8fa !important;
+}
+
+.ovoform-admin .notice {
+    display: none;
+}
+
+.ovoform-admin #wpcontent {
+    padding-left: 0px;
+}
+
+.ovoform-admin .admin-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.ovoform-admin .breadcrumb-area {
+    padding: 30px;
+}
+
+/* empty data start */
+.ovoform-admin .empty-data {
+    height: calc(100vh - 218px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ovoform-admin .empty-data .empty-icon img {
+    width: 120px;
+}
+
+/* empty data end */
+
+/* card css start */
+.ovoform-admin .card {
+    margin-top: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+.ovoform-admin .card.custom--card .card-footer,
+.ovoform-admin .card.custom--card .card-header {
+    background: #fff;
+}
+
+/* card css end */
+
+/* input css start */
+.ovoform-admin .form-group {
+    margin-bottom: 15px;
+}
+
+.ovoform-admin input.form-control.form--control {
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    padding: 5px 18px;
+}
+
+.ovoform-admin input.form-control.form--control:focus {
+    box-shadow: none;
+    border: 1px solid #b4b3b3;
+}
+
+.ovoform-admin .form-check-input {
+    background-color: #fff !important;
+}
+
+.ovoform-admin .form-check-input::before {
+    content: '';
+}
+
+/* input css end */
+
+
+
+.ovoform-admin .breadcrumb-nav-open {
+    font-size: 24px;
+    line-height: 1;
+    display: none;
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.ovoform-admin .breadcrumb-nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #5b6e8824;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ovoform-admin .breadcrumb-nav li {
+    margin-top: 3px;
+}
+
+.ovoform-admin .breadcrumb-nav li a {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    position: relative;
+
+}
+
+@media (max-width: 1399px) {
+    .ovoform-admin .breadcrumb-nav li a {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+.ovoform-admin .breadcrumb-nav li a::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #f7f8fa;
+    opacity: 0;
+    z-index: 1;
+}
+
+.ovoform-admin .breadcrumb-nav li.active a::after {
+    opacity: 1;
+}
+
+.ovoform-admin .breadcrumb-nav li.active a {
+    background-color: #f7f8fa;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-radius: 5px 5px 0 0;
+}
+
+.ovoform-admin .breadcrumb-nav a i {
+    color: #5b6e88;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.ovoform-admin .breadcrumb-nav a .menu-title {
+    color: #5b6e88;
+    line-height: 1;
+}
+
+.ovoform-admin .breadcrumb-nav a .menu-badge {
+    font-size: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.ovoform-admin .breadcrumb-nav li:hover a i,
+.ovoform-admin .breadcrumb-nav li:hover a .menu-title,
+.ovoform-admin .breadcrumb-nav li.active a i,
+.ovoform-admin .breadcrumb-nav li.active a .menu-title {
+    color: #5352ed;
+}
+
+@media (max-width: 1199px) {
+    .ovoform-admin .breadcrumb-nav-open {
+        display: inline-block;
+    }
+
+    .ovoform-admin .breadcrumb-nav {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: -390px;
+        width: 300px;
+        background-color: #fff;
+        display: block;
+        min-height: 100vh;
+        z-index: 99;
+        border: none;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s;
+    }
+
+    .ovoform-admin .breadcrumb-nav.active {
+        right: 0;
+    }
+
+    .ovoform-admin .breadcrumb-nav li a {
+        font-size: 13px;
+        padding: 15px 18px;
+    }
+
+    .ovoform-admin .breadcrumb-nav li.active a {
+        border: none;
+    }
+
+    .ovoform-admin .breadcrumb-nav li {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .ovoform-admin .breadcrumb-nav {
+        width: 220px;
+    }
+
+    .ovoform-admin .breadcrumb-nav li a {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+}
+
+.ovoform-admin .breadcrumb-nav-close {
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5352ed;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+/* table css start */
+.ovoform-admin .custom--table [data-label] {
+    position: relative;
+}
+
+.ovoform-admin .custom--table [data-label]::before {
+    position: absolute;
+    content: attr(data-label);
+    font-weight: 500;
+    left: 0;
+    padding: 0.8125rem 0.9375rem;
+    display: none;
+}
+
+.ovoform-admin .profile{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ovoform-admin .profile-thumb{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.ovoform-admin .profile-thumb img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.ovoform-admin .profile-info .name{
+    font-weight: 500;
+    display: block;
+    color: #2d3748;
+
+}
+.ovoform-admin .table thead tr {
+    background-color: #f5f5ff;
+    font-size: 14px;
+}
+.ovoform-admin .table thead tr th{
+    color: #2d3748;
+    font-weight: 500;
+}
+.ovoform-admin .table tbody{
+    vertical-align: middle;
+}
+.ovoform-admin .table tbody td span.trx{
+    font-weight: 500;
+    color: #2d3748;
+}
+.ovoform-admin .table tbody tr td{
+    font-size: 14px;
+}
+.ovoform-admin .ovoform-table{
+    box-shadow: none !important;
+}
+
+.ovoform-admin .ovoform-table tbody tr:hover {
+    background: #fafafb;
+}
+.ovoform-admin .ovoform-table tr {
+    border-bottom: 1px solid #edf2f7;
+}
+
+
+.ovoform-admin .custom--table thead {
+    background: #ededed;
+}
+
+.ovoform-admin .custom--table tbody {
+    border-top: 0px;
+}
+
+.ovoform-admin .custom--table tr>td:last-child,
+.ovoform-admin .custom--table tr>th:last-child {
+    text-align: right;
+}
+
+.ovoform-admin .custom--table>:not(caption)>*>* {
+    padding: 12px 15px;
+}
+/* responsive table  */
+@media screen and (max-width: 1199px) {
+    .ovoform-admin .table--responsive--xl thead {
+        display: none;
+    }
+
+    .ovoform-admin .table--responsive--xl tbody tr {
+        display: block;
+        background-color: #e9e9e9;
+    }
+
+    .ovoform-admin .table--responsive--xl tbody tr:nth-child(even) {
+        background-color: #e8e8e8;
+        border-bottom: 2px solid #999;
+    }
+
+    .ovoform-admin .table--responsive--xl tbody tr td {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        text-align: right;
+        padding: 10px 15px;
+        border: none;
+        border-bottom: 2px solid #ddd !important;
+        max-width: unset;
+    }
+
+    .ovoform-admin .table--responsive--xl tbody tr td:last-child {
+        border: none;
+        border-bottom: none !important;
+    }
+
+    .ovoform-admin .table--responsive--xl tbody tr td:first-child {
+        text-align: right;
+        border-left: 0;
+    }
+
+    .ovoform-admin .table--responsive--xl tbody tr td::before {
+        display: block;
+        font-size: 0.875rem;
+        color: #ddd;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .ovoform-admin .table--responsive--xl tbody tr td {
+        border: 0;
+    }
+}
+.ovoform-admin .table tbody tr td::before {
+    content: attr(data-label);
+    color: #DDD;
+    font-weight: 500;
+    display: none;
+    width: 45% !important;
+    text-align: left;
+}
+
+/* table css end */
+
+
+
+/* widgets css start */
+.ovoform-admin .widget{
+    border: 1px solid #efefef;
+    border-radius: 8px;
+}
+.ovoform-admin .widget .widget__top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ovoform-admin .widget .widget__top i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.ovoform-admin .widget .widget__top p {
+    width: calc(100% - 40px);
+    padding-left: 15px;
+}
+.ovoform-admin .widget .widget__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ovoform-admin .widget__btn{
+    font-size: 13px;
+}
+
+.ovoform-admin .widget-primary .widget__top i{
+    background-color: #525feb5a;
+    color: #525feb;
+}
+
+.ovoform-admin .widget-success .widget__top i{
+    background-color: #28a7455a;
+    color: #28a745;
+}
+
+.ovoform-admin .widget-info .widget__top i{
+    background-color: #487eb05a;
+    color: #487eb0;
+}
+
+.ovoform-admin .widget-warning .widget__top i{
+    background-color: #f0932b5a;
+    color: #f0932b;
+}
+
+.ovoform-admin .widget-danger .widget__top i{
+    background-color: #F450505a;
+    color: #F45050;
+}
+
+.ovoform-admin .widget-secondary .widget__top i{
+    background-color: #3948675a;
+    color: #394867;
+}
+
+.ovoform-admin .widget-dark .widget__top i{
+    background-color: #1e272e5a;
+    color: #1e272e;
+}
+/* widgets css end */
+
+
+
+/*  Custom Switch Design */
+.ovoform-admin .form--switch .form-check-input {
+    border-radius: 3px;
+    background-image: none;
+    position: relative;
+    box-shadow: none;
+    border: 0;
+    background-color: #b9b9b9a6 !important;
+    padding: 10px !important;
+    margin-left: 0;
+    margin-bottom: 5px;
+    border-radius: 40px;
+    width: 60px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.ovoform-admin .form--switch .form-check-input:focus {
+    border-radius: 40px;
+    background-image: none;
+    position: relative;
+    box-shadow: none;
+    border: 0;
+}
+
+.ovoform-admin .form--switch .form-check-input::before {
+    position: absolute;
+    content: "";
+    width: 18px !important;
+    height: 18px !important;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    left: 5px;
+    border-radius: 50%;
+    transition: 0.2s linear;
+}
+
+.ovoform-admin .form--switch .form-check-input:checked {
+    background-color: #525eeb !important;
+}
+
+.ovoform-admin .form--switch .form-check-input:checked::before {
+    left: calc(100% - 20px);
+    background-color: #fff !important;
+}
+
+.ovoform-admin .form--switch .form-check-input:checked[type=checkbox] {
+    background-image: none;
+}
+
+.ovoform-admin .form--switch input[type=checkbox]:checked::before {
+    margin-top: 0px !important;
+    content: '' !important;
+}
+
+.ovoform-deactivate-modal .modal-content{
+    border-radius: 15px;
+}
+
+.ovoform-deactivate-modal .modal-content .ovoform-dm-head{
+    background: #f7f7f7;
+    padding: 45px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.ovoform-deactivate-modal .modal-content .modal-body{
+    padding: 45px;
+}
+.ovoform-deactivate-modal .modal-content .modal-close-btn{
+    position: absolute;
+    top: 0;
+    right: -48px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background: white;
+}
+
+.ovoform-admin .fs-20{
+    font-size: 20px;
+}
+
+
+.ovoform-admin .ovoform-deactivate-modal .form-check {
+    margin-bottom: 15px;
+}
+.ovoform-admin .ovoform-deactivate-modal .form-check-input {
+    background-color: #fff !important;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.ovoform-admin .ovoform-deactivate-modal input[type=radio]:checked {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+.ovoform-admin .ovoform-deactivate-modal input[type=radio]:checked::before {
+    width: 15px;
+    height: 12px;
+    line-height: 15px;
+}
+.ovoform-admin .ovoform-deactivate-modal .form-check-label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.ovoform-dm-footer{
+    margin-top: 40px;
+}
+
+
+
+/* wp-media-frame */
+.ovoform-admin .media-frame-title h1{
+    font-size: 1.5rem !important;
+}
+.ovoform-admin .media-sidebar .attachment-details h2{
+    font-size: .875rem !important;
+}
+.ovoform-admin .media-attachments-filter-heading{
+    font-size: .875rem !important;
+}
+
+.ovoform-admin-pro{
+    background: #10ad41;
+    margin: 0 10px !important;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 7px !important;
+    font-weight: 600;
+    transition: all .2s;
+}
+.ovoform-admin-pro:hover{
+    background: #1bc750;
+}
+.ovoform-admin-pro a{
+    color: #fff !important;
+}
+.ovoform-admin-pro a:hover,.ovoform-admin-pro a:focus{
+    box-shadow: none !important;
+}
+/* wp-media-frame */
+
+
+
+
+
+.copy-element{
+    position: relative;
+}
+.copy-element:before{
+    content: 'Copy';
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background: #4634ff;
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+.copy-element.copied:before{
+    content: 'Copied'
+}
+.copy-element:hover:before{
+    height: 100%;
+}
+
+
+
+.ovoform-admin .card-header {
+    background: #fff !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ovoform-admin .table thead tr,
+.ovoform-admin .table thead tr th {
+    background: #fff !important;
+    border-color: #f3f3f3;
+}
+
+
+.ovoform-admin .table tbody tr td {
+    border-color: #f3f3f3;
+}
+
+.ovoform-admin .table thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ovoform-admin .table thead tr th:first-child,
+.ovoform-admin .table tbody tr td:first-child {
+    padding-left: 22px;
+}
+
+.ovoform-admin .table tbody tr td {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.ovoform-admin .table > :not(:first-child) {
+    border-top: 0 !important;
+}
+
+.ovoform-admin .table tbody tr td .btn {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: none;
+    border-radius: 4px;
+    border: 0 !important;
+}
+
+.ovoform-admin .table {
+    margin-bottom: 0;
+}
+
+.ovoform-admin .table tbody tr:last-child td {
+    border: 0;
+}
+
+.ovoform-admin .table thead tr th:last-child, 
+.ovoform-admin .table tbody tr td:last-child {
+    padding-right: 22px;
+    text-align: right;
+}
+
+
+
+
+.ovoform-admin .card-footer {
+    padding: 15px 10px;
+    background-color: transparent;
+    border-top: 1px solid #f3f3f3;
+}
+
+.ovoform-admin .card-footer .pagination {
+    justify-content: flex-end !important; 
+}
+
+.ovoform-admin .card-footer .pagination .page-item {
+    margin: 0 5px;
+}
+.ovoform-admin .card-footer .pagination .page-item .page-link {
+    z-index: 3;
+    background-color: transparent;
+    border: 0 !important;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #7d7f83;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+}
+.ovoform-admin .card-footer .pagination .page-item .page-link:hover {
+    color: #2d3748;
+}
+.ovoform-admin .card-footer .pagination .page-item.active .page-link {
+    border: 0 !important;
+    background: #0d6efd;
+    color: #FFF;
+}
+.ovoform-admin .card-footer .pagination .page-item .page-link:focus {
+    box-shadow: none;
+    border: 0 !important;
+}
+
+
+
+.table-search-form {
+    max-width: 300px;  
+}
+
+.table-search-form .form-group {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.table-search-form .form-group .form-control:focus {
+    box-shadow: none !important;
+    border-color: #525eeb;
+}
+.table-search-form .form-group .search-btn {
+    padding: 0;
+    background: transparent !important;
+    transform: rotate(-90deg);
+    transition: all ease 350ms;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.table-search-form .form-group .search-btn:hover {
+    color: #525eeb;
+}
+
+
+
+
+@media (max-width: 1540px) {
+    .ovoform-admin .table-responsive {
+        max-width: 1280px;
+        overflow-x: auto;
+    }
+
+    .ovoform-admin .table-responsive .table {
+        width: unset;
+        min-width: 1280px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .ovoform-admin .admin-container {
+        max-width: 1180px;
+    }
+}
+@media (max-width: 1399px) {
+    .ovoform-admin .admin-container {
+        max-width: 985px;
+    }
+}
+@media (max-width: 1199px) {
+    .ovoform-admin .admin-container {
+        max-width: 775px;
+    }
+}
+@media (min-width: 783px) and (max-width: 991px) {
+    .ovoform-admin .admin-container {
+        max-width: 695px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 782px) {
+    .ovoform-admin .breadcrumb-area {
+        padding: 30px 15px;
+    }
+    .ovoform-admin .admin-container {
+        max-width: 550px;
+    }
+}
+
+
+@media  (max-width: 575px) {
+    .ovoform-admin .breadcrumb-area {
+        padding: 20px 13px;
+    }
+    .ovoform-admin .admin-container {
+        max-width: 400px;
+    }
+
+    .ovoform-admin .card-header {
+        display: block;
+    }
+
+    .ovoform-admin .card-header h5 {
+        margin-bottom: 20px;
+    }
+
+    .table-search-form {
+        max-width: 100%;
+    }
+}
+
+@media  (max-width: 425px) {
+    .ovoform-admin .breadcrumb-area {
+        padding: 20px 10px;
+    }
+    .ovoform-admin .admin-container {
+        max-width: 350px;
+    }
+}
+@media  (max-width: 375px) {
+    .ovoform-admin .admin-container {
+        max-width: 300px;
+    }
+}
+
+.ovoform-admin button.btn.btn-sm.btn-outline-light.float-end.form-generate-btn{
+    color: #000 !important;
+}
+.ovoform-admin .ovoform-empty{
+    padding: 90px 0px;
+}
+.ovoform-admin .ovoform-empty .empty-icon img{
+    height: 120px;
+}
+.ovoform-admin .ovoform-empty .empty-text{
+    margin: 20px 0px;
+}
+
+.ovoform-admin select.form--control{
+    max-width: 100% !important;
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 8px !important;
+    padding: 5px 18px !important;
+}
+.ovoform-admin select.form-control.form--control:focus {
+    box-shadow: none;
+    border: 1px solid #b4b3b3;
+}
+
+.ovoform-admin .modal-dialog {
+    margin: 50px auto;
+}
+
+.ovoform-admin .ovoform-notification{
+    background: #F45050;
+    height: 18px;
+    width: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#adminmenuwrap .toplevel_page_ovoform_forms img{
+    width: 18px;
+    padding-top: 6px;
+}
